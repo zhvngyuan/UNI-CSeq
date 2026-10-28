@@ -1,4 +1,4 @@
-# UNI-CSeq  |  C-to-C Sequentialization Tool  #
+# UNI-CSeq  |  C-to-C Sequentialization Tool for Interrupt-Driven Programs  #
 
 ## Package contents ##
 
