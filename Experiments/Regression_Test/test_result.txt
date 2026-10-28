@@ -1,0 +1,61 @@
+2026年9月6日08:12, ./Experiments/Regression_Test/run_local_regression_test.sh 60 8
+PROJECT_ROOT=/home/dell/zyworkspace/unichecker
+backend=cbmc unwind=8 timelimit=60 RespCount=2
+========================================
+******** Execute Analysis with cbmc ********
+
+========== Checking local_init_reinvoke.c ==========
+File path: /home/dell/zyworkspace/unichecker/Experiments/Regression_Test/local_init_reinvoke.c
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 8  /home/dell/zyworkspace/unichecker/Experiments/Regression_Test/_cseq_cbmc_local_init_reinvoke.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Regression_Test/local_init_reinvoke.c, [92mTRUE[0m, 0.40
+[Resource] Peak memory usage: 12.30 MB
+(unichecker exit code: 0)
+[PASS] local_init_reinvoke.c: SUCCESSFUL; runtime cnt=0; static decl has no =0
+
+========== Checking local_uninit_reinvoke.c ==========
+File path: /home/dell/zyworkspace/unichecker/Experiments/Regression_Test/local_uninit_reinvoke.c
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 8  /home/dell/zyworkspace/unichecker/Experiments/Regression_Test/_cseq_cbmc_local_uninit_reinvoke.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Regression_Test/local_uninit_reinvoke.c, [91mFALSE[0m, 0.41
+[Resource] Peak memory usage: 12.37 MB
+(unichecker exit code: 0)
+[PASS] local_uninit_reinvoke.c: FAILED as expected; __cs_init_scalar havoc of cnt
+
+========== Checking local_init_preempt_resume.c ==========
+File path: /home/dell/zyworkspace/unichecker/Experiments/Regression_Test/local_init_preempt_resume.c
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 8  /home/dell/zyworkspace/unichecker/Experiments/Regression_Test/_cseq_cbmc_local_init_preempt_resume.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Regression_Test/local_init_preempt_resume.c, [92mTRUE[0m, 0.46
+[Resource] Peak memory usage: 12.31 MB
+(unichecker exit code: 0)
+[PASS] local_init_preempt_resume.c: SUCCESSFUL; middle local ops not preemptable; first/last stmt preempt OK; assert still preemptable
+
+========== Checking local_init_loop.c ==========
+File path: /home/dell/zyworkspace/unichecker/Experiments/Regression_Test/local_init_loop.c
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 8  /home/dell/zyworkspace/unichecker/Experiments/Regression_Test/_cseq_cbmc_local_init_loop.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Regression_Test/local_init_loop.c, [92mTRUE[0m, 0.42
+[Resource] Peak memory usage: 12.38 MB
+(unichecker exit code: 0)
+[PASS] local_init_loop.c: SUCCESSFUL; runtime t=0 each iteration; static decl has no =0
+
+========================================
+Summary: 4/4 passed, 0 failed
+  PASS  local_init_reinvoke.c  --  SUCCESSFUL; runtime cnt=0; static decl has no =0
+  PASS  local_uninit_reinvoke.c  --  FAILED as expected; __cs_init_scalar havoc of cnt
+  PASS  local_init_preempt_resume.c  --  SUCCESSFUL; middle local ops not preemptable; first/last stmt preempt OK; assert still preemptable
+  PASS  local_init_loop.c  --  SUCCESSFUL; runtime t=0 each iteration; static decl has no =0
+Full transcript: /home/dell/zyworkspace/unichecker/Experiments/Regression_Test/test_result.txt

@@ -1,0 +1,24 @@
+\begin{tabular}{|l|c|c|}
+\hline
+Name & Result & Time \\
+\hline
+logger1 & TRUE & 3.41 \\
+logger2 & TRUE & 5.06 \\
+logger3 & TRUE & 1368.37 \\
+blink1 & TRUE & 5.45 \\
+blink2 & TRUE & 4.87 \\
+blink3 & TRUE & 52.60 \\
+brake1 & TIMEOUT & 3600.74 \\
+brake2 & TRUE & 136.87 \\
+brake3 & TIMEOUT & 3600.95 \\
+i2c\_pca\_isa\_1 & TRUE & 11.22 \\
+i2c\_pca\_isa\_2 & TRUE & 215.92 \\
+i2c\_pca\_isa\_3 & TIMEOUT & 3600.69 \\
+i8xx\_tco\_1 & FALSE & 197.93 \\
+i8xx\_tco\_2 & FALSE & 4.90 \\
+i8xx\_tco\_3 & TRUE & 831.84 \\
+wdt\_pci\_1 & TRUE & 84.07 \\
+wdt\_pci\_2 & UNKNOWN & 2.25 \\
+wdt\_pci\_3 & TRUE & 28.24 \\
+\hline
+\end{tabular}

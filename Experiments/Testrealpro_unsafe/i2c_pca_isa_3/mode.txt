@@ -1,0 +1,3 @@
+int test_global_var1 rwr
+int irq wwr
+int test_global_array[9000] wwr

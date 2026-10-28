@@ -1,0 +1,182 @@
+2025年9月5日11:59, ./runRW_safe.sh 3600
+========================================
+[1;35m========== Checking directory: logger1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/logger1/main.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --timelimit 86400 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/logger1/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/logger1/main.c, [92mTRUE[0m, 3.41
+
+[1;35m========== Checking directory: logger2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/logger2/main.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --timelimit 86400 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/logger2/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/logger2/main.c, [92mTRUE[0m, 5.06
+
+[1;35m========== Checking directory: logger3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/logger3/main.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --timelimit 86400 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/logger3/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/logger3/main.c, [92mTRUE[0m, 1368.37
+
+[1;35m========== Checking directory: blink1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/blink1/main.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --timelimit 86400 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/blink1/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/blink1/main.c, [92mTRUE[0m, 5.45
+
+[1;35m========== Checking directory: blink2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/blink2/main.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --timelimit 86400 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/blink2/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/blink2/main.c, [92mTRUE[0m, 4.87
+
+[1;35m========== Checking directory: blink3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/blink3/main.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --timelimit 86400 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/blink3/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/blink3/main.c, [92mTRUE[0m, 52.60
+
+[1;35m========== Checking directory: brake1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/brake1/main.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --timelimit 86400 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/brake1/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/brake1/main.c, TIMEOUT, 3600.74
+
+[1;35m========== Checking directory: brake2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/brake2/main.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --timelimit 86400 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/brake2/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/brake2/main.c, [92mTRUE[0m, 136.87
+
+[1;35m========== Checking directory: brake3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/brake3/main.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --timelimit 86400 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/brake3/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/brake3/main.c, TIMEOUT, 3600.95
+
+[1;35m========== Checking directory: i2c_pca_isa_1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/i2c_pca_isa_1/main.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --timelimit 86400 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/i2c_pca_isa_1/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/i2c_pca_isa_1/main.c, [92mTRUE[0m, 11.22
+
+[1;35m========== Checking directory: i2c_pca_isa_2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/i2c_pca_isa_2/main.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --timelimit 86400 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/i2c_pca_isa_2/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/i2c_pca_isa_2/main.c, [92mTRUE[0m, 215.92
+
+[1;35m========== Checking directory: i2c_pca_isa_3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/i2c_pca_isa_3/main.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --timelimit 86400 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/i2c_pca_isa_3/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/i2c_pca_isa_3/main.c, TIMEOUT, 3600.69
+
+[1;35m========== Checking directory: i8xx_tco_1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/i8xx_tco_1/main.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --timelimit 86400 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/i8xx_tco_1/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/i8xx_tco_1/main.c, [91mFALSE[0m, 197.93
+
+[1;35m========== Checking directory: i8xx_tco_2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/i8xx_tco_2/main.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --timelimit 86400 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/i8xx_tco_2/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/i8xx_tco_2/main.c, [91mFALSE[0m, 4.90
+
+[1;35m========== Checking directory: i8xx_tco_3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/i8xx_tco_3/main.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --timelimit 86400 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/i8xx_tco_3/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/i8xx_tco_3/main.c, [92mTRUE[0m, 831.84
+
+[1;35m========== Checking directory: wdt_pci_1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/wdt_pci_1/main.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --timelimit 86400 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/wdt_pci_1/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/wdt_pci_1/main.c, [92mTRUE[0m, 84.07
+
+[1;35m========== Checking directory: wdt_pci_2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/wdt_pci_2/main.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --timelimit 86400 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/wdt_pci_2/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/wdt_pci_2/main.c, [93mUNKNOWN[0m, 2.25
+
+[1;35m========== Checking directory: wdt_pci_3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/wdt_pci_3/main.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --timelimit 86400 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/wdt_pci_3/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cpa/wdt_pci_3/main.c, [92mTRUE[0m, 28.24
+

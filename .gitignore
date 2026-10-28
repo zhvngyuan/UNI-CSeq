@@ -1,0 +1,5 @@
+pycache/
+*.pyc
+*.tar.gz
+*.tar.xz
+bin/__*_abs_*.c

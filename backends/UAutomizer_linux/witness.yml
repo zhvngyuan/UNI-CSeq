@@ -1,0 +1,18 @@
+- entry_type: invariant_set
+  metadata:
+    format_version: '2.0'
+    uuid: ad3fd97f-afd4-4df3-ac21-b80e5e11beec
+    creation_time: '2025-10-29T17:23:57+08:00'
+    producer:
+      name: Automizer
+      version: 0.2.4-dev-0e0057c
+    task:
+      input_files:
+      - /home/dell/zyworkspace/unichecker/examples/_cseq_uautomizer_IDPtest_3isr.c
+      input_file_hashes:
+        /home/dell/zyworkspace/unichecker/examples/_cseq_uautomizer_IDPtest_3isr.c: 2a100e06b534c243f30afb32616df547d113054c198676e27339838ee8b5c780
+      specification: "<rundefinition>\n<name>Automizer for C (with Inlining and Witnessprinting)</name>\n<toolchain>\n\t<plugin id=\"de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator\"/>\n\t<plugin id=\"de.uni_freiburg.informatik.ultimate.boogie.procedureinliner\"/>\n\t<plugin id=\"de.uni_freiburg.informatik.ultimate.boogie.preprocessor\"/>\n\t<plugin id=\"de.uni_freiburg.informatik.ultimate.plugins.generator.rcfgbuilder\"/>\n\t<plugin id=\"de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction\"/>\n\t<plugin id=\"de.uni_freiburg.informatik.ultimate.witnessprinter\"/>\n</toolchain></rundefinition>\n"
+      data_model: 64bit
+      language: C
+  content: [
+    ]

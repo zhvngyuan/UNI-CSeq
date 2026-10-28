@@ -1,0 +1,41 @@
+Masking-sensitive subset (racebench2.1)
+=======================================
+
+Source: Experiments/racebench2.1 (original multi-assert programs).
+Layout: Experiments/Masking_Isolation/marking_sensitive_subset/<id>/<id>.c
+
+Selection
+---------
+Among the 31 racebench2.1 programs, 12 use disable_isr/enable_isr outside
+init()'s enable_isr(-1), which changes which ISRs may preempt a given region:
+
+  001, 003, 004, 008, 013, 014, 019, 020, 026, 027, 028, 030
+
+This subset keeps 10 of them. Excluded:
+
+  svp_simple_004  ISR2 is masked but writes var2 with its existing value 0x22;
+                  the var1 bug comes from never-masked ISR1.
+  svp_simple_008  masked region writes/asserts array[40]; ISR writes array[0..9]
+                  only, so masking does not change observable behaviour.
+
+Ground truth
+------------
+Assertion indices match REAL_GROUND_TRUTH in
+Experiments/genTable_scripts/score_table_all_correctness.py
+(racebench2.1/<id>/<id>_assertN.c), numbered by assert order in the source.
+ISR count is the number of svp_simple_*_isr_* functions.
+
++------------------+----------+------------+---------------------+-----------+
+| Program          | ISR count| Asserts    | False               | True      |
++------------------+----------+------------+---------------------+-----------+
+| svp_simple_001   |        2 |          2 | assert2             | assert1   |
+| svp_simple_003   |        2 |          1 | --                  | assert1   |
+| svp_simple_013   |        3 |          3 | assert1, assert2    | assert3   |
+| svp_simple_014   |        3 |          2 | assert1, assert2    | --        |
+| svp_simple_019   |        1 |          1 | assert1             | --        |
+| svp_simple_020   |        2 |          2 | assert1, assert2    | --        |
+| svp_simple_026   |        2 |          2 | assert1, assert2    | --        |
+| svp_simple_027   |        3 |          3 | assert1, assert3    | assert2   |
+| svp_simple_028   |        3 |          3 | assert2, assert3    | assert1   |
+| svp_simple_030   |        3 |          2 | assert1, assert2    | --        |
++------------------+----------+------------+---------------------+-----------+

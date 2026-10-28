@@ -1,0 +1,7 @@
+digraph __VERIFIER_nondet_char {
+18 [shape="circle" label="N18\n3"]
+19 [shape="circle" label="N19\n2"]
+19 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">19</td><td align="left">char i;</td></tr><tr><td align="right">20</td><td align="left">return i;</td></tr></table>>]
+19 -> 17[label=""]
+18 -> 19 [label="Function start dummy edge" fontname="Courier New"]
+}

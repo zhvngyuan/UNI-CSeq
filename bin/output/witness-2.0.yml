@@ -1,0 +1,46 @@
+- entry_type: "invariant_set"
+  metadata:
+    format_version: "2.0"
+    uuid: "97be6494-4aeb-3325-8c94-71b6b7e80bf3"
+    creation_time: "2026-08-27T17:54:46+08:00"
+    producer:
+      name: "CPAchecker"
+      version: "4.0"
+      configuration: "default"
+    task:
+      input_files:
+      - "/home/dell/zyworkspace/unichecker/Experiments/ComExp_Split_unicseq_CC/goblint-regression/svp_simple_608_001/_cseq_cpachecker_svp_simple_608_001_assert1.c"
+      input_file_hashes:
+        ? /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split_unicseq_CC/goblint-regression/svp_simple_608_001/_cseq_cpachecker_svp_simple_608_001_assert1.c
+        : "89e2b982be69b6fce96495f7aa17e973b9f88fb4cfb974c1c42442b2b6fe1429"
+      specification: ""
+      data_model: "LP64"
+      language: "C"
+  content:
+  - invariant:
+      type: "loop_invariant"
+      location:
+        file_name: "/home/dell/zyworkspace/unichecker/Experiments/ComExp_Split_unicseq_CC/goblint-regression/svp_simple_608_001/_cseq_cpachecker_svp_simple_608_001_assert1.c"
+        line: 114
+        column: 3
+        function: "main"
+      value: "1"
+      format: "c_expression"
+  - invariant:
+      type: "location_invariant"
+      location:
+        file_name: "/home/dell/zyworkspace/unichecker/Experiments/ComExp_Split_unicseq_CC/goblint-regression/svp_simple_608_001/_cseq_cpachecker_svp_simple_608_001_assert1.c"
+        line: 114
+        column: 3
+        function: "main"
+      value: "1"
+      format: "c_expression"
+  - invariant:
+      type: "location_invariant"
+      location:
+        file_name: "/home/dell/zyworkspace/unichecker/Experiments/ComExp_Split_unicseq_CC/goblint-regression/svp_simple_608_001/_cseq_cpachecker_svp_simple_608_001_assert1.c"
+        line: 114
+        column: 3
+        function: "main"
+      value: "1"
+      format: "c_expression"

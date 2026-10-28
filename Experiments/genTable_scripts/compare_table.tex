@@ -1,0 +1,42 @@
+\begin{table*}[ht]
+\centering
+\caption{Comparison of NIChecker and UNI-CSeq (with CBMC as backend) on five benchmark suites.}
+\label{tab:compare_with_NIChecker}
+\setlength{\tabcolsep}{4pt}
+\resizebox{\textwidth}{!}{
+\begin{threeparttable}
+\begin{tabular}{l
+      S[table-format=3.0] % Files
+      S[table-format=5.0] % LOC
+      S[table-format=3.0] % Assertions
+      S[table-format=1.0] % NIChecker u
+      S[table-format=1.0] % NIChecker r
+      S[table-format=3.0] % NIChecker Violations
+      S[table-format=3.1] % NIChecker time
+      S[table-format=1.0] % UNI-CSeq u
+      S[table-format=3.0] % UNI-CSeq Violations
+      S[table-format=3.1] % UNI-CSeq time
+      c
+      S[table-format=3.0] % CPAchecker
+      S[table-format=3.0] % Portfolio
+      }
+        \toprule[1pt]
+      \multicolumn{1}{l}{\multirow{2}{*}{Packages}} & \multicolumn{1}{c}{\multirow{2}{*}{Files}} & \multicolumn{1}{c}{\multirow{2}{*}{LOC}} & \multicolumn{1}{c}{\multirow{2}{*}{Assertions}}  &\multicolumn{4}{c}{\multirow{1}{*}{NIChecker \cite{nichecker}}} &\multicolumn{3}{c}{\multirow{1}{*}{UNI-CSeq}} &\multicolumn{1}{l}{\multirow{2}{*}{SpeedUp}} & \multicolumn{2}{c}{\multirow{1}{*}{Reference only$^{*}$}}\\ \cmidrule(lr){5-8} \cmidrule(lr){9-11} \cmidrule(lr){13-14}
+    
+       & & & & \multicolumn{1}{c}{u} & \multicolumn{1}{c}{r} & \multicolumn{1}{c}{Violations} & \multicolumn{1}{c}{Time (s)} & \multicolumn{1}{c}{u} & \multicolumn{1}{c}{Violations} & \multicolumn{1}{c}{Time (s)} & & \multicolumn{1}{c}{CPAchecker} & \multicolumn{1}{c}{Portfolio}\\ \midrule
+Idv-races & 5 & 211 & 20 & 2 & 2 & 19 & 10.3 & 2 & 19 & 2.5 & 4.2X & 19 & 19\\
+pthread & 10 & 486 & 10 & 3 & 2 & 2 & 20.7 & 3 & 2 & 4.5 & 4.6X & 4 & 4\\
+goblint-regression & 77 & 2066 & 110 & 3 & 2 & 52 & 147.9 & 3 & 54 & 32.5 & 4.5X & 55 & 55\\
+racebench2.1 & 31 & 1753 & 53 & 2 & 2 & 30 & 235.6 & 3 & 33 & 38.5 & 6.1X & 33 & 34\\
+rw\_benchmark & 18 & 11084 & 78 & 2 & 2 & 40 & 52.3 & 2 & 40 & 19.5 & 2.7X & 40 & 40\\
+\midrule
+Total & 141 & 15600 & 271 & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & 143 & 466.8 & \multicolumn{1}{c}{} & 148 & 97.5 & 4.8X & 151 & 152\\
+        \bottomrule[1pt]
+\end{tabular}
+
+\begin{tablenotes}
+{\small $^{*}$The CPAchecker and Portfolio columns report the number of violations detected by the CPAchecker and CBMC + CPAchecker (Parallel) configurations evaluated in Table~\ref{tab:Cooperation_Verification}.}
+\end{tablenotes}
+\end{threeparttable}
+}
+\end{table*}

@@ -1,0 +1,7 @@
+digraph __VERIFIER_nondet_int {
+23 [shape="circle" label="N23\n3"]
+24 [shape="circle" label="N24\n2"]
+24 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">24</td><td align="left">int i;</td></tr><tr><td align="right">25</td><td align="left">return i;</td></tr></table>>]
+24 -> 22[label=""]
+23 -> 24 [label="Function start dummy edge" fontname="Courier New"]
+}

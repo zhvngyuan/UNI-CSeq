@@ -1,0 +1,151 @@
+2026年9月2日16:29, ./run_scripts/run_masking_ablation.sh , tool=unicseq mode=cbmc-cpachecker unwind=3 RespCount=2 --loopAbs
+========================================
+[1;36m===== UnicSeq cbmc-cpachecker default masking encoding (unwind=3 --loopAbs) =====[0m
+suite: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Masking_Isolation/marking_sensitive_subset
+[1;35m========== UnicSeq Checking (cbmc-cpachecker): /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Masking_Isolation/marking_sensitive_subset/svp_simple_001/svp_simple_001_assert1.c ==========[0m
+[UNICSEQ] Start CBMC-CPACHECKER Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 6.54 seconds
+Peak memory usage: 12.87 MB
+
+[1;35m========== UnicSeq Checking (cbmc-cpachecker): /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Masking_Isolation/marking_sensitive_subset/svp_simple_001/svp_simple_001_assert2.c ==========[0m
+[UNICSEQ] Start CBMC-CPACHECKER Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 1.07 seconds
+Peak memory usage: 12.89 MB
+
+[1;35m========== UnicSeq Checking (cbmc-cpachecker): /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Masking_Isolation/marking_sensitive_subset/svp_simple_003/svp_simple_003_assert1.c ==========[0m
+[UNICSEQ] Start CBMC-CPACHECKER Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.79 seconds
+Peak memory usage: 12.94 MB
+
+[1;35m========== UnicSeq Checking (cbmc-cpachecker): /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Masking_Isolation/marking_sensitive_subset/svp_simple_013/svp_simple_013_assert1.c ==========[0m
+[UNICSEQ] Start CBMC-CPACHECKER Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.97 seconds
+Peak memory usage: 12.83 MB
+
+[1;35m========== UnicSeq Checking (cbmc-cpachecker): /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Masking_Isolation/marking_sensitive_subset/svp_simple_013/svp_simple_013_assert2.c ==========[0m
+[UNICSEQ] Start CBMC-CPACHECKER Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.93 seconds
+Peak memory usage: 12.94 MB
+
+[1;35m========== UnicSeq Checking (cbmc-cpachecker): /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Masking_Isolation/marking_sensitive_subset/svp_simple_013/svp_simple_013_assert3.c ==========[0m
+[UNICSEQ] Start CBMC-CPACHECKER Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 68.85 seconds
+Peak memory usage: 12.89 MB
+
+[1;35m========== UnicSeq Checking (cbmc-cpachecker): /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Masking_Isolation/marking_sensitive_subset/svp_simple_014/svp_simple_014_assert1.c ==========[0m
+[UNICSEQ] Start CBMC-CPACHECKER Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.93 seconds
+Peak memory usage: 12.91 MB
+
+[1;35m========== UnicSeq Checking (cbmc-cpachecker): /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Masking_Isolation/marking_sensitive_subset/svp_simple_014/svp_simple_014_assert2.c ==========[0m
+[UNICSEQ] Start CBMC-CPACHECKER Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.86 seconds
+Peak memory usage: 12.86 MB
+
+[1;35m========== UnicSeq Checking (cbmc-cpachecker): /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Masking_Isolation/marking_sensitive_subset/svp_simple_019/svp_simple_019_assert1.c ==========[0m
+[UNICSEQ] Start CBMC-CPACHECKER Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.96 seconds
+Peak memory usage: 12.84 MB
+
+[1;35m========== UnicSeq Checking (cbmc-cpachecker): /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Masking_Isolation/marking_sensitive_subset/svp_simple_020/svp_simple_020_assert1.c ==========[0m
+[UNICSEQ] Start CBMC-CPACHECKER Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.75 seconds
+Peak memory usage: 12.96 MB
+
+[1;35m========== UnicSeq Checking (cbmc-cpachecker): /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Masking_Isolation/marking_sensitive_subset/svp_simple_020/svp_simple_020_assert2.c ==========[0m
+[UNICSEQ] Start CBMC-CPACHECKER Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.78 seconds
+Peak memory usage: 12.94 MB
+
+[1;35m========== UnicSeq Checking (cbmc-cpachecker): /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Masking_Isolation/marking_sensitive_subset/svp_simple_026/svp_simple_026_assert1.c ==========[0m
+[UNICSEQ] Start CBMC-CPACHECKER Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.73 seconds
+Peak memory usage: 12.86 MB
+
+[1;35m========== UnicSeq Checking (cbmc-cpachecker): /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Masking_Isolation/marking_sensitive_subset/svp_simple_026/svp_simple_026_assert2.c ==========[0m
+[UNICSEQ] Start CBMC-CPACHECKER Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.70 seconds
+Peak memory usage: 12.94 MB
+
+[1;35m========== UnicSeq Checking (cbmc-cpachecker): /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Masking_Isolation/marking_sensitive_subset/svp_simple_027/svp_simple_027_assert1.c ==========[0m
+[UNICSEQ] Start CBMC-CPACHECKER Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.78 seconds
+Peak memory usage: 12.90 MB
+
+[1;35m========== UnicSeq Checking (cbmc-cpachecker): /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Masking_Isolation/marking_sensitive_subset/svp_simple_027/svp_simple_027_assert2.c ==========[0m
+[UNICSEQ] Start CBMC-CPACHECKER Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 5.32 seconds
+Peak memory usage: 12.94 MB
+
+[1;35m========== UnicSeq Checking (cbmc-cpachecker): /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Masking_Isolation/marking_sensitive_subset/svp_simple_027/svp_simple_027_assert3.c ==========[0m
+[UNICSEQ] Start CBMC-CPACHECKER Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.81 seconds
+Peak memory usage: 12.79 MB
+
+[1;35m========== UnicSeq Checking (cbmc-cpachecker): /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Masking_Isolation/marking_sensitive_subset/svp_simple_028/svp_simple_028_assert1.c ==========[0m
+[UNICSEQ] Start CBMC-CPACHECKER Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.99 seconds
+Peak memory usage: 12.87 MB
+
+[1;35m========== UnicSeq Checking (cbmc-cpachecker): /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Masking_Isolation/marking_sensitive_subset/svp_simple_028/svp_simple_028_assert2.c ==========[0m
+[UNICSEQ] Start CBMC-CPACHECKER Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.83 seconds
+Peak memory usage: 12.89 MB
+
+[1;35m========== UnicSeq Checking (cbmc-cpachecker): /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Masking_Isolation/marking_sensitive_subset/svp_simple_028/svp_simple_028_assert3.c ==========[0m
+[UNICSEQ] Start CBMC-CPACHECKER Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.83 seconds
+Peak memory usage: 12.87 MB
+
+[1;35m========== UnicSeq Checking (cbmc-cpachecker): /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Masking_Isolation/marking_sensitive_subset/svp_simple_030/svp_simple_030_assert1.c ==========[0m
+[UNICSEQ] Start CBMC-CPACHECKER Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.84 seconds
+Peak memory usage: 12.90 MB
+
+[1;35m========== UnicSeq Checking (cbmc-cpachecker): /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Masking_Isolation/marking_sensitive_subset/svp_simple_030/svp_simple_030_assert2.c ==========[0m
+[UNICSEQ] Start CBMC-CPACHECKER Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.85 seconds
+Peak memory usage: 12.85 MB
+

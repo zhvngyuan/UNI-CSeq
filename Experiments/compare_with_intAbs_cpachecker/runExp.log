@@ -1,0 +1,182 @@
+2026年8月24日15:15, ./run_scripts/runRW_vs_intAbs.sh 900 cpachecker
+========================================
+[1;35m========== Checking directory: logger1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/logger1/main_n.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cpachecker/logger1/_cseq_cpachecker_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/logger1/main_n.c, [92mTRUE[0m, 3.45
+[Resource] Peak memory usage: 12.27 MB
+[1;35m========== Checking directory: logger2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/logger2/main_n.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cpachecker/logger2/_cseq_cpachecker_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/logger2/main_n.c, [92mTRUE[0m, 5.32
+[Resource] Peak memory usage: 12.38 MB
+[1;35m========== Checking directory: logger3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/logger3/main_n.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cpachecker/logger3/_cseq_cpachecker_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/logger3/main_n.c, [92mTRUE[0m, 20.61
+[Resource] Peak memory usage: 12.40 MB
+[1;35m========== Checking directory: blink1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/blink1/main_n.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cpachecker/blink1/_cseq_cpachecker_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/blink1/main_n.c, [92mTRUE[0m, 3.21
+[Resource] Peak memory usage: 12.50 MB
+[1;35m========== Checking directory: blink2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/blink2/main_n.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cpachecker/blink2/_cseq_cpachecker_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/blink2/main_n.c, [92mTRUE[0m, 3.31
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking directory: blink3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/blink3/main_n.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cpachecker/blink3/_cseq_cpachecker_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/blink3/main_n.c, [92mTRUE[0m, 3.46
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking directory: brake1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/brake1/main_n.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cpachecker/brake1/_cseq_cpachecker_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/brake1/main_n.c, [92mTRUE[0m, 4.38
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking directory: brake2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/brake2/main_n.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cpachecker/brake2/_cseq_cpachecker_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/brake2/main_n.c, [92mTRUE[0m, 4.81
+[Resource] Peak memory usage: 12.48 MB
+[1;35m========== Checking directory: brake3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/brake3/main_n.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cpachecker/brake3/_cseq_cpachecker_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/brake3/main_n.c, [92mTRUE[0m, 6.03
+[Resource] Peak memory usage: 12.39 MB
+[1;35m========== Checking directory: i2c_pca_isa_1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/i2c_pca_isa_1/main_n.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cpachecker/i2c_pca_isa_1/_cseq_cpachecker_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/i2c_pca_isa_1/main_n.c, [92mTRUE[0m, 11.42
+[Resource] Peak memory usage: 12.27 MB
+[1;35m========== Checking directory: i2c_pca_isa_2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/i2c_pca_isa_2/main_n.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cpachecker/i2c_pca_isa_2/_cseq_cpachecker_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/i2c_pca_isa_2/main_n.c, [92mTRUE[0m, 3.56
+[Resource] Peak memory usage: 12.43 MB
+[1;35m========== Checking directory: i2c_pca_isa_3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/i2c_pca_isa_3/main_n.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cpachecker/i2c_pca_isa_3/_cseq_cpachecker_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/i2c_pca_isa_3/main_n.c, [92mTRUE[0m, 3.93
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking directory: i8xx_tco_1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/i8xx_tco_1/main_n.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cpachecker/i8xx_tco_1/_cseq_cpachecker_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/i8xx_tco_1/main_n.c, [92mTRUE[0m, 3.31
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking directory: i8xx_tco_2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/i8xx_tco_2/main_n.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cpachecker/i8xx_tco_2/_cseq_cpachecker_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/i8xx_tco_2/main_n.c, [92mTRUE[0m, 5.39
+[Resource] Peak memory usage: 12.44 MB
+[1;35m========== Checking directory: i8xx_tco_3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/i8xx_tco_3/main_n.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cpachecker/i8xx_tco_3/_cseq_cpachecker_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/i8xx_tco_3/main_n.c, [92mTRUE[0m, 13.10
+[Resource] Peak memory usage: 12.38 MB
+[1;35m========== Checking directory: wdt_pci_1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/wdt_pci_1/main_n.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cpachecker/wdt_pci_1/_cseq_cpachecker_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/wdt_pci_1/main_n.c, [92mTRUE[0m, 3.73
+[Resource] Peak memory usage: 12.27 MB
+[1;35m========== Checking directory: wdt_pci_2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/wdt_pci_2/main_n.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cpachecker/wdt_pci_2/_cseq_cpachecker_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/wdt_pci_2/main_n.c, [92mTRUE[0m, 3.99
+[Resource] Peak memory usage: 12.52 MB
+[1;35m========== Checking directory: wdt_pci_3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/wdt_pci_3/main_n.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cpachecker/wdt_pci_3/_cseq_cpachecker_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cpachecker/wdt_pci_3/main_n.c, [92mTRUE[0m, 4.80
+[Resource] Peak memory usage: 12.42 MB

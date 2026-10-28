@@ -1,0 +1,174 @@
+CBMC version 5.6 64-bit x86_64 linux
+Parsing /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c
+<command-line>: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking _cs___mt_svp_simple_510_001
+file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 335 function main_task_0: function `assert' is not declared
+Generating GOTO Program
+Adding CPROVER library (x86_64)
+Removal of function pointers and virtual functions
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+size of program expression: 232 steps
+simple slicing removed 13 assignments
+Generated 3 VCC(s), 3 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.1 with simplifier
+414 variables, 346 clauses
+SAT checker: instance is SATISFIABLE
+Runtime decision procedure: 0.002s
+
+** Results:
+[main_task_0.assertion.1] assertion myglobal == 1: FAILURE
+
+Trace for main_task_0.assertion.1:
+
+State 31 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 371 function main thread 0
+----------------------------------------------------
+  __cs_tmp_t1_r0=1 (01)
+
+State 33 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 376 function main thread 0
+----------------------------------------------------
+  __cs_thread_index=1 (01)
+
+State 34 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 379 function main thread 0
+----------------------------------------------------
+  __cs_pc_cs[1l]=1 (01)
+
+State 39 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 388 function main thread 0
+----------------------------------------------------
+  __cs_param_main_task_arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 41 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 316 function main_task_0 thread 0
+----------------------------------------------------
+  myglobal=0 (00000000000000000000000000000000)
+
+State 46 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 354 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_value_ptr=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 51 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 391 function main thread 0
+----------------------------------------------------
+  __cs_pc[1l]=1 (01)
+
+State 52 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 399 function main thread 0
+----------------------------------------------------
+  __cs_tmp_t2_r0=0 (0)
+
+State 54 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 406 function main thread 0
+----------------------------------------------------
+  __cs_thread_index=2 (10)
+
+State 55 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 409 function main thread 0
+----------------------------------------------------
+  __cs_pc_cs[2l]=0 (00)
+
+State 60 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 418 function main thread 0
+----------------------------------------------------
+  __cs_param_svp_simple_510_001_isr_1_arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 64 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 304 function svp_simple_510_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_value_ptr=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 69 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 421 function main thread 0
+----------------------------------------------------
+  __cs_pc[2l]=0 (00)
+
+State 70 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 435 function main thread 0
+----------------------------------------------------
+  __cs_tmp_t1_r1=1 (01)
+
+State 72 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 442 function main thread 0
+----------------------------------------------------
+  __cs_thread_index=1 (01)
+
+State 73 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 445 function main thread 0
+----------------------------------------------------
+  __cs_pc_cs[1l]=1 (01)
+
+State 78 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 454 function main thread 0
+----------------------------------------------------
+  __cs_param_main_task_arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 84 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 354 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_value_ptr=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 89 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 457 function main thread 0
+----------------------------------------------------
+  __cs_pc[1l]=1 (01)
+
+State 90 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 465 function main thread 0
+----------------------------------------------------
+  __cs_tmp_t2_r1=1 (1)
+
+State 92 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 472 function main thread 0
+----------------------------------------------------
+  __cs_thread_index=2 (10)
+
+State 93 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 475 function main thread 0
+----------------------------------------------------
+  __cs_pc_cs[2l]=1 (01)
+
+State 98 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 484 function main thread 0
+----------------------------------------------------
+  __cs_param_svp_simple_510_001_isr_1_arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 100 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 161 function svp_simple_510_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_local_svp_simple_510_001_isr_1_funcunwind_t=0 (00000000000000000000000000000000)
+
+State 102 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 182 function svp_simple_510_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_local_svp_simple_510_001_isr_1_funcunwind_t=1 (00000000000000000000000000000001)
+
+State 103 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 185 function svp_simple_510_001_isr_1_0 thread 0
+----------------------------------------------------
+  myglobal=0 (00000000000000000000000000000000)
+
+State 104 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 191 function svp_simple_510_001_isr_1_0 thread 0
+----------------------------------------------------
+  myglobal=1 (00000000000000000000000000000001)
+
+State 111 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 304 function svp_simple_510_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_value_ptr=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 116 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 487 function main thread 0
+----------------------------------------------------
+  __cs_pc[2l]=1 (01)
+
+State 117 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 492 function main thread 0
+----------------------------------------------------
+  __cs_tmp_t1_r2=3u (00000000000000000000000000000011)
+
+State 120 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 503 function main thread 0
+----------------------------------------------------
+  __cs_thread_index=1 (01)
+
+State 121 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 506 function main thread 0
+----------------------------------------------------
+  __cs_pc_cs[1l]=3 (11)
+
+State 126 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 515 function main thread 0
+----------------------------------------------------
+  __cs_param_main_task_arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 129 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 324 function main_task_0 thread 0
+----------------------------------------------------
+  myglobal=2 (00000000000000000000000000000010)
+
+Violated property:
+  file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_510_001/_mt_svp_simple_510_001_result/_cs___mt_svp_simple_510_001.c line 335 function main_task_0
+  assertion myglobal == 1
+  myglobal == 1
+
+
+** 1 of 1 failed (1 iteration)
+VERIFICATION FAILED

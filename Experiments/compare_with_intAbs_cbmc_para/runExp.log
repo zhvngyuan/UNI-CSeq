@@ -1,0 +1,164 @@
+2025年6月29日08:57, ./runRW_vs_intAbs.sh 3600 cbmc
+========================================
+[1;35m========== Checking directory: logger1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/logger1/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/logger1/_cseq_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/logger1/main_n.c, [92mTRUE[0m, 0.56
+[1;35m========== Checking directory: logger2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/logger2/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/logger2/_cseq_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/logger2/main_n.c, [92mTRUE[0m, 0.62
+[1;35m========== Checking directory: logger3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/logger3/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/logger3/_cseq_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/logger3/main_n.c, [92mTRUE[0m, 0.73
+[1;35m========== Checking directory: blink1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/blink1/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/blink1/_cseq_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/blink1/main_n.c, [91mFALSE[0m, 0.52
+[1;35m========== Checking directory: blink2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/blink2/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/blink2/_cseq_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/blink2/main_n.c, [91mFALSE[0m, 0.49
+[1;35m========== Checking directory: blink3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/blink3/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/blink3/_cseq_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/blink3/main_n.c, [91mFALSE[0m, 0.55
+[1;35m========== Checking directory: brake1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/brake1/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/brake1/_cseq_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/brake1/main_n.c, [91mFALSE[0m, 0.93
+[1;35m========== Checking directory: brake2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/brake2/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/brake2/_cseq_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/brake2/main_n.c, [91mFALSE[0m, 1.12
+[1;35m========== Checking directory: brake3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/brake3/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/brake3/_cseq_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/brake3/main_n.c, [91mFALSE[0m, 1.32
+[1;35m========== Checking directory: i2c_pca_isa_1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/i2c_pca_isa_1/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/i2c_pca_isa_1/_cseq_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/i2c_pca_isa_1/main_n.c, [92mTRUE[0m, 0.60
+[1;35m========== Checking directory: i2c_pca_isa_2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/i2c_pca_isa_2/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/i2c_pca_isa_2/_cseq_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/i2c_pca_isa_2/main_n.c, [91mFALSE[0m, 0.73
+[1;35m========== Checking directory: i2c_pca_isa_3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/i2c_pca_isa_3/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/i2c_pca_isa_3/_cseq_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/i2c_pca_isa_3/main_n.c, [91mFALSE[0m, 0.90
+[1;35m========== Checking directory: i8xx_tco_1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/i8xx_tco_1/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/i8xx_tco_1/_cseq_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/i8xx_tco_1/main_n.c, [92mTRUE[0m, 2.34
+[1;35m========== Checking directory: i8xx_tco_2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/i8xx_tco_2/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/i8xx_tco_2/_cseq_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/i8xx_tco_2/main_n.c, [91mFALSE[0m, 3.19
+[1;35m========== Checking directory: i8xx_tco_3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/i8xx_tco_3/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/i8xx_tco_3/_cseq_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/i8xx_tco_3/main_n.c, [92mTRUE[0m, 12.32
+[1;35m========== Checking directory: wdt_pci_1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/wdt_pci_1/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/wdt_pci_1/_cseq_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/wdt_pci_1/main_n.c, [92mTRUE[0m, 0.83
+[1;35m========== Checking directory: wdt_pci_2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/wdt_pci_2/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/wdt_pci_2/_cseq_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/wdt_pci_2/main_n.c, [91mFALSE[0m, 0.98
+[1;35m========== Checking directory: wdt_pci_3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/wdt_pci_3/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/wdt_pci_3/_cseq_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/wdt_pci_3/main_n.c, [91mFALSE[0m, 1.17

@@ -1,0 +1,98 @@
+2026年8月30日07:07, ./run_scripts/run_second_Experiment.sh --from run_nic --until run_nic, NIChecker unwind=2 rounds=2  pkg=Idv-races
+========================================
+[1;36m===== Checking Idv-races with NIChecker (unwind=2 rounds=2 ) =====[0m
+[1;35m========== Checking directory: svp_simple_300_001 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/Idv-races/svp_simple_300_001/svp_simple_300_001.c
+********Execute Analysis with NIChecker:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-08-30 07:07:34
+translator_handler.callTranslatorNormal:cmd
+./cseq.py -i /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/Idv-races/svp_simple_300_001/_mt_svp_simple_300_001.c --rounds 2 --backend cbmc --error-label ERROR --unwind 2 --contexts 0 --cores 4
+--------------------------Run start-------------------------------
+inliner
+slice
+LoopAbstraction
+unroller
+insertLabel
+lazyseq
+feeder  0.215
+[91mUNSAFE[0m, counterexample: 5, time: 2.123 s, memory: 29.34 MB
+--------------------------Run end---------------------------------
+
+
+[1;35m========== Checking directory: svp_simple_301_001 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/Idv-races/svp_simple_301_001/svp_simple_301_001.c
+********Execute Analysis with NIChecker:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-08-30 07:07:37
+translator_handler.callTranslatorNormal:cmd
+./cseq.py -i /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/Idv-races/svp_simple_301_001/_mt_svp_simple_301_001.c --rounds 2 --backend cbmc --error-label ERROR --unwind 2 --contexts 0 --cores 4
+--------------------------Run start-------------------------------
+inliner
+slice
+LoopAbstraction
+unroller
+insertLabel
+lazyseq
+feeder  0.230
+[91mUNSAFE[0m, counterexample: 6, time: 1.987 s, memory: 29.74 MB
+--------------------------Run end---------------------------------
+
+
+[1;35m========== Checking directory: svp_simple_302_001 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/Idv-races/svp_simple_302_001/svp_simple_302_001.c
+********Execute Analysis with NIChecker:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-08-30 07:07:39
+translator_handler.callTranslatorNormal:cmd
+./cseq.py -i /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/Idv-races/svp_simple_302_001/_mt_svp_simple_302_001.c --rounds 2 --backend cbmc --error-label ERROR --unwind 2 --contexts 0 --cores 4
+--------------------------Run start-------------------------------
+inliner
+slice
+LoopAbstraction
+unroller
+insertLabel
+lazyseq
+feeder  0.230
+[91mUNSAFE[0m, counterexample: 6, time: 2.082 s, memory: 29.80 MB
+--------------------------Run end---------------------------------
+
+
+[1;35m========== Checking directory: svp_simple_303_001 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/Idv-races/svp_simple_303_001/svp_simple_303_001.c
+********Execute Analysis with NIChecker:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-08-30 07:07:41
+translator_handler.callTranslatorNormal:cmd
+./cseq.py -i /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/Idv-races/svp_simple_303_001/_mt_svp_simple_303_001.c --rounds 2 --backend cbmc --error-label ERROR --unwind 2 --contexts 0 --cores 4
+--------------------------Run start-------------------------------
+inliner
+slice
+LoopAbstraction
+unroller
+insertLabel
+lazyseq
+feeder  0.231
+[91mUNSAFE[0m, counterexample: 8, time: 2.077 s, memory: 29.98 MB
+--------------------------Run end---------------------------------
+
+
+[1;35m========== Checking directory: svp_simple_304_001 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/Idv-races/svp_simple_304_001/svp_simple_304_001.c
+********Execute Analysis with NIChecker:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-08-30 07:07:44
+translator_handler.callTranslatorNormal:cmd
+./cseq.py -i /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/Idv-races/svp_simple_304_001/_mt_svp_simple_304_001.c --rounds 2 --backend cbmc --error-label ERROR --unwind 2 --contexts 0 --cores 4
+--------------------------Run start-------------------------------
+inliner
+slice
+LoopAbstraction
+unroller
+insertLabel
+lazyseq
+feeder  0.231
+[91mUNSAFE[0m, counterexample: 8, time: 2.021 s, memory: 30.05 MB
+--------------------------Run end---------------------------------
+
+

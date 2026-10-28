@@ -1,0 +1,15 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-08-30 07:15:24
+translator_handler.callTranslatorNormal:cmd
+./cseq.py -i /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/i2c_pca_isa_2/_mt_main_n.c --rounds 2 --backend cbmc --error-label ERROR --unwind 2 --contexts 0 --cores 4
+--------------------------Run start-------------------------------
+inliner
+slice
+LoopAbstraction
+unroller
+insertLabel
+lazyseq
+feeder  0.557
+[91mUNSAFE[0m, counterexample: 8, time: 3.218 s, memory: 37.25 MB
+--------------------------Run end---------------------------------
+

@@ -1,0 +1,883 @@
+2026年3月31日16:16, ./run_ComExp_cbmc_unwind.sh 900, backend=cbmc, unwind=4
+========================================
+[1;36m===== Checking goblint-regression (unwind=4) =====[0m
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_500_001/svp_simple_500_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_500_001/_cseq_cbmc_svp_simple_500_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_500_001/svp_simple_500_001_assert1.c, [91mFALSE[0m, 0.39
+[Resource] Peak memory usage: 12.39 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_504_001/svp_simple_504_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_504_001/_cseq_cbmc_svp_simple_504_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_504_001/svp_simple_504_001_assert1.c, [92mTRUE[0m, 0.41
+[Resource] Peak memory usage: 12.47 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_505_001/svp_simple_505_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_505_001/_cseq_cbmc_svp_simple_505_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_505_001/svp_simple_505_001_assert1.c, [92mTRUE[0m, 0.43
+[Resource] Peak memory usage: 12.40 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_506_001/svp_simple_506_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_506_001/_cseq_cbmc_svp_simple_506_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_506_001/svp_simple_506_001_assert1.c, [92mTRUE[0m, 0.47
+[Resource] Peak memory usage: 12.43 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_506_001/svp_simple_506_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_506_001/_cseq_cbmc_svp_simple_506_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_506_001/svp_simple_506_001_assert2.c, [92mTRUE[0m, 0.47
+[Resource] Peak memory usage: 12.47 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_507_001/svp_simple_507_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_507_001/_cseq_cbmc_svp_simple_507_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_507_001/svp_simple_507_001_assert1.c, [91mFALSE[0m, 0.40
+[Resource] Peak memory usage: 12.40 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_508_001/svp_simple_508_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_508_001/_cseq_cbmc_svp_simple_508_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_508_001/svp_simple_508_001_assert1.c, [91mFALSE[0m, 0.38
+[Resource] Peak memory usage: 12.23 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_509_001/svp_simple_509_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_509_001/_cseq_cbmc_svp_simple_509_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_509_001/svp_simple_509_001_assert1.c, [92mTRUE[0m, 0.42
+[Resource] Peak memory usage: 12.25 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_510_001/svp_simple_510_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_510_001/_cseq_cbmc_svp_simple_510_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_510_001/svp_simple_510_001_assert1.c, [91mFALSE[0m, 0.40
+[Resource] Peak memory usage: 12.26 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_511_001/svp_simple_511_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_511_001/_cseq_cbmc_svp_simple_511_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_511_001/svp_simple_511_001_assert1.c, [92mTRUE[0m, 0.41
+[Resource] Peak memory usage: 12.31 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_512_001/svp_simple_512_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_512_001/_cseq_cbmc_svp_simple_512_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_512_001/svp_simple_512_001_assert1.c, [92mTRUE[0m, 0.41
+[Resource] Peak memory usage: 12.40 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_513_001/svp_simple_513_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_513_001/_cseq_cbmc_svp_simple_513_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_513_001/svp_simple_513_001_assert1.c, [91mFALSE[0m, 0.43
+[Resource] Peak memory usage: 12.42 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_518_001/svp_simple_518_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_518_001/_cseq_cbmc_svp_simple_518_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_518_001/svp_simple_518_001_assert1.c, [91mFALSE[0m, 0.39
+[Resource] Peak memory usage: 12.39 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_518_001/svp_simple_518_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_518_001/_cseq_cbmc_svp_simple_518_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_518_001/svp_simple_518_001_assert2.c, [91mFALSE[0m, 0.41
+[Resource] Peak memory usage: 12.43 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_519_001/svp_simple_519_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_519_001/_cseq_cbmc_svp_simple_519_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_519_001/svp_simple_519_001_assert1.c, [91mFALSE[0m, 0.43
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_519_001/svp_simple_519_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_519_001/_cseq_cbmc_svp_simple_519_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_519_001/svp_simple_519_001_assert2.c, [91mFALSE[0m, 0.41
+[Resource] Peak memory usage: 12.36 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_519_001/svp_simple_519_001_assert3.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_519_001/_cseq_cbmc_svp_simple_519_001_assert3.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_519_001/svp_simple_519_001_assert3.c, [91mFALSE[0m, 0.41
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_520_001/svp_simple_520_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_520_001/_cseq_cbmc_svp_simple_520_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_520_001/svp_simple_520_001_assert1.c, [91mFALSE[0m, 0.39
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_520_001/svp_simple_520_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_520_001/_cseq_cbmc_svp_simple_520_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_520_001/svp_simple_520_001_assert2.c, [91mFALSE[0m, 0.40
+[Resource] Peak memory usage: 12.39 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_521_001/svp_simple_521_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_521_001/_cseq_cbmc_svp_simple_521_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_521_001/svp_simple_521_001_assert1.c, [91mFALSE[0m, 0.41
+[Resource] Peak memory usage: 12.39 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_522_001/svp_simple_522_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_522_001/_cseq_cbmc_svp_simple_522_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_522_001/svp_simple_522_001_assert1.c, [92mTRUE[0m, 0.39
+[Resource] Peak memory usage: 12.26 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_524_001/svp_simple_524_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_524_001/_cseq_cbmc_svp_simple_524_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_524_001/svp_simple_524_001_assert1.c, [91mFALSE[0m, 0.43
+[Resource] Peak memory usage: 12.50 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_529_001/svp_simple_529_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_529_001/_cseq_cbmc_svp_simple_529_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_529_001/svp_simple_529_001_assert1.c, [92mTRUE[0m, 0.38
+[Resource] Peak memory usage: 12.47 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_536_001/svp_simple_536_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_536_001/_cseq_cbmc_svp_simple_536_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_536_001/svp_simple_536_001_assert1.c, [92mTRUE[0m, 0.42
+[Resource] Peak memory usage: 12.42 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_537_001/svp_simple_537_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_537_001/_cseq_cbmc_svp_simple_537_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_537_001/svp_simple_537_001_assert1.c, [91mFALSE[0m, 0.42
+[Resource] Peak memory usage: 12.50 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_538_001/svp_simple_538_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_538_001/_cseq_cbmc_svp_simple_538_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_538_001/svp_simple_538_001_assert1.c, [91mFALSE[0m, 0.48
+[Resource] Peak memory usage: 12.39 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_542_001/svp_simple_542_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_542_001/_cseq_cbmc_svp_simple_542_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_542_001/svp_simple_542_001_assert1.c, [91mFALSE[0m, 0.43
+[Resource] Peak memory usage: 12.25 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_542_001/svp_simple_542_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_542_001/_cseq_cbmc_svp_simple_542_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_542_001/svp_simple_542_001_assert2.c, [92mTRUE[0m, 0.42
+[Resource] Peak memory usage: 12.42 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_545_001/svp_simple_545_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_545_001/_cseq_cbmc_svp_simple_545_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_545_001/svp_simple_545_001_assert1.c, [91mFALSE[0m, 0.41
+[Resource] Peak memory usage: 12.27 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_545_001/svp_simple_545_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_545_001/_cseq_cbmc_svp_simple_545_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_545_001/svp_simple_545_001_assert2.c, [92mTRUE[0m, 0.42
+[Resource] Peak memory usage: 12.36 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_547_001/svp_simple_547_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_547_001/_cseq_cbmc_svp_simple_547_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_547_001/svp_simple_547_001_assert1.c, [91mFALSE[0m, 0.40
+[Resource] Peak memory usage: 12.29 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_548_001/svp_simple_548_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_548_001/_cseq_cbmc_svp_simple_548_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_548_001/svp_simple_548_001_assert1.c, [92mTRUE[0m, 0.39
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_560_001/svp_simple_560_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_560_001/_cseq_cbmc_svp_simple_560_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_560_001/svp_simple_560_001_assert1.c, [91mFALSE[0m, 0.47
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_597_001/svp_simple_597_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_597_001/_cseq_cbmc_svp_simple_597_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_597_001/svp_simple_597_001_assert1.c, [92mTRUE[0m, 0.35
+[Resource] Peak memory usage: 12.29 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_598_001/svp_simple_598_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_598_001/_cseq_cbmc_svp_simple_598_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_598_001/svp_simple_598_001_assert1.c, [92mTRUE[0m, 0.34
+[Resource] Peak memory usage: 12.38 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_600_001/svp_simple_600_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_600_001/_cseq_cbmc_svp_simple_600_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_600_001/svp_simple_600_001_assert1.c, [91mFALSE[0m, 0.45
+[Resource] Peak memory usage: 12.28 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_600_001/svp_simple_600_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_600_001/_cseq_cbmc_svp_simple_600_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_600_001/svp_simple_600_001_assert2.c, [92mTRUE[0m, 0.40
+[Resource] Peak memory usage: 12.47 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_600_001/svp_simple_600_001_assert3.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_600_001/_cseq_cbmc_svp_simple_600_001_assert3.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_600_001/svp_simple_600_001_assert3.c, [92mTRUE[0m, 0.40
+[Resource] Peak memory usage: 12.36 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_600_001/svp_simple_600_001_assert4.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_600_001/_cseq_cbmc_svp_simple_600_001_assert4.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_600_001/svp_simple_600_001_assert4.c, [92mTRUE[0m, 0.41
+[Resource] Peak memory usage: 12.39 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_601_001/svp_simple_601_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_601_001/_cseq_cbmc_svp_simple_601_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_601_001/svp_simple_601_001_assert1.c, [92mTRUE[0m, 0.39
+[Resource] Peak memory usage: 12.35 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_601_001/svp_simple_601_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_601_001/_cseq_cbmc_svp_simple_601_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_601_001/svp_simple_601_001_assert2.c, [91mFALSE[0m, 0.40
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_601_001/svp_simple_601_001_assert3.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_601_001/_cseq_cbmc_svp_simple_601_001_assert3.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_601_001/svp_simple_601_001_assert3.c, [91mFALSE[0m, 0.41
+[Resource] Peak memory usage: 12.43 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_602_001/svp_simple_602_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_602_001/_cseq_cbmc_svp_simple_602_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_602_001/svp_simple_602_001_assert1.c, [91mFALSE[0m, 0.88
+[Resource] Peak memory usage: 12.45 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_602_001/svp_simple_602_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_602_001/_cseq_cbmc_svp_simple_602_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_602_001/svp_simple_602_001_assert2.c, [92mTRUE[0m, 0.87
+[Resource] Peak memory usage: 12.43 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_603_001/svp_simple_603_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_603_001/_cseq_cbmc_svp_simple_603_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_603_001/svp_simple_603_001_assert1.c, [91mFALSE[0m, 0.40
+[Resource] Peak memory usage: 12.42 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_604_001/svp_simple_604_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_604_001/_cseq_cbmc_svp_simple_604_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_604_001/svp_simple_604_001_assert1.c, [91mFALSE[0m, 0.42
+[Resource] Peak memory usage: 12.39 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_605_001/svp_simple_605_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_605_001/_cseq_cbmc_svp_simple_605_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_605_001/svp_simple_605_001_assert1.c, [91mFALSE[0m, 0.42
+[Resource] Peak memory usage: 12.42 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_606_001/svp_simple_606_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_606_001/_cseq_cbmc_svp_simple_606_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_606_001/svp_simple_606_001_assert1.c, [91mFALSE[0m, 0.41
+[Resource] Peak memory usage: 12.38 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_607_001/svp_simple_607_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_607_001/_cseq_cbmc_svp_simple_607_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_607_001/svp_simple_607_001_assert1.c, [91mFALSE[0m, 0.39
+[Resource] Peak memory usage: 12.36 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_608_001/svp_simple_608_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_608_001/_cseq_cbmc_svp_simple_608_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_608_001/svp_simple_608_001_assert1.c, [92mTRUE[0m, 0.41
+[Resource] Peak memory usage: 12.40 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_608_001/svp_simple_608_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_608_001/_cseq_cbmc_svp_simple_608_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_608_001/svp_simple_608_001_assert2.c, [92mTRUE[0m, 0.40
+[Resource] Peak memory usage: 12.39 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_609_001/svp_simple_609_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_609_001/_cseq_cbmc_svp_simple_609_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_609_001/svp_simple_609_001_assert1.c, [91mFALSE[0m, 0.38
+[Resource] Peak memory usage: 12.50 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_610_001/svp_simple_610_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_610_001/_cseq_cbmc_svp_simple_610_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_610_001/svp_simple_610_001_assert1.c, [92mTRUE[0m, 0.40
+[Resource] Peak memory usage: 12.28 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_611_001/svp_simple_611_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_611_001/_cseq_cbmc_svp_simple_611_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_611_001/svp_simple_611_001_assert1.c, [92mTRUE[0m, 0.41
+[Resource] Peak memory usage: 12.42 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_612_001/svp_simple_612_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_612_001/_cseq_cbmc_svp_simple_612_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_612_001/svp_simple_612_001_assert1.c, [91mFALSE[0m, 0.41
+[Resource] Peak memory usage: 12.39 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_613_001/svp_simple_613_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_613_001/_cseq_cbmc_svp_simple_613_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_613_001/svp_simple_613_001_assert1.c, [92mTRUE[0m, 0.34
+[Resource] Peak memory usage: 12.32 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_613_001/svp_simple_613_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_613_001/_cseq_cbmc_svp_simple_613_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_613_001/svp_simple_613_001_assert2.c, [92mTRUE[0m, 0.40
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_614_001/svp_simple_614_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_614_001/_cseq_cbmc_svp_simple_614_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_614_001/svp_simple_614_001_assert1.c, [92mTRUE[0m, 0.42
+[Resource] Peak memory usage: 12.47 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_614_001/svp_simple_614_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_614_001/_cseq_cbmc_svp_simple_614_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_614_001/svp_simple_614_001_assert2.c, [92mTRUE[0m, 0.43
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_616_001/svp_simple_616_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_616_001/_cseq_cbmc_svp_simple_616_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_616_001/svp_simple_616_001_assert1.c, [92mTRUE[0m, 0.49
+[Resource] Peak memory usage: 12.40 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_616_001/svp_simple_616_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_616_001/_cseq_cbmc_svp_simple_616_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_616_001/svp_simple_616_001_assert2.c, [92mTRUE[0m, 0.50
+[Resource] Peak memory usage: 12.39 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_617_001/svp_simple_617_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_617_001/_cseq_cbmc_svp_simple_617_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_617_001/svp_simple_617_001_assert1.c, [92mTRUE[0m, 0.42
+[Resource] Peak memory usage: 12.40 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_617_001/svp_simple_617_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_617_001/_cseq_cbmc_svp_simple_617_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_617_001/svp_simple_617_001_assert2.c, [92mTRUE[0m, 0.43
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_617_001/svp_simple_617_001_assert3.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_617_001/_cseq_cbmc_svp_simple_617_001_assert3.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_617_001/svp_simple_617_001_assert3.c, [92mTRUE[0m, 0.41
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_618_001/svp_simple_618_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_618_001/_cseq_cbmc_svp_simple_618_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_618_001/svp_simple_618_001_assert1.c, [92mTRUE[0m, 0.40
+[Resource] Peak memory usage: 12.39 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_619_001/svp_simple_619_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_619_001/_cseq_cbmc_svp_simple_619_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_619_001/svp_simple_619_001_assert1.c, [92mTRUE[0m, 0.41
+[Resource] Peak memory usage: 12.30 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_620_001/svp_simple_620_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_620_001/_cseq_cbmc_svp_simple_620_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_620_001/svp_simple_620_001_assert1.c, [92mTRUE[0m, 0.40
+[Resource] Peak memory usage: 12.42 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_620_001/svp_simple_620_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_620_001/_cseq_cbmc_svp_simple_620_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_620_001/svp_simple_620_001_assert2.c, [92mTRUE[0m, 0.39
+[Resource] Peak memory usage: 12.49 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_621_001/svp_simple_621_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_621_001/_cseq_cbmc_svp_simple_621_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_621_001/svp_simple_621_001_assert1.c, [91mFALSE[0m, 0.40
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_622_001/svp_simple_622_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_622_001/_cseq_cbmc_svp_simple_622_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_622_001/svp_simple_622_001_assert1.c, [92mTRUE[0m, 0.40
+[Resource] Peak memory usage: 12.25 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_623_001/svp_simple_623_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_623_001/_cseq_cbmc_svp_simple_623_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_623_001/svp_simple_623_001_assert1.c, [92mTRUE[0m, 0.35
+[Resource] Peak memory usage: 12.25 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_624_001/svp_simple_624_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_624_001/_cseq_cbmc_svp_simple_624_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_624_001/svp_simple_624_001_assert1.c, [91mFALSE[0m, 0.39
+[Resource] Peak memory usage: 12.38 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_625_001/svp_simple_625_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_625_001/_cseq_cbmc_svp_simple_625_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_625_001/svp_simple_625_001_assert1.c, [92mTRUE[0m, 0.39
+[Resource] Peak memory usage: 12.43 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_626_001/svp_simple_626_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_626_001/_cseq_cbmc_svp_simple_626_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_626_001/svp_simple_626_001_assert1.c, [92mTRUE[0m, 0.35
+[Resource] Peak memory usage: 12.50 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_627_001/svp_simple_627_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_627_001/_cseq_cbmc_svp_simple_627_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_627_001/svp_simple_627_001_assert1.c, [92mTRUE[0m, 0.34
+[Resource] Peak memory usage: 12.25 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_628_001/svp_simple_628_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_628_001/_cseq_cbmc_svp_simple_628_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_628_001/svp_simple_628_001_assert1.c, [91mFALSE[0m, 0.38
+[Resource] Peak memory usage: 12.36 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_631_001/svp_simple_631_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_631_001/_cseq_cbmc_svp_simple_631_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_631_001/svp_simple_631_001_assert1.c, [92mTRUE[0m, 0.41
+[Resource] Peak memory usage: 12.48 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_632_001/svp_simple_632_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_632_001/_cseq_cbmc_svp_simple_632_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_632_001/svp_simple_632_001_assert1.c, [91mFALSE[0m, 0.40
+[Resource] Peak memory usage: 12.25 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_633_001/svp_simple_633_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_633_001/_cseq_cbmc_svp_simple_633_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_633_001/svp_simple_633_001_assert1.c, [92mTRUE[0m, 0.39
+[Resource] Peak memory usage: 12.25 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_634_001/svp_simple_634_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_634_001/_cseq_cbmc_svp_simple_634_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_634_001/svp_simple_634_001_assert1.c, [92mTRUE[0m, 0.41
+[Resource] Peak memory usage: 12.50 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_634_001/svp_simple_634_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_634_001/_cseq_cbmc_svp_simple_634_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_634_001/svp_simple_634_001_assert2.c, [91mFALSE[0m, 0.41
+[Resource] Peak memory usage: 12.40 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_635_001/svp_simple_635_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_635_001/_cseq_cbmc_svp_simple_635_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_635_001/svp_simple_635_001_assert1.c, [92mTRUE[0m, 0.35
+[Resource] Peak memory usage: 12.45 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_636_001/svp_simple_636_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_636_001/_cseq_cbmc_svp_simple_636_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_636_001/svp_simple_636_001_assert1.c, [92mTRUE[0m, 0.41
+[Resource] Peak memory usage: 12.40 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_637_001/svp_simple_637_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_637_001/_cseq_cbmc_svp_simple_637_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_637_001/svp_simple_637_001_assert1.c, [92mTRUE[0m, 0.39
+[Resource] Peak memory usage: 12.40 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_639_001/svp_simple_639_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_639_001/_cseq_cbmc_svp_simple_639_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_639_001/svp_simple_639_001_assert1.c, [91mFALSE[0m, 0.39
+[Resource] Peak memory usage: 12.43 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_640_001/svp_simple_640_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_640_001/_cseq_cbmc_svp_simple_640_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_640_001/svp_simple_640_001_assert1.c, [91mFALSE[0m, 0.37
+[Resource] Peak memory usage: 12.26 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_641_001/svp_simple_641_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_641_001/_cseq_cbmc_svp_simple_641_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_641_001/svp_simple_641_001_assert1.c, [91mFALSE[0m, 0.45
+[Resource] Peak memory usage: 12.39 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_643_001/svp_simple_643_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_643_001/_cseq_cbmc_svp_simple_643_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_643_001/svp_simple_643_001_assert1.c, [92mTRUE[0m, 0.51
+[Resource] Peak memory usage: 12.36 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_643_001/svp_simple_643_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_643_001/_cseq_cbmc_svp_simple_643_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_643_001/svp_simple_643_001_assert2.c, [92mTRUE[0m, 0.48
+[Resource] Peak memory usage: 12.43 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_643_001/svp_simple_643_001_assert3.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_643_001/_cseq_cbmc_svp_simple_643_001_assert3.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_643_001/svp_simple_643_001_assert3.c, [91mFALSE[0m, 0.58
+[Resource] Peak memory usage: 12.48 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_643_001/svp_simple_643_001_assert4.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_643_001/_cseq_cbmc_svp_simple_643_001_assert4.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_643_001/svp_simple_643_001_assert4.c, [91mFALSE[0m, 0.60
+[Resource] Peak memory usage: 12.32 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_644_001/svp_simple_644_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_644_001/_cseq_cbmc_svp_simple_644_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_644_001/svp_simple_644_001_assert1.c, [92mTRUE[0m, 0.39
+[Resource] Peak memory usage: 12.31 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_668_001/svp_simple_668_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_668_001/_cseq_cbmc_svp_simple_668_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_668_001/svp_simple_668_001_assert1.c, [92mTRUE[0m, 0.38
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_668_001/svp_simple_668_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_668_001/_cseq_cbmc_svp_simple_668_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_668_001/svp_simple_668_001_assert2.c, [92mTRUE[0m, 0.41
+[Resource] Peak memory usage: 12.30 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_696_001/svp_simple_696_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_696_001/_cseq_cbmc_svp_simple_696_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_696_001/svp_simple_696_001_assert1.c, [92mTRUE[0m, 0.40
+[Resource] Peak memory usage: 12.40 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_696_001/svp_simple_696_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_696_001/_cseq_cbmc_svp_simple_696_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_696_001/svp_simple_696_001_assert2.c, [91mFALSE[0m, 0.48
+[Resource] Peak memory usage: 12.39 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_697_001/svp_simple_697_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_697_001/_cseq_cbmc_svp_simple_697_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_697_001/svp_simple_697_001_assert1.c, [91mFALSE[0m, 0.46
+[Resource] Peak memory usage: 12.31 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_698_001/svp_simple_698_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_698_001/_cseq_cbmc_svp_simple_698_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_698_001/svp_simple_698_001_assert1.c, [91mFALSE[0m, 0.41
+[Resource] Peak memory usage: 12.29 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_699_001/svp_simple_699_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_699_001/_cseq_cbmc_svp_simple_699_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_699_001/svp_simple_699_001_assert1.c, [91mFALSE[0m, 0.41
+[Resource] Peak memory usage: 12.38 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_700_001/svp_simple_700_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_700_001/_cseq_cbmc_svp_simple_700_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_700_001/svp_simple_700_001_assert1.c, [91mFALSE[0m, 0.59
+[Resource] Peak memory usage: 12.28 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_700_001/svp_simple_700_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_700_001/_cseq_cbmc_svp_simple_700_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_700_001/svp_simple_700_001_assert2.c, [91mFALSE[0m, 0.55
+[Resource] Peak memory usage: 12.38 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_700_001/svp_simple_700_001_assert3.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_700_001/_cseq_cbmc_svp_simple_700_001_assert3.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_700_001/svp_simple_700_001_assert3.c, [91mFALSE[0m, 0.55
+[Resource] Peak memory usage: 12.45 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_700_001/svp_simple_700_001_assert4.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_700_001/_cseq_cbmc_svp_simple_700_001_assert4.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_700_001/svp_simple_700_001_assert4.c, [91mFALSE[0m, 0.56
+[Resource] Peak memory usage: 12.31 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_701_001/svp_simple_701_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_701_001/_cseq_cbmc_svp_simple_701_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_701_001/svp_simple_701_001_assert1.c, [91mFALSE[0m, 0.54
+[Resource] Peak memory usage: 12.35 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_701_001/svp_simple_701_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_701_001/_cseq_cbmc_svp_simple_701_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_701_001/svp_simple_701_001_assert2.c, [91mFALSE[0m, 0.47
+[Resource] Peak memory usage: 12.49 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_701_001/svp_simple_701_001_assert3.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_701_001/_cseq_cbmc_svp_simple_701_001_assert3.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_701_001/svp_simple_701_001_assert3.c, [91mFALSE[0m, 0.50
+[Resource] Peak memory usage: 12.38 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_702_001/svp_simple_702_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_702_001/_cseq_cbmc_svp_simple_702_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_702_001/svp_simple_702_001_assert1.c, [91mFALSE[0m, 0.73
+[Resource] Peak memory usage: 12.38 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_702_001/svp_simple_702_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_702_001/_cseq_cbmc_svp_simple_702_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_702_001/svp_simple_702_001_assert2.c, [91mFALSE[0m, 0.67
+[Resource] Peak memory usage: 12.43 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_702_001/svp_simple_702_001_assert3.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_702_001/_cseq_cbmc_svp_simple_702_001_assert3.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_702_001/svp_simple_702_001_assert3.c, [92mTRUE[0m, 0.66
+[Resource] Peak memory usage: 12.42 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_703_001/svp_simple_703_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 4  /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_703_001/_cseq_cbmc_svp_simple_703_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_703_001/svp_simple_703_001_assert1.c, [91mFALSE[0m, 0.37
+[Resource] Peak memory usage: 12.42 MB

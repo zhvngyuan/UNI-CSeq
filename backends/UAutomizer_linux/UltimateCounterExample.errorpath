@@ -1,0 +1,25 @@
+[L55]  COND FALSE  !(__cs_simulate == 0 && __cs_pc_0 == 0)
+       VAL         [__cs_pc_0=3, __cs_simulate=0]
+[L56]  COND FALSE  !(__cs_simulate == 1)
+       VAL         [__cs_pc_0=3, __cs_simulate=0]
+[L60]  COND FALSE  !(__cs_simulate == 0 && __cs_pc_0 == 1)
+       VAL         [__cs_pc_0=3, __cs_simulate=0]
+[L61]              __cs_simulate == 1 && __VERIFIER_nondet_bool()
+       VAL         [__cs_pc_0=3, __cs_simulate=0]
+[L61]  COND FALSE  !(__cs_simulate == 1 && __VERIFIER_nondet_bool())
+[L62]  COND TRUE   (__cs_simulate == 0 && __cs_pc_0 <= 3) || (__cs_simulate == 1 && (y >= 10))
+       VAL         [__cs_pc_0=3, __cs_simulate=0, y=10]
+[L64]  COND FALSE  !(__cs_simulate == 0 && __cs_pc_0 == 2)
+       VAL         [__cs_pc_0=3, __cs_simulate=0, y=10]
+[L65]  COND FALSE  !(__cs_simulate == 1)
+       VAL         [__cs_pc_0=3, __cs_simulate=0, y=10]
+[L69]  COND TRUE   __cs_simulate == 0 && __cs_pc_0 == 3
+[L69]              __cs_simulate = 1
+       VAL         [__cs_pc_0=3, __cs_simulate=1, y=10]
+[L70]  COND TRUE   __cs_simulate == 1
+[L71]  COND FALSE  !(__VERIFIER_nondet_bool())
+[L72]  COND TRUE   !(z == 1)
+       VAL         [__cs_pc_0=3, __cs_simulate=1, y=10, z=0]
+[L72]              __VERIFIER_error()
+       VAL         [__cs_pc_0=3, __cs_simulate=1, y=10, z=0]
+

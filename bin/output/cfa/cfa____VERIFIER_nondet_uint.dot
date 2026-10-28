@@ -1,0 +1,13 @@
+digraph __VERIFIER_nondet_uint {
+28 [shape="circle" label="N28\n4"]
+29 [shape="circle" label="N29\n3"]
+30 [shape="circle" label="N30\n2"]
+31 [shape="circle" label="N31\n1"]
+27 [shape="circle" label="N27\n0"]
+28 -> 29 [label="Function start dummy edge" fontname="Courier New"]
+100001 [shape="component" label="__VERIFIER_assume"]
+30 -> 100001 [label="__VERIFIER_assume(i >= 0);" fontname="Courier New"]
+100001 -> 31 [label="" fontname="Courier New"]
+29 -> 30 [label="unsigned int i;" fontname="Courier New"]
+31 -> 27 [label="return i;" fontname="Courier New"]
+}

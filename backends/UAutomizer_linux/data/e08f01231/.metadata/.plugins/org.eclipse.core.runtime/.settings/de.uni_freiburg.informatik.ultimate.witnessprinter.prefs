@@ -1,0 +1,18 @@
+Command\ to\ execute\ witness\ verifier=
+Delete\ the\ .graphml\ file\ after\ verification=false
+Do\ not\ use\ ACSL=true
+Generate\ GraphML\ witnesses=true
+Generate\ YAML\ witnesses=true
+Graph\ data\ architecture=64bit
+Graph\ data\ producer=Automizer
+Graph\ data\ programhash=88efbb03cc226cc3d90d25b31e89a098ce30c6688df8fc00621c0fcb01f5f9e7
+Graph\ data\ specification=<rundefinition>\n<name>Automizer for C (with Inlining and Witnessprinting)</name>\n<toolchain>\n\t<plugin id\="de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator"/>\n\t<plugin id\="de.uni_freiburg.informatik.ultimate.boogie.procedureinliner"/>\n\t<plugin id\="de.uni_freiburg.informatik.ultimate.boogie.preprocessor"/>\n\t<plugin id\="de.uni_freiburg.informatik.ultimate.plugins.generator.rcfgbuilder"/>\n\t<plugin id\="de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction"/>\n\t<plugin id\="de.uni_freiburg.informatik.ultimate.witnessprinter"/>\n</toolchain></rundefinition>\n
+Log\ witness\ to\ console=false
+Path\ to\ .prp\ file=
+Timeout\ in\ seconds\ for\ witness\ verifier=10
+Use\ the\ following\ witness\ verifier=CPACHECKER
+Verify\ the\ witness\ and\ generate\ results=false
+Witness\ directory=/home/dell/zyworkspace/unichecker/backends/UAutomizer_linux
+Witness\ filename=witness
+Write\ witness\ besides\ input\ file=false
+eclipse.preferences.version=1

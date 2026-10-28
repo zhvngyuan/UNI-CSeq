@@ -1,0 +1,17 @@
+digraph functioncalls {
+rankdir=LR;
+
+main [shape="box", color=blue];
+isr_2 [label="isr_2", ];
+main -> isr_2;
+isr_1 [label="isr_1", ];
+main -> isr_1;
+main_task [label="main_task", ];
+main -> main_task;
+__VERIFIER_nondet_bool [label="__VERIFIER_nondet_bool", ];
+isr_2 -> __VERIFIER_nondet_bool;
+isr_1 -> __VERIFIER_nondet_bool;
+__cseq_error [label="__cseq_error", ];
+isr_1 -> __cseq_error;
+main_task -> __VERIFIER_nondet_bool;
+}

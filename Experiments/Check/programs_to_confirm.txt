@@ -1,0 +1,26 @@
+# Programs to manually confirm
+# Format: program_path,TRUE/FALSE,notes
+# Example: racebench2.1/svp_simple_004/svp_simple_004_assert2.c,TRUE,manually verified
+#
+racebench2.1/svp_simple_004/svp_simple_004_assert2.c,TRUE,manually verified
+racebench2.1/svp_simple_009/svp_simple_009_assert1.c,TRUE,manually verified
+racebench2.1/svp_simple_009/svp_simple_009_assert2.c,TRUE,manually verified
+racebench2.1/svp_simple_013/svp_simple_013_assert2.c,FALSE,manually verified
+racebench2.1/svp_simple_013/svp_simple_013_assert3.c,TRUE,manually verified
+racebench2.1/svp_simple_014/svp_simple_014_assert1.c,FALSE,manually verified
+racebench2.1/svp_simple_014/svp_simple_014_assert2.c,TRUE,manually verified
+racebench2.1/svp_simple_018/svp_simple_018_assert2.c,TRUE,manually verified
+racebench2.1/svp_simple_011/svp_simple_011_assert1.c,TRUE,manually verified
+racebench2.1/svp_simple_011/svp_simple_011_assert2.c,TRUE,manually verified
+racebench2.1/svp_simple_012/svp_simple_012_assert1.c,TRUE,manually verified
+racebench2.1/svp_simple_023/svp_simple_023_assert1.c,TRUE,manually verified
+racebench2.1/svp_simple_024/svp_simple_024_assert1.c,FALSE,manually verified
+racebench2.1/svp_simple_025/svp_simple_025_assert1.c,FALSE,manually verified
+racebench2.1/svp_simple_031/svp_simple_031_assert1.c,FALSE,manually verified
+racebench2.1/svp_simple_031/svp_simple_031_assert2.c,FALSE,manually verified
+rw_benchmark/i2c_pca_isa_1/main_n_assert1.c,TRUE,manually verified
+rw_benchmark/i2c_pca_isa_2/main_n_assert1.c,TRUE,manually verified
+rw_benchmark/i2c_pca_isa_3/main_n_assert1.c,TRUE,manually verified
+rw_benchmark/logger1/main_n_assert1.c,TRUE,manually verified
+rw_benchmark/logger2/main_n_assert1.c,TRUE,manually verified
+rw_benchmark/logger3/main_n_assert1.c,TRUE,manually verified

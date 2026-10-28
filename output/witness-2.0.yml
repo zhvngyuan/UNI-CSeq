@@ -1,0 +1,99 @@
+- entry_type: "invariant_set"
+  metadata:
+    format_version: "2.0"
+    uuid: "de96a53b-6a2f-3b78-b75a-c9e956cf9601"
+    creation_time: "2025-07-21T10:24:35+08:00"
+    producer:
+      name: "CPAchecker"
+      version: "4.0"
+      configuration: "predicateAnalysis"
+    task:
+      input_files:
+      - "/home/dell/zyworkspace/unichecker/examples/_cseq_cpachecker_IDPtest.c"
+      input_file_hashes:
+        /home/dell/zyworkspace/unichecker/examples/_cseq_cpachecker_IDPtest.c: "6665a2cf360d9b20b135397ea1648b26aa1be33917467368756508bc3fd1a691"
+      specification: ""
+      data_model: "LP64"
+      language: "C"
+  content:
+  - invariant:
+      type: "loop_invariant"
+      location:
+        file_name: "/home/dell/zyworkspace/unichecker/examples/_cseq_cpachecker_IDPtest.c"
+        line: 168
+        column: 5
+        function: "isr_1"
+      value: "1"
+      format: "c_expression"
+  - invariant:
+      type: "loop_invariant"
+      location:
+        file_name: "/home/dell/zyworkspace/unichecker/examples/_cseq_cpachecker_IDPtest.c"
+        line: 276
+        column: 3
+        function: "main"
+      value: "1"
+      format: "c_expression"
+  - invariant:
+      type: "location_invariant"
+      location:
+        file_name: "/home/dell/zyworkspace/unichecker/examples/_cseq_cpachecker_IDPtest.c"
+        line: 276
+        column: 3
+        function: "main"
+      value: "1"
+      format: "c_expression"
+  - invariant:
+      type: "location_invariant"
+      location:
+        file_name: "/home/dell/zyworkspace/unichecker/examples/_cseq_cpachecker_IDPtest.c"
+        line: 168
+        column: 5
+        function: "isr_1"
+      value: "1"
+      format: "c_expression"
+  - invariant:
+      type: "location_invariant"
+      location:
+        file_name: "/home/dell/zyworkspace/unichecker/examples/_cseq_cpachecker_IDPtest.c"
+        line: 276
+        column: 3
+        function: "main"
+      value: "1"
+      format: "c_expression"
+  - invariant:
+      type: "location_invariant"
+      location:
+        file_name: "/home/dell/zyworkspace/unichecker/examples/_cseq_cpachecker_IDPtest.c"
+        line: 168
+        column: 5
+        function: "isr_1"
+      value: "1"
+      format: "c_expression"
+  - invariant:
+      type: "location_invariant"
+      location:
+        file_name: "/home/dell/zyworkspace/unichecker/examples/_cseq_cpachecker_IDPtest.c"
+        line: 276
+        column: 3
+        function: "main"
+      value: "1"
+      format: "c_expression"
+  - invariant:
+      type: "location_invariant"
+      location:
+        file_name: "/home/dell/zyworkspace/unichecker/examples/_cseq_cpachecker_IDPtest.c"
+        line: 168
+        column: 5
+        function: "isr_1"
+      value: "1"
+      format: "c_expression"
+  - invariant:
+      type: "location_invariant"
+      location:
+        file_name: "/home/dell/zyworkspace/unichecker/examples/_cseq_cpachecker_IDPtest.c"
+        line: 168
+        column: 5
+        function: "isr_1"
+      value: "1"
+      format: "c_expression"

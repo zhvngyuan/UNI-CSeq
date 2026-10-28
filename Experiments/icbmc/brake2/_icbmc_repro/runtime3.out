@@ -1,0 +1,521 @@
+CBMC version 4.9 64-bit linux
+Parsing _icbmc_repro/main.c
+<command-line>: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking main
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Adding interrupt constraints
+size of program expression: 5505 steps
+no slicing due to threads
+Generated 3 VCC(s), 3 remaining after simplification
+Passing problem to propositional reduction
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+41704 variables, 181128 clauses
+SAT checker: negated claim is SATISFIABLE, i.e., does not hold
+Runtime decision procedure: 1.515s
+Building error trace
+
+Counterexample:
+
+State 3 file _icbmc_repro/main.c line 197 thread 0
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_P_wgrads_Gain=0 (00000000000000000000000000000000)
+
+State 4 file _icbmc_repro/main.c line 198 thread 0
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_P_vkmh_Gain=0 (00000000000000000000000000000000)
+
+State 5 file _icbmc_repro/main.c line 245 thread 0
+----------------------------------------------------
+  vkmh=0 (00000000000000000000000000000000)
+
+State 6 file _icbmc_repro/main.c line 246 thread 0
+----------------------------------------------------
+  test=0 (00000000000000000000000000000000)
+
+State 7 file _icbmc_repro/main.c line 248 thread 0
+----------------------------------------------------
+  RT9=0 (00000000000000000000000000000000)
+
+State 8 file _icbmc_repro/main.c line 249 thread 0
+----------------------------------------------------
+  RT10=0 (00000000000000000000000000000000)
+
+State 9 file _icbmc_repro/main.c line 250 thread 0
+----------------------------------------------------
+  RT11=0 (00000000000000000000000000000000)
+
+State 10 file _icbmc_repro/main.c line 251 thread 0
+----------------------------------------------------
+  RT12=0 (00000000000000000000000000000000)
+
+State 11 file <built-in-additions> line 78 thread 0
+----------------------------------------------------
+  __CPROVER_pipe_count=0 (00000000000000000000000000000000)
+
+State 12 file _icbmc_repro/main.c line 252 thread 0
+----------------------------------------------------
+  RT14=0 (00000000000000000000000000000000)
+
+State 13 file _icbmc_repro/main.c line 254 thread 0
+----------------------------------------------------
+  RT_Buffer0=0 (00000000000000000000000000000000)
+
+State 14 file _icbmc_repro/main.c line 255 thread 0
+----------------------------------------------------
+  RT0_Buffer0=0 (00000000000000000000000000000000)
+
+State 15 file _icbmc_repro/main.c line 256 thread 0
+----------------------------------------------------
+  RT1_Buffer0=0 (00000000000000000000000000000000)
+
+State 16 file _icbmc_repro/main.c line 257 thread 0
+----------------------------------------------------
+  RT2_Buffer0=0 (00000000000000000000000000000000)
+
+State 17 file _icbmc_repro/main.c line 258 thread 0
+----------------------------------------------------
+  RT3_Buffer0=0 (00000000000000000000000000000000)
+
+State 18 file _icbmc_repro/main.c line 259 thread 0
+----------------------------------------------------
+  RT4_Buffer0=0 (00000000000000000000000000000000)
+
+State 19 file _icbmc_repro/main.c line 261 thread 0
+----------------------------------------------------
+  Distribution_idx=0 (00000000000000000000000000000000)
+
+State 20 file _icbmc_repro/main.c line 262 thread 0
+----------------------------------------------------
+  Distribution_idx_0=0 (00000000000000000000000000000000)
+
+State 21 file _icbmc_repro/main.c line 263 thread 0
+----------------------------------------------------
+  Distribution_idx_1=0 (00000000000000000000000000000000)
+
+State 22 file _icbmc_repro/main.c line 267 thread 0
+----------------------------------------------------
+  cnt1=0 (00000000000000000000000000000000)
+
+State 23 file _icbmc_repro/main.c line 267 thread 0
+----------------------------------------------------
+  cnt2=0 (00000000000000000000000000000000)
+
+State 24 file _icbmc_repro/main.c line 267 thread 0
+----------------------------------------------------
+  cnt3=0 (00000000000000000000000000000000)
+
+State 25 file <built-in-additions> line 21 thread 0
+----------------------------------------------------
+  __CPROVER_thread_id=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 26 file <built-in-additions> line 22 thread 0
+----------------------------------------------------
+  __CPROVER_threads_exited=__CPROVER_threads_exited#1 (?)
+
+State 27 file <built-in-additions> line 23 thread 0
+----------------------------------------------------
+  __CPROVER_next_thread_id=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 28 file <built-in-additions> line 30 thread 0
+----------------------------------------------------
+  __CPROVER_deallocated=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 29 file <built-in-additions> line 31 thread 0
+----------------------------------------------------
+  __CPROVER_dead_object=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 30 file <built-in-additions> line 32 thread 0
+----------------------------------------------------
+  __CPROVER_malloc_object=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 31 file <built-in-additions> line 33 thread 0
+----------------------------------------------------
+  __CPROVER_malloc_size=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 32 file <built-in-additions> line 34 thread 0
+----------------------------------------------------
+  __CPROVER_malloc_is_new_array=FALSE (0)
+
+State 33 file <built-in-additions> line 35 thread 0
+----------------------------------------------------
+  __CPROVER_memory_leak=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 34 file _icbmc_repro/main.c line 163 thread 0
+----------------------------------------------------
+  __VERIFIER_thread_priorities={ 5, 5, 5, 5, 22 } ({ 00000000000000000000000000000101, 00000000000000000000000000000101, 00000000000000000000000000000101, 00000000000000000000000000000101, 00000000000000000000000000010110 })
+
+State 35 file <built-in-additions> line 57 thread 0
+----------------------------------------------------
+  __CPROVER_rounding_mode=0 (00000000000000000000000000000000)
+
+State 36 file _icbmc_repro/main.c line 164 thread 0
+----------------------------------------------------
+  __VERIFIER_threads={ "c::task_RR_Wheel", "c::task_FR_Wheel", "c::task_FL_Wheel", "c::task_RL_Wheel", "c::task_compute" } ({ 0000001000000000000000000000000000000000000000000000000000000000, 0000001100000000000000000000000000000000000000000000000000000000, 0000010000000000000000000000000000000000000000000000000000000000, 0000010100000000000000000000000000000000000000000000000000000000, 0000011000000000000000000000000000000000000000000000000000000000 })
+
+State 37 file _icbmc_repro/main.c line 169 thread 0
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_B_local_RT_h=0 (00000000000000000000000000000000)
+
+State 38 file _icbmc_repro/main.c line 170 thread 0
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_B_local_RTH=0 (00000000000000000000000000000000)
+
+State 39 file _icbmc_repro/main.c line 171 thread 0
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_B_local_RT4=0 (00000000000000000000000000000000)
+
+State 40 file _icbmc_repro/main.c line 172 thread 0
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_B_local_RT1=0 (00000000000000000000000000000000)
+
+State 41 file _icbmc_repro/main.c line 173 thread 0
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_B_local_RT2=0 (00000000000000000000000000000000)
+
+State 42 file _icbmc_repro/main.c line 174 thread 0
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_B_local_RT3=0 (00000000000000000000000000000000)
+
+State 43 file _icbmc_repro/main.c line 175 thread 0
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_B_local_RT14=0 (00000000000000000000000000000000)
+
+State 44 file _icbmc_repro/main.c line 177 thread 0
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_B_local_ABS_FL_Wheel_Threshold_10kmh=100 (00000000000000000000000001100100)
+
+State 45 file _icbmc_repro/main.c line 178 thread 0
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_B_local_ABS_RL_Wheel_Threshold_10kmh=100 (00000000000000000000000001100100)
+
+State 46 file _icbmc_repro/main.c line 179 thread 0
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_B_local_ABS_RR_Wheel_Threshold_10kmh=100 (00000000000000000000000001100100)
+
+State 47 file _icbmc_repro/main.c line 180 thread 0
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_B_local_ABS_FR_Wheel_Threshold_10kmh=100 (00000000000000000000000001100100)
+
+State 48 file _icbmc_repro/main.c line 182 thread 0
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_P_RT_X0=0 (00000000000000000000000000000000)
+
+State 49 file _icbmc_repro/main.c line 183 thread 0
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_P_RT4_X0=0 (00000000000000000000000000000000)
+
+State 50 file _icbmc_repro/main.c line 184 thread 0
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_P_RT1_X0=0 (00000000000000000000000000000000)
+
+State 51 file _icbmc_repro/main.c line 185 thread 0
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_P_RT2_X0=0 (00000000000000000000000000000000)
+
+State 52 file _icbmc_repro/main.c line 186 thread 0
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_P_RT3_X0=0 (00000000000000000000000000000000)
+
+State 53 file _icbmc_repro/main.c line 188 thread 0
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_P_Gain1_Gain=0 (00000000000000000000000000000000)
+
+State 54 file _icbmc_repro/main.c line 190 thread 0
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_P_Distribution_Gain0=0 (00000000000000000000000000000000)
+
+State 55 file _icbmc_repro/main.c line 191 thread 0
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_P_Distribution_Gain1=0 (00000000000000000000000000000000)
+
+State 56 file _icbmc_repro/main.c line 192 thread 0
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_P_Distribution_Gain2=0 (00000000000000000000000000000000)
+
+State 57 file _icbmc_repro/main.c line 193 thread 0
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_P_Distribution_Gain3=0 (00000000000000000000000000000000)
+
+State 58 file _icbmc_repro/main.c line 196 thread 0
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_P_average_rpm_Gain=0 (00000000000000000000000000000000)
+
+State 62 file _icbmc_repro/main.c line 815 function main thread 0
+----------------------------------------------------
+  test=0 (00000000000000000000000000000000)
+
+State 71 file _icbmc_repro/main.c line 471 function task_FL_Wheel thread 2
+----------------------------------------------------
+  cnt3=1 (00000000000000000000000000000001)
+
+State 72 file _icbmc_repro/main.c line 472 function task_FL_Wheel thread 2
+----------------------------------------------------
+  test=0 (00000000000000000000000000000000)
+
+State 73 file _icbmc_repro/main.c line 479 function task_FL_Wheel thread 2
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_B_local_RT_h=0 (00000000000000000000000000000000)
+
+State 74 file _icbmc_repro/main.c line 481 function task_FL_Wheel thread 2
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_B_local_RT4=0 (00000000000000000000000000000000)
+
+State 75 file _icbmc_repro/main.c line 483 function task_FL_Wheel thread 2
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_B_local_RT1=0 (00000000000000000000000000000000)
+
+State 76 file _icbmc_repro/main.c line 272 function task_compute thread 3
+----------------------------------------------------
+  cnt1=1 (00000000000000000000000000000001)
+
+State 77 file _icbmc_repro/main.c line 485 function task_FL_Wheel thread 2
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_B_local_RT2=0 (00000000000000000000000000000000)
+
+State 78 file _icbmc_repro/main.c line 487 function task_FL_Wheel thread 2
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_B_local_RT3=0 (00000000000000000000000000000000)
+
+State 79 file _icbmc_repro/main.c line 488 function task_FL_Wheel thread 2
+----------------------------------------------------
+  rtb_to_int1=0 (00000000000000000000000000000000)
+
+State 80 file _icbmc_repro/main.c line 493 function task_FL_Wheel thread 2
+----------------------------------------------------
+  rtb_to_int1=10 (00000000000000000000000000001010)
+
+State 81 file _icbmc_repro/main.c line 495 function task_FL_Wheel thread 2
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_B_local_RT_h=0 (00000000000000000000000000000000)
+
+State 82 file _icbmc_repro/main.c line 276 function task_compute thread 3
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_B_local_RT_h=0 (00000000000000000000000000000000)
+
+State 83 file _icbmc_repro/main.c line 497 function task_FL_Wheel thread 2
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_B_local_RT4=0 (00000000000000000000000000000000)
+
+State 84 file _icbmc_repro/main.c line 508 function task_FL_Wheel thread 2
+----------------------------------------------------
+  rtb_RelationalOperator=0 (00000000)
+
+State 85 file _icbmc_repro/main.c line 509 function task_FL_Wheel thread 2
+----------------------------------------------------
+  rtb_vms=0 (00000000000000000000000000000000)
+
+State 86 file _icbmc_repro/main.c line 510 function task_FL_Wheel thread 2
+----------------------------------------------------
+  u=0 (00000000000000000000000000000000)
+
+State 87 file _icbmc_repro/main.c line 513 function task_FL_Wheel thread 2
+----------------------------------------------------
+  rtb_vms=10 (00000000000000000000000000001010)
+
+State 88 file _icbmc_repro/main.c line 517 function task_FL_Wheel thread 2
+----------------------------------------------------
+  u=20 (00000000000000000000000000010100)
+
+State 89 file _icbmc_repro/main.c line 518 function task_FL_Wheel thread 2
+----------------------------------------------------
+  u=30 (00000000000000000000000000011110)
+
+State 90 file _icbmc_repro/main.c line 521 function task_FL_Wheel thread 2
+----------------------------------------------------
+  positive_UpperSat_local=0 (00000000000000000000000000000000)
+
+State 91 file _icbmc_repro/main.c line 521 function task_FL_Wheel thread 2
+----------------------------------------------------
+  positive_UpperSat_local=100 (00000000000000000000000001100100)
+
+State 93 file _icbmc_repro/main.c line 527 function task_FL_Wheel thread 2
+----------------------------------------------------
+  positive_LowerSat_local=0 (00000000000000000000000000000000)
+
+State 94 file _icbmc_repro/main.c line 527 function task_FL_Wheel thread 2
+----------------------------------------------------
+  positive_LowerSat_local=5 (00000000000000000000000000000101)
+
+State 96 file _icbmc_repro/main.c line 539 function task_FL_Wheel thread 2
+----------------------------------------------------
+  tmp0=0 (00000000000000000000000000000000)
+
+State 97 file _icbmc_repro/main.c line 539 function task_FL_Wheel thread 2
+----------------------------------------------------
+  tmp0=10 (00000000000000000000000000001010)
+
+State 98 file _icbmc_repro/main.c line 540 function task_FL_Wheel thread 2
+----------------------------------------------------
+  tmp1=0 (00000000000000000000000000000000)
+
+State 99 file _icbmc_repro/main.c line 540 function task_FL_Wheel thread 2
+----------------------------------------------------
+  tmp1=20 (00000000000000000000000000010100)
+
+State 101 file _icbmc_repro/main.c line 544 function task_FL_Wheel thread 2
+----------------------------------------------------
+  rtb_RelationalOperator=0 (00000000)
+
+State 102 file _icbmc_repro/main.c line 548 function task_FL_Wheel thread 2
+----------------------------------------------------
+  Threshold_10kmh_Threshold_local=0 (00000000000000000000000000000000)
+
+State 103 file _icbmc_repro/main.c line 548 function task_FL_Wheel thread 2
+----------------------------------------------------
+  Threshold_10kmh_Threshold_local=100 (00000000000000000000000001100100)
+
+State 105 file _icbmc_repro/main.c line 279 function task_compute thread 3
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_B_local_RT4=0 (00000000000000000000000000000000)
+
+State 106 file _icbmc_repro/main.c line 282 function task_compute thread 3
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_B_local_RT1=0 (00000000000000000000000000000000)
+
+State 107 file _icbmc_repro/main.c line 563 function task_FL_Wheel thread 2
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_B_local_ABS_FL_Wheel_Threshold_10kmh=0 (00000000000000000000000000000000)
+
+State 108 file _icbmc_repro/main.c line 575 function task_FL_Wheel thread 2
+----------------------------------------------------
+  In_BrakePedal=0 (00000000000000000000000000000000)
+
+State 110 file _icbmc_repro/main.c line 579 function task_FL_Wheel thread 2
+----------------------------------------------------
+  In_BrakePedal=65 (00000000000000000000000001000001)
+
+State 111 file _icbmc_repro/main.c line 581 function task_FL_Wheel thread 2
+----------------------------------------------------
+  Pedal_map_UpperSat=0 (00000000000000000000000000000000)
+
+State 112 file _icbmc_repro/main.c line 581 function task_FL_Wheel thread 2
+----------------------------------------------------
+  Pedal_map_UpperSat=50 (00000000000000000000000000110010)
+
+State 113 file _icbmc_repro/main.c line 582 function task_FL_Wheel thread 2
+----------------------------------------------------
+  Pedal_map_LowerSat=0 (00000000000000000000000000000000)
+
+State 114 file _icbmc_repro/main.c line 582 function task_FL_Wheel thread 2
+----------------------------------------------------
+  Pedal_map_LowerSat=20 (00000000000000000000000000010100)
+
+State 115 file _icbmc_repro/main.c line 583 function task_FL_Wheel thread 2
+----------------------------------------------------
+  tmp=0 (00000000000000000000000000000000)
+
+State 117 file _icbmc_repro/main.c line 585 function task_FL_Wheel thread 2
+----------------------------------------------------
+  tmp=50 (00000000000000000000000000110010)
+
+State 119 file _icbmc_repro/main.c line 590 function task_FL_Wheel thread 2
+----------------------------------------------------
+  tmp=15 (00000000000000000000000000001111)
+
+State 120 file _icbmc_repro/main.c line 367 function task_RR_Wheel thread 1
+----------------------------------------------------
+  cnt2=1 (00000000000000000000000000000001)
+
+State 121 file _icbmc_repro/main.c line 285 function task_compute thread 3
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_B_local_RT2=0 (00000000000000000000000000000000)
+
+State 122 file _icbmc_repro/main.c line 596 function task_FL_Wheel thread 2
+----------------------------------------------------
+  RT14=15 (00000000000000000000000000001111)
+
+State 123 file _icbmc_repro/main.c line 598 function task_FL_Wheel thread 2
+----------------------------------------------------
+  RT12=10 (00000000000000000000000000001010)
+
+State 127 file _icbmc_repro/main.c line 368 function task_RR_Wheel thread 1
+----------------------------------------------------
+  test=0 (00000000000000000000000000000000)
+
+State 128 file _icbmc_repro/main.c line 288 function task_compute thread 3
+----------------------------------------------------
+  brake_acc_nodiv_ctrl_B_local_RT3=0 (00000000000000000000000000000000)
+
+State 129 file _icbmc_repro/main.c line 291 function task_compute thread 3
+----------------------------------------------------
+  test=0 (00000000000000000000000000000000)
+
+State 130 file _icbmc_repro/main.c line 299 function task_compute thread 3
+----------------------------------------------------
+  Distribution_idx=0 (00000000000000000000000000000000)
+
+State 131 file _icbmc_repro/main.c line 301 function task_compute thread 3
+----------------------------------------------------
+  Distribution_idx_0=0 (00000000000000000000000000000000)
+
+State 132 file _icbmc_repro/main.c line 303 function task_compute thread 3
+----------------------------------------------------
+  Distribution_idx_1=0 (00000000000000000000000000000000)
+
+State 133 file _icbmc_repro/main.c line 318 function task_compute thread 3
+----------------------------------------------------
+  vkmh=0 (00000000000000000000000000000000)
+
+State 134 file _icbmc_repro/main.c line 319 function task_compute thread 3
+----------------------------------------------------
+  vkmh=0 (00000000000000000000000000000000)
+
+State 135 file _icbmc_repro/main.c line 320 function task_compute thread 3
+----------------------------------------------------
+  vkmh=10 (00000000000000000000000000001010)
+
+State 136 file _icbmc_repro/main.c line 321 function task_compute thread 3
+----------------------------------------------------
+  vkmh=10 (00000000000000000000000000001010)
+
+State 137 file _icbmc_repro/main.c line 322 function task_compute thread 3
+----------------------------------------------------
+  vkmh=10 (00000000000000000000000000001010)
+
+State 138 file _icbmc_repro/main.c line 323 function task_compute thread 3
+----------------------------------------------------
+  vkmh=10 (00000000000000000000000000001010)
+
+State 139 file _icbmc_repro/main.c line 326 function task_compute thread 3
+----------------------------------------------------
+  test=1 (00000000000000000000000000000001)
+
+State 142 file _icbmc_repro/main.c line 345 function task_compute thread 3
+----------------------------------------------------
+  RT_Buffer0=0 (00000000000000000000000000000000)
+
+State 143 file _icbmc_repro/main.c line 348 function task_compute thread 3
+----------------------------------------------------
+  RT4_Buffer0=10 (00000000000000000000000000001010)
+
+State 144 file _icbmc_repro/main.c line 351 function task_compute thread 3
+----------------------------------------------------
+  RT1_Buffer0=0 (00000000000000000000000000000000)
+
+State 145 file _icbmc_repro/main.c line 354 function task_compute thread 3
+----------------------------------------------------
+  RT2_Buffer0=0 (00000000000000000000000000000000)
+
+State 146 file _icbmc_repro/main.c line 357 function task_compute thread 3
+----------------------------------------------------
+  RT3_Buffer0=0 (00000000000000000000000000000000)
+
+Violated property:
+  file _icbmc_repro/main.c line 371 function task_RR_Wheel
+  assertion 0
+  FALSE
+
+VERIFICATION FAILED
+
+real	0m1.835s
+user	0m1.801s
+sys	0m0.037s

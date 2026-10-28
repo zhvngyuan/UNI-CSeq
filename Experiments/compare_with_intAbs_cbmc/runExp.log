@@ -1,0 +1,201 @@
+2026年8月29日07:02, ./run_scripts/run_second_Experiment.sh 900 --until run, backend=cbmc unwind=2 RespCount=2  pkg=rw_benchmark
+========================================
+[1;36m===== Checking rw_benchmark (unwind=2 ) =====[0m
+[1;35m========== Checking directory: logger1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/logger1/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/logger1/_cseq_cbmc_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/logger1/main_n.c, [92mTRUE[0m, 0.56
+[Resource] Peak memory usage: 12.43 MB
+
+[1;35m========== Checking directory: logger2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/logger2/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/logger2/_cseq_cbmc_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/logger2/main_n.c, [92mTRUE[0m, 0.63
+[Resource] Peak memory usage: 12.37 MB
+
+[1;35m========== Checking directory: logger3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/logger3/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/logger3/_cseq_cbmc_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/logger3/main_n.c, [92mTRUE[0m, 0.74
+[Resource] Peak memory usage: 12.35 MB
+
+[1;35m========== Checking directory: blink1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/blink1/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/blink1/_cseq_cbmc_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/blink1/main_n.c, [91mFALSE[0m, 0.53
+[Resource] Peak memory usage: 12.46 MB
+
+[1;35m========== Checking directory: blink2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/blink2/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/blink2/_cseq_cbmc_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/blink2/main_n.c, [91mFALSE[0m, 0.55
+[Resource] Peak memory usage: 12.37 MB
+
+[1;35m========== Checking directory: blink3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/blink3/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/blink3/_cseq_cbmc_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/blink3/main_n.c, [91mFALSE[0m, 0.55
+[Resource] Peak memory usage: 12.22 MB
+
+[1;35m========== Checking directory: brake1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/brake1/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/brake1/_cseq_cbmc_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/brake1/main_n.c, [91mFALSE[0m, 0.94
+[Resource] Peak memory usage: 12.33 MB
+
+[1;35m========== Checking directory: brake2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/brake2/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/brake2/_cseq_cbmc_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/brake2/main_n.c, [91mFALSE[0m, 1.14
+[Resource] Peak memory usage: 12.33 MB
+
+[1;35m========== Checking directory: brake3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/brake3/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/brake3/_cseq_cbmc_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/brake3/main_n.c, [91mFALSE[0m, 1.34
+[Resource] Peak memory usage: 12.23 MB
+
+[1;35m========== Checking directory: i2c_pca_isa_1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/i2c_pca_isa_1/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/i2c_pca_isa_1/_cseq_cbmc_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/i2c_pca_isa_1/main_n.c, [92mTRUE[0m, 0.62
+[Resource] Peak memory usage: 12.37 MB
+
+[1;35m========== Checking directory: i2c_pca_isa_2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/i2c_pca_isa_2/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/i2c_pca_isa_2/_cseq_cbmc_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/i2c_pca_isa_2/main_n.c, [91mFALSE[0m, 0.74
+[Resource] Peak memory usage: 12.46 MB
+
+[1;35m========== Checking directory: i2c_pca_isa_3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/i2c_pca_isa_3/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/i2c_pca_isa_3/_cseq_cbmc_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/i2c_pca_isa_3/main_n.c, [91mFALSE[0m, 0.89
+[Resource] Peak memory usage: 12.42 MB
+
+[1;35m========== Checking directory: i8xx_tco_1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/i8xx_tco_1/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/i8xx_tco_1/_cseq_cbmc_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/i8xx_tco_1/main_n.c, [92mTRUE[0m, 1.27
+[Resource] Peak memory usage: 12.57 MB
+
+[1;35m========== Checking directory: i8xx_tco_2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/i8xx_tco_2/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/i8xx_tco_2/_cseq_cbmc_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/i8xx_tco_2/main_n.c, [91mFALSE[0m, 1.66
+[Resource] Peak memory usage: 12.39 MB
+
+[1;35m========== Checking directory: i8xx_tco_3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/i8xx_tco_3/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/i8xx_tco_3/_cseq_cbmc_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/i8xx_tco_3/main_n.c, [92mTRUE[0m, 4.23
+[Resource] Peak memory usage: 13.02 MB
+
+[1;35m========== Checking directory: wdt_pci_1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/wdt_pci_1/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/wdt_pci_1/_cseq_cbmc_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/wdt_pci_1/main_n.c, [92mTRUE[0m, 0.90
+[Resource] Peak memory usage: 12.38 MB
+
+[1;35m========== Checking directory: wdt_pci_2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/wdt_pci_2/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/wdt_pci_2/_cseq_cbmc_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/wdt_pci_2/main_n.c, [91mFALSE[0m, 1.01
+[Resource] Peak memory usage: 12.36 MB
+
+[1;35m========== Checking directory: wdt_pci_3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/wdt_pci_3/main_n.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/wdt_pci_3/_cseq_cbmc_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/compare_with_intAbs_cbmc/wdt_pci_3/main_n.c, [91mFALSE[0m, 1.21
+[Resource] Peak memory usage: 12.32 MB
+

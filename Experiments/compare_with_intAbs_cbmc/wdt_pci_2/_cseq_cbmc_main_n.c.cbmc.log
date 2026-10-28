@@ -1,0 +1,35 @@
+file /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/wdt_pci_2/_cseq_cbmc_main_n.c line 192 function closer1_isr_1: function `assert' is not declared
+CBMC version 5.10 (cbmc-5.10) 64-bit x86_64 linux
+Parsing /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/wdt_pci_2/_cseq_cbmc_main_n.c
+Converting
+Type-checking _cseq_cbmc_main_n
+Generating GOTO Program
+Adding CPROVER library (x86_64)
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+Running with 8 object bits, 56 offset bits (default)
+Starting Bounded Model Checking
+Unwinding loop main.0 iteration 1 file /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/wdt_pci_2/_cseq_cbmc_main_n.c line 385 function main thread 0
+Not unwinding loop main.0 iteration 2 file /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc/wdt_pci_2/_cseq_cbmc_main_n.c line 385 function main thread 0
+size of program expression: 2010 steps
+simple slicing removed 577 assignments
+Generated 2 VCC(s), 2 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.1 with simplifier
+2054 variables, 4344 clauses
+SAT checker: instance is SATISFIABLE
+Solving with MiniSAT 2.2.1 with simplifier
+2054 variables, 1393 clauses
+SAT checker inconsistent: instance is UNSATISFIABLE
+Runtime decision procedure: 0.0123062s
+
+** Results:
+[closer1_isr_1.assertion.1] assertion 0: SUCCESS
+[closer3_isr_3.assertion.1] assertion 0: FAILURE
+[closer2_isr_2.assertion.1] assertion 0: SUCCESS
+
+** 1 of 3 failed (2 iterations)
+VERIFICATION FAILED

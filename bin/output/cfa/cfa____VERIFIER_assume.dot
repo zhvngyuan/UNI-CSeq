@@ -1,0 +1,12 @@
+digraph __VERIFIER_assume {
+8 [shape="doublecircle" label="N8\n3"]
+9 [shape="circle" label="N9\n0"]
+10 [shape="circle" label="N10\n2"]
+5 [shape="circle" label="N5\n1"]
+6 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">6</td><td align="left">Function start dummy edge</td></tr><tr><td align="right">7</td><td align="left">while</td></tr></table>>]
+6 -> 8[label=""]
+8 -> 9 [label="[i == 0]" fontname="Courier New"]
+8 -> 10 [label="[!(i == 0)]" fontname="Courier New"]
+9 -> 8 [label="" fontname="Courier New"]
+10 -> 5 [label="return;" fontname="Courier New"]
+}

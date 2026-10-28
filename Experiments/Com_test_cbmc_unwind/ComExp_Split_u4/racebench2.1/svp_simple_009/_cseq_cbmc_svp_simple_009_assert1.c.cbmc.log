@@ -1,0 +1,32 @@
+file /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/racebench2.1/svp_simple_009/_cseq_cbmc_svp_simple_009_assert1.c line 87 function main_task: function `assert' is not declared
+CBMC version 5.10 (cbmc-5.10) 64-bit x86_64 linux
+Parsing /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/racebench2.1/svp_simple_009/_cseq_cbmc_svp_simple_009_assert1.c
+Converting
+Type-checking _cseq_cbmc_svp_simple_009_assert1
+Generating GOTO Program
+Adding CPROVER library (x86_64)
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+Running with 8 object bits, 56 offset bits (default)
+Starting Bounded Model Checking
+Unwinding loop main.0 iteration 1 file /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/racebench2.1/svp_simple_009/_cseq_cbmc_svp_simple_009_assert1.c line 143 function main thread 0
+Unwinding loop main.0 iteration 2 file /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/racebench2.1/svp_simple_009/_cseq_cbmc_svp_simple_009_assert1.c line 143 function main thread 0
+Unwinding loop main.0 iteration 3 file /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/racebench2.1/svp_simple_009/_cseq_cbmc_svp_simple_009_assert1.c line 143 function main thread 0
+Not unwinding loop main.0 iteration 4 file /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/racebench2.1/svp_simple_009/_cseq_cbmc_svp_simple_009_assert1.c line 143 function main thread 0
+size of program expression: 1103 steps
+simple slicing removed 154 assignments
+Generated 4 VCC(s), 4 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.1 with simplifier
+4351 variables, 11158 clauses
+SAT checker: instance is UNSATISFIABLE
+Runtime decision procedure: 0.0163046s
+
+** Results:
+[main_task.assertion.1] assertion *svp_simple_009_001_p == 0x2: SUCCESS
+
+** 0 of 1 failed (1 iteration)
+VERIFICATION SUCCESSFUL

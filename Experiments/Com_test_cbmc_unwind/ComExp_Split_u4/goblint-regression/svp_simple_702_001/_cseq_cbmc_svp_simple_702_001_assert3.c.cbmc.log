@@ -1,0 +1,50 @@
+file /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_702_001/_cseq_cbmc_svp_simple_702_001_assert3.c line 85 function svp_simple_702_001_isr_1: function `abort' is not declared
+file /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_702_001/_cseq_cbmc_svp_simple_702_001_assert3.c line 110 function svp_simple_702_001_isr_1: function `assert' is not declared
+file <builtin-library-abort> line 4: error: implicit function declaration `abort'
+old definition in module `_cseq_cbmc_svp_simple_702_001_assert3' file /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_702_001/_cseq_cbmc_svp_simple_702_001_assert3.c line 85 function svp_simple_702_001_isr_1
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-abort> line 4
+void (void)
+CBMC version 5.10 (cbmc-5.10) 64-bit x86_64 linux
+Parsing /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_702_001/_cseq_cbmc_svp_simple_702_001_assert3.c
+Converting
+Type-checking _cseq_cbmc_svp_simple_702_001_assert3
+Generating GOTO Program
+Adding CPROVER library (x86_64)
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+Running with 8 object bits, 56 offset bits (default)
+Starting Bounded Model Checking
+aborting path on assume(false) at file <builtin-library-abort> line 6 function abort thread 0
+aborting path on assume(false) at file <builtin-library-abort> line 6 function abort thread 0
+aborting path on assume(false) at file <builtin-library-abort> line 6 function abort thread 0
+Unwinding loop main.0 iteration 1 file /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_702_001/_cseq_cbmc_svp_simple_702_001_assert3.c line 244 function main thread 0
+aborting path on assume(false) at file <builtin-library-abort> line 6 function abort thread 0
+aborting path on assume(false) at file <builtin-library-abort> line 6 function abort thread 0
+aborting path on assume(false) at file <builtin-library-abort> line 6 function abort thread 0
+Unwinding loop main.0 iteration 2 file /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_702_001/_cseq_cbmc_svp_simple_702_001_assert3.c line 244 function main thread 0
+aborting path on assume(false) at file <builtin-library-abort> line 6 function abort thread 0
+aborting path on assume(false) at file <builtin-library-abort> line 6 function abort thread 0
+aborting path on assume(false) at file <builtin-library-abort> line 6 function abort thread 0
+Unwinding loop main.0 iteration 3 file /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_702_001/_cseq_cbmc_svp_simple_702_001_assert3.c line 244 function main thread 0
+aborting path on assume(false) at file <builtin-library-abort> line 6 function abort thread 0
+aborting path on assume(false) at file <builtin-library-abort> line 6 function abort thread 0
+aborting path on assume(false) at file <builtin-library-abort> line 6 function abort thread 0
+Not unwinding loop main.0 iteration 4 file /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u4/goblint-regression/svp_simple_702_001/_cseq_cbmc_svp_simple_702_001_assert3.c line 244 function main thread 0
+size of program expression: 2107 steps
+simple slicing removed 53 assignments
+Generated 4 VCC(s), 4 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.1 with simplifier
+10996 variables, 35980 clauses
+SAT checker: instance is UNSATISFIABLE
+Runtime decision procedure: 0.0609593s
+
+** Results:
+[svp_simple_702_001_isr_1.assertion.1] assertion __cs_l_svp_simple_702_001_isr_1_z_1 >= __cs_l_svp_simple_702_001_isr_1_x_1: SUCCESS
+
+** 0 of 1 failed (1 iteration)
+VERIFICATION SUCCESSFUL

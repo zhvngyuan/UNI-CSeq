@@ -1,0 +1,15 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-08-30 07:10:42
+translator_handler.callTranslatorNormal:cmd
+./cseq.py -i /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/goblint-regression/svp_simple_700_001/_mt_svp_simple_700_001.c --rounds 2 --backend cbmc --error-label ERROR --unwind 3 --contexts 0 --cores 4
+--------------------------Run start-------------------------------
+inliner
+slice
+LoopAbstraction
+unroller
+insertLabel
+lazyseq
+feeder  0.344
+[91mUNSAFE[0m, counterexample: 4, time: 2.404 s, memory: 32.86 MB
+--------------------------Run end---------------------------------
+

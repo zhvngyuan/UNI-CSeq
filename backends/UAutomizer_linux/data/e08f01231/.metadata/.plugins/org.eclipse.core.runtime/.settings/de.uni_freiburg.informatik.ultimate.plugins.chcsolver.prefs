@@ -1,0 +1,5 @@
+CHC\ solver\ backend=ELDARICA
+Produce\ CHC\ model\ if\ query\ is\ SAT=true
+Produce\ UNSAT\ core\ if\ query\ is\ UNSAT=false
+Produce\ derivation\ if\ query\ is\ UNSAT=true
+eclipse.preferences.version=1

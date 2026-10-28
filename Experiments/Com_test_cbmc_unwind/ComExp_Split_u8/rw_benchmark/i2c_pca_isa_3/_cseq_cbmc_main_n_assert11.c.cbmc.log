@@ -1,0 +1,36 @@
+file /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u8/rw_benchmark/i2c_pca_isa_3/_cseq_cbmc_main_n_assert11.c line 108 function req7_isr_7: function `assert' is not declared
+CBMC version 5.10 (cbmc-5.10) 64-bit x86_64 linux
+Parsing /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u8/rw_benchmark/i2c_pca_isa_3/_cseq_cbmc_main_n_assert11.c
+Converting
+Type-checking _cseq_cbmc_main_n_assert11
+Generating GOTO Program
+Adding CPROVER library (x86_64)
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+Running with 8 object bits, 56 offset bits (default)
+Starting Bounded Model Checking
+Unwinding loop main.0 iteration 1 file /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u8/rw_benchmark/i2c_pca_isa_3/_cseq_cbmc_main_n_assert11.c line 427 function main thread 0
+Unwinding loop main.0 iteration 2 file /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u8/rw_benchmark/i2c_pca_isa_3/_cseq_cbmc_main_n_assert11.c line 427 function main thread 0
+Unwinding loop main.0 iteration 3 file /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u8/rw_benchmark/i2c_pca_isa_3/_cseq_cbmc_main_n_assert11.c line 427 function main thread 0
+Unwinding loop main.0 iteration 4 file /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u8/rw_benchmark/i2c_pca_isa_3/_cseq_cbmc_main_n_assert11.c line 427 function main thread 0
+Unwinding loop main.0 iteration 5 file /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u8/rw_benchmark/i2c_pca_isa_3/_cseq_cbmc_main_n_assert11.c line 427 function main thread 0
+Unwinding loop main.0 iteration 6 file /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u8/rw_benchmark/i2c_pca_isa_3/_cseq_cbmc_main_n_assert11.c line 427 function main thread 0
+Unwinding loop main.0 iteration 7 file /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u8/rw_benchmark/i2c_pca_isa_3/_cseq_cbmc_main_n_assert11.c line 427 function main thread 0
+Not unwinding loop main.0 iteration 8 file /home/dell/zyworkspace/unichecker/Experiments/Com_test_cbmc_unwind/ComExp_Split_u8/rw_benchmark/i2c_pca_isa_3/_cseq_cbmc_main_n_assert11.c line 427 function main thread 0
+size of program expression: 10683 steps
+simple slicing removed 169 assignments
+Generated 8 VCC(s), 8 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.1 with simplifier
+36856 variables, 106500 clauses
+SAT checker: instance is SATISFIABLE
+Runtime decision procedure: 0.190973s
+
+** Results:
+[req7_isr_7.assertion.1] assertion global_dev == 7: FAILURE
+
+** 1 of 1 failed (1 iteration)
+VERIFICATION FAILED

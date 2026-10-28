@@ -1,0 +1,130 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-11-27 08:20:18
+CmdArgs: ['./nichecker.py', '--input', '/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/main.c', '--unwind', '2', '--SVP', '--LA', '--funcPartition', '-E', 'parallel', '-p1', '-l10', '-A', '--contexts', '4', '--subScheduler', '--SSR']
+SVPCheck var: test_global_var1	pattern: rwr
+
+Swarm: Context-Bounded + Function Partitioning
+This is callTranslatorSwarmSub: Generating instances with no limit
+[31mThis is step4GenerateInstancesSubFunc[0m
+./cseq-SubFunc.py -i /home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.c --rounds 1 --backend cbmc --error-label ERROR --unwind 2 --contexts 4 --cores 4 -C /home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/schedulingSeqConfig.json -c /home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main_auto_config.json -Z /home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/swarm_instances.list
+... done.
+
+generate instance time: 5.837
+backend_handler.callBackendSwarm:
+Analyzing 16 instance(s) IN PARALLEL with 3600s timeout for 16 processes
+============================================================================
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_1_1_s2.c, [92mTRUE[0m, 0.22, 19.12MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_2_0_s3.c, [92mTRUE[0m, 0.22, 19.10MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_2_1_s2.c, [92mTRUE[0m, 0.22, 19.27MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_3_1_s2.c, [92mTRUE[0m, 0.22, 19.22MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_4_0_s3.c, [92mTRUE[0m, 0.22, 19.12MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_5_0_s3.c, [92mTRUE[0m, 0.22, 18.89MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_3_3_s0.c, [92mTRUE[0m, 0.27, 19.32MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_3_2_s1.c, [92mTRUE[0m, 0.27, 19.23MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_5_1_s1.c, [92mTRUE[0m, 0.27, 19.27MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_1_0_s3.c, [92mTRUE[0m, 0.32, 19.01MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_2_2_s1.c, [92mTRUE[0m, 0.32, 19.40MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_2_3_s0.c, [92mTRUE[0m, 0.32, 19.44MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_4_1_s1.c, [92mTRUE[0m, 0.32, 19.15MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_3_0_s3.c, [92mTRUE[0m, 0.37, 18.94MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_0_0_s3.c, [91mFALSE[0m, 0.47, 55.52MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_0_1_s2.c, [91mFALSE[0m, 0.52, 55.98MB
+===================================================
+Found bugs in this configuration
+Found time: 6.39s 
+FALSE, 6.48s
+SVPCheck var: test_global_var2	pattern: rwr
+
+Swarm: Context-Bounded + Function Partitioning
+This is callTranslatorSwarmSub: Generating instances with no limit
+[31mThis is step4GenerateInstancesSubFunc[0m
+./cseq-SubFunc.py -i /home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.c --rounds 1 --backend cbmc --error-label ERROR --unwind 2 --contexts 4 --cores 4 -C /home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/schedulingSeqConfig.json -c /home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main_auto_config.json -Z /home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/swarm_instances.list
+... done.
+
+generate instance time: 5.803
+backend_handler.callBackendSwarm:
+Analyzing 16 instance(s) IN PARALLEL with 3600s timeout for 16 processes
+============================================================================
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_1_1_s2.c, [92mTRUE[0m, 0.22, 19.23MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_2_0_s3.c, [92mTRUE[0m, 0.22, 19.08MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_3_0_s3.c, [92mTRUE[0m, 0.22, 19.14MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_2_1_s2.c, [92mTRUE[0m, 0.22, 19.25MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_5_0_s3.c, [92mTRUE[0m, 0.22, 19.05MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_0_0_s3.c, [92mTRUE[0m, 0.27, 38.75MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_0_1_s2.c, [92mTRUE[0m, 0.27, 38.70MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_4_0_s3.c, [92mTRUE[0m, 0.27, 18.91MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_3_1_s2.c, [92mTRUE[0m, 0.27, 19.07MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_5_1_s1.c, [92mTRUE[0m, 0.27, 19.38MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_1_0_s3.c, [92mTRUE[0m, 0.32, 18.95MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_2_3_s0.c, [92mTRUE[0m, 0.32, 19.52MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_3_3_s0.c, [92mTRUE[0m, 0.32, 19.34MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_4_1_s1.c, [92mTRUE[0m, 0.32, 19.03MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_2_2_s1.c, [92mTRUE[0m, 0.37, 19.36MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_3_2_s1.c, [92mTRUE[0m, 0.37, 19.25MB
+===================================================
+Cannot found bugs in this configuration
+TRUE, 12.73s
+SVPCheck var: tco_expect_close	pattern: wwr
+
+Swarm: Context-Bounded + Function Partitioning
+This is callTranslatorSwarmSub: Generating instances with no limit
+[31mThis is step4GenerateInstancesSubFunc[0m
+./cseq-SubFunc.py -i /home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.c --rounds 1 --backend cbmc --error-label ERROR --unwind 2 --contexts 4 --cores 4 -C /home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/schedulingSeqConfig.json -c /home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main_auto_config.json -Z /home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/swarm_instances.list
+... done.
+
+generate instance time: 5.860
+backend_handler.callBackendSwarm:
+Analyzing 16 instance(s) IN PARALLEL with 3600s timeout for 16 processes
+============================================================================
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_0_0_s3.c, [92mTRUE[0m, 0.22, 18.98MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_1_0_s3.c, [92mTRUE[0m, 0.22, 18.95MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_1_1_s2.c, [92mTRUE[0m, 0.22, 21.47MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_2_0_s3.c, [92mTRUE[0m, 0.22, 19.07MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_4_0_s3.c, [92mTRUE[0m, 0.22, 18.95MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_3_1_s2.c, [92mTRUE[0m, 0.27, 21.71MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_5_0_s3.c, [92mTRUE[0m, 0.27, 19.05MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_3_0_s3.c, [92mTRUE[0m, 0.27, 19.05MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_5_1_s1.c, [92mTRUE[0m, 0.27, 19.37MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_4_1_s1.c, [92mTRUE[0m, 0.32, 19.26MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_3_2_s1.c, [92mTRUE[0m, 0.32, 19.34MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_3_3_s0.c, [92mTRUE[0m, 0.32, 21.77MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_2_1_s2.c, [92mTRUE[0m, 0.37, 72.96MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_2_2_s1.c, [92mTRUE[0m, 0.37, 19.29MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_0_1_s2.c, [91mFALSE[0m, 0.42, 55.91MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_2_3_s0.c, [92mTRUE[0m, 0.42, 82.92MB
+===================================================
+Found bugs in this configuration
+Found time: 19.05s 
+FALSE, 19.14s
+SVPCheck var: test_global_array[9000]	pattern: wwr
+
+Swarm: Context-Bounded + Function Partitioning
+This is callTranslatorSwarmSub: Generating instances with no limit
+[31mThis is step4GenerateInstancesSubFunc[0m
+./cseq-SubFunc.py -i /home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.c --rounds 1 --backend cbmc --error-label ERROR --unwind 2 --contexts 4 --cores 4 -C /home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/schedulingSeqConfig.json -c /home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main_auto_config.json -Z /home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/swarm_instances.list
+... done.
+
+generate instance time: 5.912
+backend_handler.callBackendSwarm:
+Analyzing 16 instance(s) IN PARALLEL with 3600s timeout for 16 processes
+============================================================================
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_1_0_s3.c, [92mTRUE[0m, 0.22, 18.91MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_0_0_s3.c, [92mTRUE[0m, 0.27, 19.07MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_0_1_s2.c, [92mTRUE[0m, 0.27, 19.11MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_1_1_s2.c, [92mTRUE[0m, 0.27, 19.12MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_2_0_s3.c, [92mTRUE[0m, 0.32, 69.24MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_3_0_s3.c, [92mTRUE[0m, 0.32, 69.23MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_3_1_s2.c, [92mTRUE[0m, 0.32, 69.37MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_2_1_s2.c, [92mTRUE[0m, 0.32, 69.25MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_5_0_s3.c, [92mTRUE[0m, 0.32, 69.23MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_2_2_s1.c, [92mTRUE[0m, 0.37, 74.38MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_3_2_s1.c, [92mTRUE[0m, 0.37, 74.24MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_5_1_s1.c, [92mTRUE[0m, 0.37, 74.30MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_2_3_s0.c, [92mTRUE[0m, 0.47, 74.45MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_3_3_s0.c, [92mTRUE[0m, 0.47, 74.44MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_4_1_s1.c, [92mTRUE[0m, 0.57, 158.98MB
+/home/dell/zyworkspace/nichecker/parallelExp/Testrealpro/i8xx_tco_1/_mt_main.swarm/_cs__mt_main__instance_4_0_s3.c, [91mFALSE[0m, 0.57, 164.11MB
+===================================================
+Found bugs in this configuration
+Found time: 25.67s 
+FALSE, 25.70s

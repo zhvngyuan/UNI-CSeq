@@ -1,0 +1,33 @@
+\begin{table*}[ht]
+\centering
+\caption{Experimental results with CBMC}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lccccccccccc}
+\toprule[1pt]
+\multirow{3}{*}{Name} & \multicolumn{1}{c}{\multirow{3}{*}{LOC}} & \multicolumn{1}{c}{\multirow{3}{*}{ISRs}} & \multicolumn{1}{c}{\multirow{3}{*}{Assertions}} &\multicolumn{3}{c}{\multirow{1}{*}{intAbs}} &\multicolumn{5}{c}{Unichecker}\\\cmidrule(lr){5-7}\cmidrule(lr){8-12}
+& & & &\multirow{2}{*}{Warnings} & \multirow{2}{*}{Proofs} & \multirow{2}{*}{Time} &\multicolumn{2}{c}{+ CBMC} &\multicolumn{2}{c}{+ CPAChecker} &\multicolumn{1}{c}{\multirow{2}{*}{Proofs}} \\ \cmidrule(lr){8-9} \cmidrule(lr){10-11}
+ & & & & & & & Violations & Time  & Validations & Time \\\midrule
+logger1 & 161 & 2 & 1 & 0 & 1 & 0.3 & 1 & 3.4 & 0 & 1 & 4.1 \\
+logger2 & 183 & 3 & 3 & 0 & 3 & 0.4 & 2 & 5.9 & 0 & 3 & 6.6 \\
+logger3 & 195 & 4 & 4 & 0 & 4 & 0.4 & 1 & 59.9 & 0 & 4 & 60.7 \\
+blink1 & 164 & 3 & 3 & 2 & 1 & 0.2 & 3 & 3.1 & 2 & 1 & 3.7 \\
+blink2 & 174 & 4 & 3 & 2 & 1 & 0.3 & 3 & 3.3 & 2 & 1 & 3.9 \\
+blink3 & 194 & 5 & 4 & 3 & 1 & 0.5 & 4 & 3.5 & 3 & 1 & 4.2 \\
+brake1 & 819 & 2 & 5 & 1 & 4 & 1.0 & 3 & 4.0 & 1 & 4 & 5.0 \\
+brake2 & 818 & 3 & 4 & 3 & 1 & 1.9 & 4 & 5.3 & 3 & 1 & 6.6 \\
+brake3 & 833 & 4 & 5 & 4 & 1 & 3.5 & 4 & 6.0 & 4 & 1 & 7.4 \\
+i2c\_pca\_isa\_1 & 321 & 4 & 6 & 0 & 6 & 0.3 & 3 & 19.3 & 0 & 6 & 20.0 \\
+i2c\_pca\_isa\_2 & 341 & 6 & 10 & 8 & 2 & 1.1 & 5 & 3.1 & 8 & 2 & 4.0 \\
+i2c\_pca\_isa\_3 & 363 & 8 & 14 & 12 & 2 & 2.5 & 7 & 3.3 & 12 & 2 & 4.3 \\
+i8xx\_tco\_1 & 757 & 3 & 2 & 0 & 2 & 0.3 & 2 & 3.2 & 0 & 2 & 12.5 \\
+i8xx\_tco\_2 & 949 & 4 & 2 & 1 & 1 & 0.5 & 2 & 6.6 & 1 & 1 & 17.9 \\
+i8xx\_tco\_3 & 944 & 6 & 3 & 0 & 3 & 1.0 & 3 & 46.8 & 0 & 3 & 68.0 \\
+wdt\_pci\_1 & 1239 & 4 & 2 & 0 & 2 & 0.6 & 2 & 3.8 & 0 & 2 & 5.4 \\
+wdt\_pci\_2 & 1290 & 6 & 3 & 1 & 2 & 1.4 & 3 & 4.3 & 1 & 2 & 6.5 \\
+wdt\_pci\_3 & 1339 & 8 & 4 & 3 & 1 & 3.2 & 4 & 4.7 & 3 & 1 & 7.4 \\
+\midrule
+Total & 11084 & 79 & 78 & 40 & 38 & 19.4 & 56 & 189.6 & 40 & 38 & 248.2 \\
+\bottomrule[1pt]
+\end{tabular}
+}
+\end{table*}

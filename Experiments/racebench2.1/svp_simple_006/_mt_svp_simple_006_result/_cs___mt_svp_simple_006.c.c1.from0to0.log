@@ -1,0 +1,664 @@
+CBMC version 5.6 64-bit x86_64 linux
+Parsing /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c
+<command-line>: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking _cs___mt_svp_simple_006
+file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 468 function main_task_0: function `assert' is not declared
+Generating GOTO Program
+Adding CPROVER library (x86_64)
+Removal of function pointers and virtual functions
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+size of program expression: 7562 steps
+simple slicing removed 39 assignments
+Generated 48 VCC(s), 36 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.1 with simplifier
+57648 variables, 240781 clauses
+SAT checker: instance is SATISFIABLE
+Solving with MiniSAT 2.2.1 with simplifier
+57648 variables, 112163 clauses
+SAT checker: instance is SATISFIABLE
+Solving with MiniSAT 2.2.1 with simplifier
+57648 variables, 109197 clauses
+SAT checker: instance is SATISFIABLE
+Solving with MiniSAT 2.2.1 with simplifier
+57648 variables, 109197 clauses
+SAT checker: instance is UNSATISFIABLE
+Runtime decision procedure: 20.593s
+
+** Results:
+[main_task_0.assertion.1] assertion svp_simple_006_001_global_var1 == 0: FAILURE
+[main_task_0.assertion.2] assertion svp_simple_006_001_global_var1 == 0: FAILURE
+[main_task_0.assertion.3] assertion svp_simple_006_001_global_var1 == 0: SUCCESS
+[main_task_0.assertion.4] assertion svp_simple_006_001_global_var1 == 0: SUCCESS
+[main_task_0.assertion.5] assertion svp_simple_006_001_global_var1 == 0: SUCCESS
+[main_task_0.assertion.6] assertion svp_simple_006_001_global_var1 == 0: SUCCESS
+[main_task_0.assertion.7] assertion svp_simple_006_001_global_var1 == 0: SUCCESS
+[main_task_0.assertion.8] assertion svp_simple_006_001_global_var1 == 0: FAILURE
+[main_task_0.assertion.9] assertion svp_simple_006_001_global_var1 == 0: SUCCESS
+[main_task_0.assertion.10] assertion svp_simple_006_001_global_var1 == 0: SUCCESS
+[main_task_0.assertion.11] assertion svp_simple_006_001_global_var1 == 0: SUCCESS
+[main_task_0.assertion.12] assertion svp_simple_006_001_global_var1 == 0: SUCCESS
+[main_task_0.assertion.13] assertion svp_simple_006_001_global_var2 == 0x2: SUCCESS
+[main_task_0.assertion.14] assertion svp_simple_006_001_global_var2 == 0x2: SUCCESS
+[main_task_0.assertion.15] assertion svp_simple_006_001_global_var2 == 0x2: SUCCESS
+[main_task_0.assertion.16] assertion svp_simple_006_001_global_var2 == 0x2: SUCCESS
+
+Trace for main_task_0.assertion.1:
+
+State 119 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2780 function main thread 0
+----------------------------------------------------
+  __cs_tmp_t1_r0=2 (0000010)
+
+State 121 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2785 function main thread 0
+----------------------------------------------------
+  __cs_thread_index=1 (01)
+
+State 122 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2788 function main thread 0
+----------------------------------------------------
+  __cs_pc_cs[1l]=2 (0000010)
+
+State 127 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2797 function main thread 0
+----------------------------------------------------
+  __cs_param_main_task_arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 129 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 359 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_i=0 (00000000000000000000000000000000)
+
+State 130 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 370 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_t_3=0 (00000000000000000000000000000000)
+
+State 132 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 393 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_loop_3_IOVar1=0 (00000000000000000000000000000000)
+
+State 133 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 397 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_loop_3_block_2=0 (00000000000000000000000000000000)
+
+State 134 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 401 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_i=0 (00000000000000000000000000000000)
+
+State 137 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 414 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_j=0 (00000000000000000000000000000000)
+
+State 138 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 421 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task___cs_tmp_if_cond_0=TRUE (00000001)
+
+State 140 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 435 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task___cs_tmp_if_cond_1=TRUE (00000001)
+
+State 142 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 448 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task___cs_tmp_if_cond_2=TRUE (00000001)
+
+State 145 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 461 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_reader1=0 (00000000000000000000000000000000)
+
+State 217 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2763 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_value_ptr=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 222 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2800 function main thread 0
+----------------------------------------------------
+  __cs_pc[1l]=2 (0000010)
+
+State 223 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2808 function main thread 0
+----------------------------------------------------
+  __cs_tmp_t2_r0=1 (1)
+
+State 225 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2815 function main thread 0
+----------------------------------------------------
+  __cs_thread_index=2 (10)
+
+State 226 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2818 function main thread 0
+----------------------------------------------------
+  __cs_pc_cs[2l]=1 (0000001)
+
+State 231 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2827 function main thread 0
+----------------------------------------------------
+  __cs_param_svp_simple_006_001_isr_1_arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 233 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 167 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_local_svp_simple_006_001_isr_1_funcunwind_t=0 (00000000000000000000000000000000)
+
+State 234 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 177 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_local_svp_simple_006_001_isr_1_t_1=0 (00000000000000000000000000000000)
+
+State 236 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 201 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_local_svp_simple_006_001_isr_1_loop_1_IOVar1=0 (00000000000000000000000000000000)
+
+State 237 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 204 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_local_svp_simple_006_001_isr_1_loop_1_block_1=0 (00000000000000000000000000000000)
+
+State 238 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 207 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_local_svp_simple_006_001_isr_1_funcunwind_t=0 (00000000000000000000000000000000)
+
+State 241 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 219 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_local_svp_simple_006_001_isr_1_funcunwind_t=1 (00000000000000000000000000000001)
+
+State 242 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 225 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  svp_simple_006_001_global_var1=1 (00000000000000000000000000000001)
+
+State 243 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 228 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_local_svp_simple_006_001_isr_1_reader2=0 (00000000000000000000000000000000)
+
+State 244 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 239 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_local_svp_simple_006_001_isr_1_t_1=1 (00000000000000000000000000000001)
+
+State 252 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 337 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_value_ptr=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 257 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2830 function main thread 0
+----------------------------------------------------
+  __cs_pc[2l]=1 (0000001)
+
+State 258 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2844 function main thread 0
+----------------------------------------------------
+  __cs_tmp_t1_r1=3 (0000011)
+
+State 260 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2851 function main thread 0
+----------------------------------------------------
+  __cs_thread_index=1 (01)
+
+State 261 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2854 function main thread 0
+----------------------------------------------------
+  __cs_pc_cs[1l]=3 (0000011)
+
+State 266 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2863 function main thread 0
+----------------------------------------------------
+  __cs_param_main_task_arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+Violated property:
+  file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 468 function main_task_0
+  assertion svp_simple_006_001_global_var1 == 0
+  svp_simple_006_001_global_var1 == 0
+
+
+Trace for main_task_0.assertion.2:
+
+State 119 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2780 function main thread 0
+----------------------------------------------------
+  __cs_tmp_t1_r0=3 (0000011)
+
+State 121 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2785 function main thread 0
+----------------------------------------------------
+  __cs_thread_index=1 (01)
+
+State 122 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2788 function main thread 0
+----------------------------------------------------
+  __cs_pc_cs[1l]=3 (0000011)
+
+State 127 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2797 function main thread 0
+----------------------------------------------------
+  __cs_param_main_task_arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 129 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 359 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_i=0 (00000000000000000000000000000000)
+
+State 130 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 370 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_t_3=0 (00000000000000000000000000000000)
+
+State 132 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 393 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_loop_3_IOVar1=0 (00000000000000000000000000000000)
+
+State 133 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 397 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_loop_3_block_2=4 (00000000000000000000000000000100)
+
+State 134 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 401 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_i=4 (00000000000000000000000000000100)
+
+State 137 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 414 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_j=4 (00000000000000000000000000000100)
+
+State 138 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 421 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task___cs_tmp_if_cond_0=TRUE (00000001)
+
+State 140 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 435 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task___cs_tmp_if_cond_1=TRUE (00000001)
+
+State 142 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 448 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task___cs_tmp_if_cond_2=FALSE (00000000)
+
+State 145 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 480 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task___cs_tmp_if_cond_3=TRUE (00000001)
+
+State 217 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2763 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_value_ptr=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 222 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2800 function main thread 0
+----------------------------------------------------
+  __cs_pc[1l]=3 (0000011)
+
+State 223 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2808 function main thread 0
+----------------------------------------------------
+  __cs_tmp_t2_r0=1 (1)
+
+State 225 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2815 function main thread 0
+----------------------------------------------------
+  __cs_thread_index=2 (10)
+
+State 226 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2818 function main thread 0
+----------------------------------------------------
+  __cs_pc_cs[2l]=1 (0000001)
+
+State 231 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2827 function main thread 0
+----------------------------------------------------
+  __cs_param_svp_simple_006_001_isr_1_arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 233 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 167 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_local_svp_simple_006_001_isr_1_funcunwind_t=0 (00000000000000000000000000000000)
+
+State 234 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 177 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_local_svp_simple_006_001_isr_1_t_1=0 (00000000000000000000000000000000)
+
+State 236 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 201 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_local_svp_simple_006_001_isr_1_loop_1_IOVar1=0 (00000000000000000000000000000000)
+
+State 237 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 204 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_local_svp_simple_006_001_isr_1_loop_1_block_1=0 (00000000000000000000000000000000)
+
+State 238 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 207 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_local_svp_simple_006_001_isr_1_funcunwind_t=0 (00000000000000000000000000000000)
+
+State 241 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 219 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_local_svp_simple_006_001_isr_1_funcunwind_t=1 (00000000000000000000000000000001)
+
+State 242 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 225 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  svp_simple_006_001_global_var1=1 (00000000000000000000000000000001)
+
+State 243 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 228 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_local_svp_simple_006_001_isr_1_reader2=0 (00000000000000000000000000000000)
+
+State 244 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 239 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_local_svp_simple_006_001_isr_1_t_1=1 (00000000000000000000000000000001)
+
+State 252 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 337 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_value_ptr=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 257 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2830 function main thread 0
+----------------------------------------------------
+  __cs_pc[2l]=1 (0000001)
+
+State 258 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2844 function main thread 0
+----------------------------------------------------
+  __cs_tmp_t1_r1=19 (0010011)
+
+State 260 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2851 function main thread 0
+----------------------------------------------------
+  __cs_thread_index=1 (01)
+
+State 261 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2854 function main thread 0
+----------------------------------------------------
+  __cs_pc_cs[1l]=19 (0010011)
+
+State 266 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2863 function main thread 0
+----------------------------------------------------
+  __cs_param_main_task_arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 271 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 493 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_reader2=1 (00000000000000000000000000000001)
+
+Violated property:
+  file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 500 function main_task_0
+  assertion svp_simple_006_001_global_var1 == 0
+  svp_simple_006_001_global_var1 == 0
+
+
+Trace for main_task_0.assertion.8:
+
+State 119 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2780 function main thread 0
+----------------------------------------------------
+  __cs_tmp_t1_r0=1 (0000001)
+
+State 121 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2785 function main thread 0
+----------------------------------------------------
+  __cs_thread_index=1 (01)
+
+State 122 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2788 function main thread 0
+----------------------------------------------------
+  __cs_pc_cs[1l]=1 (0000001)
+
+State 127 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2797 function main thread 0
+----------------------------------------------------
+  __cs_param_main_task_arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 129 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 359 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_i=0 (00000000000000000000000000000000)
+
+State 130 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 370 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_t_3=0 (00000000000000000000000000000000)
+
+State 132 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 393 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_loop_3_IOVar1=0 (00000000000000000000000000000000)
+
+State 133 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 397 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_loop_3_block_2=0 (00000000000000000000000000000000)
+
+State 134 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 401 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_i=0 (00000000000000000000000000000000)
+
+State 137 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 414 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_j=0 (00000000000000000000000000000000)
+
+State 138 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 421 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task___cs_tmp_if_cond_0=TRUE (00000001)
+
+State 140 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 435 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task___cs_tmp_if_cond_1=TRUE (00000001)
+
+State 142 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 448 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task___cs_tmp_if_cond_2=TRUE (00000001)
+
+State 216 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2763 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_value_ptr=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 221 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2800 function main thread 0
+----------------------------------------------------
+  __cs_pc[1l]=1 (0000001)
+
+State 222 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2808 function main thread 0
+----------------------------------------------------
+  __cs_tmp_t2_r0=1 (1)
+
+State 224 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2815 function main thread 0
+----------------------------------------------------
+  __cs_thread_index=2 (10)
+
+State 225 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2818 function main thread 0
+----------------------------------------------------
+  __cs_pc_cs[2l]=1 (0000001)
+
+State 230 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2827 function main thread 0
+----------------------------------------------------
+  __cs_param_svp_simple_006_001_isr_1_arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 232 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 167 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_local_svp_simple_006_001_isr_1_funcunwind_t=0 (00000000000000000000000000000000)
+
+State 233 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 177 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_local_svp_simple_006_001_isr_1_t_1=0 (00000000000000000000000000000000)
+
+State 235 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 201 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_local_svp_simple_006_001_isr_1_loop_1_IOVar1=0 (00000000000000000000000000000000)
+
+State 236 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 204 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_local_svp_simple_006_001_isr_1_loop_1_block_1=0 (00000000000000000000000000000000)
+
+State 237 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 207 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_local_svp_simple_006_001_isr_1_funcunwind_t=0 (00000000000000000000000000000000)
+
+State 240 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 219 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_local_svp_simple_006_001_isr_1_funcunwind_t=1 (00000000000000000000000000000001)
+
+State 241 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 225 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  svp_simple_006_001_global_var1=1 (00000000000000000000000000000001)
+
+State 242 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 228 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_local_svp_simple_006_001_isr_1_reader2=0 (00000000000000000000000000000000)
+
+State 243 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 239 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_local_svp_simple_006_001_isr_1_t_1=1 (00000000000000000000000000000001)
+
+State 251 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 337 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_value_ptr=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 256 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2830 function main thread 0
+----------------------------------------------------
+  __cs_pc[2l]=1 (0000001)
+
+State 257 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2844 function main thread 0
+----------------------------------------------------
+  __cs_tmp_t1_r1=2 (0000010)
+
+State 259 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2851 function main thread 0
+----------------------------------------------------
+  __cs_thread_index=1 (01)
+
+State 260 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2854 function main thread 0
+----------------------------------------------------
+  __cs_pc_cs[1l]=2 (0000010)
+
+State 265 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2863 function main thread 0
+----------------------------------------------------
+  __cs_param_main_task_arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 268 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 461 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_reader1=1 (00000000000000000000000000000001)
+
+State 340 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2763 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_value_ptr=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 345 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2866 function main thread 0
+----------------------------------------------------
+  __cs_pc[1l]=2 (0000010)
+
+State 346 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2874 function main thread 0
+----------------------------------------------------
+  __cs_tmp_t2_r1=1 (1)
+
+State 348 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2881 function main thread 0
+----------------------------------------------------
+  __cs_thread_index=2 (10)
+
+State 349 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2884 function main thread 0
+----------------------------------------------------
+  __cs_pc_cs[2l]=1 (0000001)
+
+State 354 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2893 function main thread 0
+----------------------------------------------------
+  __cs_param_svp_simple_006_001_isr_1_arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 358 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 337 function svp_simple_006_001_isr_1_0 thread 0
+----------------------------------------------------
+  __cs_value_ptr=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 363 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2896 function main thread 0
+----------------------------------------------------
+  __cs_pc[2l]=1 (0000001)
+
+State 364 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2901 function main thread 0
+----------------------------------------------------
+  __cs_tmp_t1_r2=30u (00000000000000000000000000011110)
+
+State 367 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2912 function main thread 0
+----------------------------------------------------
+  __cs_thread_index=1 (01)
+
+State 368 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2915 function main thread 0
+----------------------------------------------------
+  __cs_pc_cs[1l]=30 (0011110)
+
+State 373 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 2924 function main thread 0
+----------------------------------------------------
+  __cs_param_main_task_arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+Violated property:
+  file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 468 function main_task_0
+  assertion svp_simple_006_001_global_var1 == 0
+  svp_simple_006_001_global_var1 == 0
+
+
+State 382 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 569 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_j=0 (00000000000000000000000000000000)
+
+State 383 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 580 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_t_4=0 (00000000000000000000000000000000)
+
+State 385 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 603 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_loop_4_IOVar1=0 (00000000000000000000000000000000)
+
+State 386 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 607 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_loop_4_block_4=3 (00000000000000000000000000000011)
+
+State 387 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 611 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_j=3 (00000000000000000000000000000011)
+
+State 390 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 625 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task___cs_tmp_if_cond_5=FALSE (00000000)
+
+State 393 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 753 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_j=4 (00000000000000000000000000000100)
+
+State 394 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 761 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_t_4=1 (00000000000000000000000000000001)
+
+State 396 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 784 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_loop_4_IOVar1=4 (00000000000000000000000000000100)
+
+State 397 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 788 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_loop_4_block_4=0 (00000000000000000000000000000000)
+
+State 398 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 792 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_j=4 (00000000000000000000000000000100)
+
+State 401 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 806 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task___cs_tmp_if_cond_5=FALSE (00000000)
+
+State 404 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 934 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_j=5 (00000000000000000000000000000101)
+
+State 405 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 942 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_t_4=2 (00000000000000000000000000000010)
+
+State 406 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 947 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_loop_4=FALSE (00000000)
+
+State 410 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 969 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task___cs_tmp_if_cond_9=FALSE (00000000)
+
+State 414 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 1128 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_i=1 (00000000000000000000000000000001)
+
+State 415 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 1136 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_t_3=1 (00000000000000000000000000000001)
+
+State 417 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 1159 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_loop_3_IOVar1=1 (00000000000000000000000000000001)
+
+State 418 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 1163 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_loop_3_block_2=3 (00000000000000000000000000000011)
+
+State 419 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 1167 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_i=4 (00000000000000000000000000000100)
+
+State 422 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 1180 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_j=4 (00000000000000000000000000000100)
+
+State 423 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 1187 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task___cs_tmp_if_cond_0=TRUE (00000001)
+
+State 425 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 1201 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task___cs_tmp_if_cond_1=TRUE (00000001)
+
+State 427 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 1214 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task___cs_tmp_if_cond_2=FALSE (00000000)
+
+State 430 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 1246 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task___cs_tmp_if_cond_3=TRUE (00000001)
+
+State 433 file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 1259 function main_task_0 thread 0
+----------------------------------------------------
+  __cs_local_main_task_reader2=1 (00000000000000000000000000000001)
+
+Violated property:
+  file /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/racebench2.1/svp_simple_006/_mt_svp_simple_006_result/_cs___mt_svp_simple_006.c line 1266 function main_task_0
+  assertion svp_simple_006_001_global_var1 == 0
+  svp_simple_006_001_global_var1 == 0
+
+
+** 3 of 16 failed (4 iterations)
+VERIFICATION FAILED

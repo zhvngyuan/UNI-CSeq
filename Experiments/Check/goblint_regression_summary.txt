@@ -1,0 +1,22 @@
+goblint-regression ground truth candidate generation summary
+============================================================
+
+CBMC log       : /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/results_goblint-regression_cbmc.log
+CPAchecker log : /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/results_goblint-regression_cpachecker.log
+
+Total files           : 110
+Auto candidates       : 105
+Need manual review    : 5
+Auto TRUE candidates  : 55
+Auto FALSE candidates : 50
+
+Reason breakdown:
+  - agreed_true_false: 105
+  - disagree: 5
+
+Examples of NEED_MANUAL entries:
+  goblint-regression/svp_simple_508_001/svp_simple_508_001_assert1.c | cbmc=TRUE | cpa=FALSE | reason=disagree
+  goblint-regression/svp_simple_519_001/svp_simple_519_001_assert1.c | cbmc=TRUE | cpa=FALSE | reason=disagree
+  goblint-regression/svp_simple_520_001/svp_simple_520_001_assert1.c | cbmc=TRUE | cpa=FALSE | reason=disagree
+  goblint-regression/svp_simple_643_001/svp_simple_643_001_assert3.c | cbmc=TRUE | cpa=FALSE | reason=disagree
+  goblint-regression/svp_simple_696_001/svp_simple_696_001_assert2.c | cbmc=FALSE | cpa=UNKNOWN | reason=disagree

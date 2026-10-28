@@ -1,0 +1,21 @@
+\begin{table}[ht]
+\centering
+\caption{Effectiveness of CBMC with different unwinding bounds, CPAchecker, and the CBMC+CPAchecker portfolio.}
+\label{tab:cbmc_u_effec}
+\setlength{\tabcolsep}{8pt}
+\resizebox{0.65\textwidth}{!}{
+\begin{tabular}{l *{3}{S[table-format=3.0]} S[table-format=6.1]}
+\toprule[1pt]
+{Backend Configuration} & {Unsafe} & {Unknown} & {Timeout} & {Time (s)} \\
+\midrule
+CBMC-u2 & 141 & 0 & 0 & 153.3 \\
+CBMC-u4 & 150 & 0 & 0 & 232.7 \\
+CBMC-u8 & 152 & 0 & 0 & 946.9 \\
+CBMC-u16 & 149 & 1 & 4 & 5096.1 \\
+CBMC-u32 & 148 & 1 & 6 & 7493.4 \\
+CPAchecker & 151 & 6 & 0 & 2748.8 \\
+Portfolio & 151 & 6 & 0 & 2286.4 \\
+\bottomrule[1pt]
+\end{tabular}
+}
+\end{table}

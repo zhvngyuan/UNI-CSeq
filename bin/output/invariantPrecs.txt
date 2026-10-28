@@ -1,0 +1,12 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun glob1 () (_ BitVec 32))
+
+__cseq_error N3:
+(assert false)
+
+__VERIFIER_assume N8:
+(assert false)
+
+main N99:
+(assert (let ((.def_247 (= glob1 (_ bv5 32))))(let ((.def_252 (not .def_247))).def_252)))
+

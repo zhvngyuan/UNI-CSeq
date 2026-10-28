@@ -1,0 +1,35 @@
+\begin{table*}[ht]
+\centering
+\caption{Comparison of iCBMC, NIChecker, and UNI-CSeq on six \texttt{rw\_benchmark} packages.}
+\label{tab:rw_package}
+\setlength{\tabcolsep}{8pt}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{l
+      S[table-format=2.0] % Files
+      S[table-format=5.0] % LOC
+      S[table-format=2.0] % ISRs
+      S[table-format=2.0] % Assertions
+      S[table-format=1.0] % u
+      S[table-format=2.0]
+      S[table-format=4.1] % iCBMC time
+      S[table-format=2.0]
+      S[table-format=2.1] % NIChecker time
+      S[table-format=2.0]
+      S[table-format=2.1] % UNI-CSeq time
+      }
+        \toprule[1pt]
+      \multicolumn{1}{l}{\multirow{2}{*}{Packages}} & \multicolumn{1}{c}{\multirow{2}{*}{Files}} & \multicolumn{1}{c}{\multirow{2}{*}{LOC}} & \multicolumn{1}{c}{\multirow{2}{*}{ISRs}} & \multicolumn{1}{c}{\multirow{2}{*}{Assertions}} & \multicolumn{1}{c}{\multirow{2}{*}{$u$}}  &\multicolumn{2}{c}{\multirow{1}{*}{iCBMC}} &\multicolumn{2}{c}{\multirow{1}{*}{NIChecker}} &\multicolumn{2}{c}{\multirow{1}{*}{UNI-CSeq}}\\ \cmidrule(lr){7-8} \cmidrule(lr){9-10} \cmidrule(lr){11-12}
+
+       & & & & & & \multicolumn{1}{c}{Violations} & \multicolumn{1}{c}{Time (s)} & \multicolumn{1}{c}{Violations} & \multicolumn{1}{c}{Time (s)} & \multicolumn{1}{c}{Violations} & \multicolumn{1}{c}{Time (s)} \\ \midrule
+logger & 3 & 539 & 9 & 8 & 2 & 0 & 1.0 & 0 & 7.0 & 0 & 1.9\\
+blink & 3 & 532 & 12 & 10 & 2 & 7 & 3.7 & 7 & 6.2 & 7 & 1.6\\
+brake & 3 & 2470 & 9 & 14 & 2 & 8 & 28.3 & 8 & 8.7 & 8 & 3.4\\
+i2c\_pca\_isa & 3 & 1025 & 18 & 30 & 2 & 20 & 417.0 & 20 & 8.3 & 20 & 2.2\\
+i8xx\_tco & 3 & 2650 & 13 & 7 & 2 & 1 & 5.9 & 1 & 11.1 & 1 & 7.2\\
+wdt\_pci & 3 & 3868 & 18 & 9 & 2 & 4 & 758.9 & 4 & 11.1 & 4 & 3.1\\
+\midrule
+Total & 18 & 11084 & 79 & 78 & {--} & 40 & 1214.7 & 40 & 52.3 & 40 & 19.5\\
+        \bottomrule[1pt]
+\end{tabular}
+}
+\end{table*}

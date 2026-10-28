@@ -1,0 +1,40 @@
+file /home/dell/zyworkspace/unichecker/Experiments/Masking_Isolation/marking_sensitive_subset_nomasking/svp_simple_014/_cseq_cbmc_svp_simple_014_assert2.c line 217 function svp_simple_014_001_isr_1: function `assert' is not declared
+CBMC version 5.10 (cbmc-5.10) 64-bit x86_64 linux
+Parsing /home/dell/zyworkspace/unichecker/Experiments/Masking_Isolation/marking_sensitive_subset_nomasking/svp_simple_014/_cseq_cbmc_svp_simple_014_assert2.c
+Converting
+Type-checking _cseq_cbmc_svp_simple_014_assert2
+Generating GOTO Program
+Adding CPROVER library (x86_64)
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+Running with 8 object bits, 56 offset bits (default)
+Starting Bounded Model Checking
+Unwinding loop svp_simple_014_001_isr_1.0 iteration 1 file /home/dell/zyworkspace/unichecker/Experiments/Masking_Isolation/marking_sensitive_subset_nomasking/svp_simple_014/_cseq_cbmc_svp_simple_014_assert2.c line 148 function svp_simple_014_001_isr_1 thread 0
+Unwinding loop svp_simple_014_001_isr_1.0 iteration 2 file /home/dell/zyworkspace/unichecker/Experiments/Masking_Isolation/marking_sensitive_subset_nomasking/svp_simple_014/_cseq_cbmc_svp_simple_014_assert2.c line 148 function svp_simple_014_001_isr_1 thread 0
+Not unwinding loop svp_simple_014_001_isr_1.0 iteration 3 file /home/dell/zyworkspace/unichecker/Experiments/Masking_Isolation/marking_sensitive_subset_nomasking/svp_simple_014/_cseq_cbmc_svp_simple_014_assert2.c line 148 function svp_simple_014_001_isr_1 thread 0
+Unwinding loop main.0 iteration 1 file /home/dell/zyworkspace/unichecker/Experiments/Masking_Isolation/marking_sensitive_subset_nomasking/svp_simple_014/_cseq_cbmc_svp_simple_014_assert2.c line 237 function main thread 0
+Unwinding loop svp_simple_014_001_isr_1.0 iteration 1 file /home/dell/zyworkspace/unichecker/Experiments/Masking_Isolation/marking_sensitive_subset_nomasking/svp_simple_014/_cseq_cbmc_svp_simple_014_assert2.c line 148 function svp_simple_014_001_isr_1 thread 0
+Unwinding loop svp_simple_014_001_isr_1.0 iteration 2 file /home/dell/zyworkspace/unichecker/Experiments/Masking_Isolation/marking_sensitive_subset_nomasking/svp_simple_014/_cseq_cbmc_svp_simple_014_assert2.c line 148 function svp_simple_014_001_isr_1 thread 0
+Not unwinding loop svp_simple_014_001_isr_1.0 iteration 3 file /home/dell/zyworkspace/unichecker/Experiments/Masking_Isolation/marking_sensitive_subset_nomasking/svp_simple_014/_cseq_cbmc_svp_simple_014_assert2.c line 148 function svp_simple_014_001_isr_1 thread 0
+Unwinding loop main.0 iteration 2 file /home/dell/zyworkspace/unichecker/Experiments/Masking_Isolation/marking_sensitive_subset_nomasking/svp_simple_014/_cseq_cbmc_svp_simple_014_assert2.c line 237 function main thread 0
+Unwinding loop svp_simple_014_001_isr_1.0 iteration 1 file /home/dell/zyworkspace/unichecker/Experiments/Masking_Isolation/marking_sensitive_subset_nomasking/svp_simple_014/_cseq_cbmc_svp_simple_014_assert2.c line 148 function svp_simple_014_001_isr_1 thread 0
+Unwinding loop svp_simple_014_001_isr_1.0 iteration 2 file /home/dell/zyworkspace/unichecker/Experiments/Masking_Isolation/marking_sensitive_subset_nomasking/svp_simple_014/_cseq_cbmc_svp_simple_014_assert2.c line 148 function svp_simple_014_001_isr_1 thread 0
+Not unwinding loop svp_simple_014_001_isr_1.0 iteration 3 file /home/dell/zyworkspace/unichecker/Experiments/Masking_Isolation/marking_sensitive_subset_nomasking/svp_simple_014/_cseq_cbmc_svp_simple_014_assert2.c line 148 function svp_simple_014_001_isr_1 thread 0
+Not unwinding loop main.0 iteration 3 file /home/dell/zyworkspace/unichecker/Experiments/Masking_Isolation/marking_sensitive_subset_nomasking/svp_simple_014/_cseq_cbmc_svp_simple_014_assert2.c line 237 function main thread 0
+size of program expression: 2454 steps
+simple slicing removed 182 assignments
+Generated 3 VCC(s), 3 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.1 with simplifier
+8880 variables, 28163 clauses
+SAT checker: instance is SATISFIABLE
+Runtime decision procedure: 0.0702883s
+
+** Results:
+[svp_simple_014_001_isr_1.assertion.1] assertion reader1 == reader2: FAILURE
+
+** 1 of 1 failed (1 iteration)
+VERIFICATION FAILED

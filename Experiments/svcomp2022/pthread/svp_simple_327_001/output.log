@@ -1,0 +1,15 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-08-30 07:07:55
+translator_handler.callTranslatorNormal:cmd
+./cseq.py -i /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/pthread/svp_simple_327_001/_mt_svp_simple_327_001.c --rounds 2 --backend cbmc --error-label ERROR --unwind 3 --contexts 0 --cores 4
+--------------------------Run start-------------------------------
+inliner
+slice
+LoopAbstraction
+unroller
+insertLabel
+lazyseq
+feeder  0.208
+[92mSAFE[0m, counterexample: 0, time: 2.028 s, memory: 30.28 MB
+--------------------------Run end---------------------------------
+

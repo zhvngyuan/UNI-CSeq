@@ -1,0 +1,214 @@
+2026年8月28日11:04, ./run_scripts/run_icbmc_reproduce.sh 900
+unwind=2  timelimit=900
+========================================
+[1;35m========== Checking directory: logger1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/icbmc/logger1/main.c
+******** round 1: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+SUCCESS
+summary: rounds=1 Vio=0 Val=1 Time=0.279s result=SUCCESS
+
+[1;35m========== Checking directory: logger2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/icbmc/logger2/main.c
+******** round 1: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+SUCCESS
+summary: rounds=1 Vio=0 Val=1 Time=0.357s result=SUCCESS
+
+[1;35m========== Checking directory: logger3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/icbmc/logger3/main.c
+******** round 1: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+SUCCESS
+summary: rounds=1 Vio=0 Val=1 Time=0.348s result=SUCCESS
+
+[1;35m========== Checking directory: blink1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/icbmc/blink1/main.c
+******** round 1: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=129
+commented line 129 (assert:assert(0))
+******** round 2: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=108
+commented line 108 (assert:assert(0))
+******** round 3: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+SUCCESS
+summary: rounds=3 Vio=2 Val=1 Time=0.846s result=SUCCESS
+
+[1;35m========== Checking directory: blink2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/icbmc/blink2/main.c
+******** round 1: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=106
+commented line 106 (assert:assert(0))
+******** round 2: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=130
+commented line 130 (assert:assert(0))
+******** round 3: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+SUCCESS
+summary: rounds=3 Vio=2 Val=1 Time=1.157s result=SUCCESS
+
+[1;35m========== Checking directory: blink3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/icbmc/blink3/main.c
+******** round 1: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=151
+commented line 151 (assert:assert(0))
+******** round 2: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=130
+commented line 130 (assert:assert(0))
+******** round 3: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=109
+commented line 109 (assert:assert(0))
+******** round 4: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+SUCCESS
+summary: rounds=4 Vio=3 Val=1 Time=1.672s result=SUCCESS
+
+[1;35m========== Checking directory: brake1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/icbmc/brake1/main.c
+******** round 1: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=340
+commented line 340 (assert:assert(0))
+******** round 2: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+SUCCESS
+summary: rounds=2 Vio=1 Val=1 Time=0.891s result=SUCCESS
+
+[1;35m========== Checking directory: brake2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/icbmc/brake2/main.c
+******** round 1: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=330
+commented line 330 (assert:assert(0))
+******** round 2: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=474
+commented line 474 (assert:assert(0))
+******** round 3: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=371
+commented line 371 (assert:assert(0))
+******** round 4: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+SUCCESS
+summary: rounds=4 Vio=3 Val=1 Time=6.196s result=SUCCESS
+
+[1;35m========== Checking directory: brake3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/icbmc/brake3/main.c
+******** round 1: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=330
+commented line 330 (assert:assert(0))
+******** round 2: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=484
+commented line 484 (assert:assert(0))
+******** round 3: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=622
+commented line 622 (assert:assert(0))
+******** round 4: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=376
+commented line 376 (assert:assert(0))
+******** round 5: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+SUCCESS
+summary: rounds=5 Vio=4 Val=1 Time=21.167s result=SUCCESS
+
+[1;35m========== Checking directory: i2c_pca_isa_1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/icbmc/i2c_pca_isa_1/main.c
+******** round 1: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+SUCCESS
+summary: rounds=1 Vio=0 Val=1 Time=0.343s result=SUCCESS
+
+[1;35m========== Checking directory: i2c_pca_isa_2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/icbmc/i2c_pca_isa_2/main.c
+******** round 1: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=286
+commented line 286 (call:pca_isa_probe(1, 1);)
+******** round 2: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=298
+commented line 298 (call:pca_isa_probe(2, 2);)
+******** round 3: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=310
+commented line 310 (call:pca_isa_probe(3, 3);)
+******** round 4: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=322
+commented line 322 (call:pca_isa_probe(4, 4);)
+******** round 5: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+SUCCESS
+summary: rounds=5 Vio=4 Val=1 Time=2.053s result=SUCCESS
+
+[1;35m========== Checking directory: i2c_pca_isa_3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/icbmc/i2c_pca_isa_3/main.c
+******** round 1: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=308
+commented line 308 (call:pca_isa_probe(2, 2);)
+******** round 2: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=292
+commented line 292 (call:pca_isa_probe(1, 1);)
+******** round 3: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=365
+commented line 365 (call:pca_isa_probe(7, 7);)
+******** round 4: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=320
+commented line 320 (call:pca_isa_probe(3, 3);)
+******** round 5: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=344
+commented line 344 (call:pca_isa_probe(5, 5);)
+******** round 6: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=332
+commented line 332 (call:pca_isa_probe(4, 4);)
+******** round 7: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+SUCCESS
+summary: rounds=7 Vio=6 Val=1 Time=414.610s result=SUCCESS
+
+[1;35m========== Checking directory: i8xx_tco_1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/icbmc/i8xx_tco_1/main.c
+******** round 1: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=735
+commented line 735 (call:i8xx_tco_release();)
+******** round 2: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+SUCCESS
+summary: rounds=2 Vio=1 Val=1 Time=0.745s result=SUCCESS
+
+[1;35m========== Checking directory: i8xx_tco_2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/icbmc/i8xx_tco_2/main.c
+******** round 1: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=729
+commented line 729 (call:i8xx_tco_release();)
+******** round 2: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+SUCCESS
+summary: rounds=2 Vio=1 Val=1 Time=1.284s result=SUCCESS
+
+[1;35m========== Checking directory: i8xx_tco_3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/icbmc/i8xx_tco_3/main.c
+******** round 1: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=755
+commented line 755 (call:i8xx_tco_release();)
+******** round 2: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=729
+commented line 729 (call:i8xx_tco_release();)
+******** round 3: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=742
+commented line 742 (call:i8xx_tco_release();)
+******** round 4: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+SUCCESS
+summary: rounds=4 Vio=3 Val=1 Time=3.876s result=SUCCESS
+
+[1;35m========== Checking directory: wdt_pci_1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/icbmc/wdt_pci_1/main.c
+Warning: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/icbmc/wdt_pci_1/cbmc is missing or not executable, skipping.
+
+[1;35m========== Checking directory: wdt_pci_2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/icbmc/wdt_pci_2/main.c
+******** round 1: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=1044
+commented line 1044 (assert:assert(0))
+******** round 2: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+SUCCESS
+summary: rounds=2 Vio=1 Val=1 Time=6.419s result=SUCCESS
+
+[1;35m========== Checking directory: wdt_pci_3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/icbmc/wdt_pci_3/main.c
+******** round 1: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=1015
+commented line 1015 (assert:assert(0))
+******** round 2: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=1054
+commented line 1054 (assert:assert(0))
+******** round 3: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+FAILED line=1094
+commented line 1094 (assert:assert(0))
+******** round 4: ./cbmc --mm irq --unwind 2 _icbmc_repro/main.c
+SUCCESS
+summary: rounds=4 Vio=3 Val=1 Time=752.437s result=SUCCESS
+
+========================================
+Summary written to /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/icbmc/_icbmc_repro_summary.csv
+Log written to /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/icbmc/run_icbmc.log

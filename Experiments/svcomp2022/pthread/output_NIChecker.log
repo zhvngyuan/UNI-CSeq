@@ -1,0 +1,193 @@
+2026年8月30日07:07, ./run_scripts/run_second_Experiment.sh --from run_nic --until run_nic, NIChecker unwind=3 rounds=2  pkg=pthread
+========================================
+[1;36m===== Checking pthread with NIChecker (unwind=3 rounds=2 ) =====[0m
+[1;35m========== Checking directory: svp_simple_304_001 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/pthread/svp_simple_304_001/svp_simple_304_001.c
+********Execute Analysis with NIChecker:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-08-30 07:07:46
+translator_handler.callTranslatorNormal:cmd
+./cseq.py -i /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/pthread/svp_simple_304_001/_mt_svp_simple_304_001.c --rounds 2 --backend cbmc --error-label ERROR --unwind 3 --contexts 0 --cores 4
+--------------------------Run start-------------------------------
+inliner
+slice
+LoopAbstraction
+unroller
+insertLabel
+lazyseq
+feeder  0.222
+[91mUNSAFE[0m, counterexample: 1, time: 2.088 s, memory: 30.54 MB
+--------------------------Run end---------------------------------
+
+
+[1;35m========== Checking directory: svp_simple_324_001 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/pthread/svp_simple_324_001/svp_simple_324_001.c
+********Execute Analysis with NIChecker:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-08-30 07:07:48
+translator_handler.callTranslatorNormal:cmd
+./cseq.py -i /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/pthread/svp_simple_324_001/_mt_svp_simple_324_001.c --rounds 2 --backend cbmc --error-label ERROR --unwind 3 --contexts 0 --cores 4
+--------------------------Run start-------------------------------
+inliner
+slice
+LoopAbstraction
+unroller
+insertLabel
+lazyseq
+feeder  0.206
+[91mUNSAFE[0m, counterexample: 1, time: 1.974 s, memory: 29.74 MB
+--------------------------Run end---------------------------------
+
+
+[1;35m========== Checking directory: svp_simple_325_001 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/pthread/svp_simple_325_001/svp_simple_325_001.c
+********Execute Analysis with NIChecker:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-08-30 07:07:50
+translator_handler.callTranslatorNormal:cmd
+./cseq.py -i /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/pthread/svp_simple_325_001/_mt_svp_simple_325_001.c --rounds 2 --backend cbmc --error-label ERROR --unwind 3 --contexts 0 --cores 4
+--------------------------Run start-------------------------------
+inliner
+slice
+LoopAbstraction
+unroller
+insertLabel
+lazyseq
+feeder  0.206
+[92mSAFE[0m, counterexample: 0, time: 1.936 s, memory: 29.96 MB
+--------------------------Run end---------------------------------
+
+
+[1;35m========== Checking directory: svp_simple_326_001 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/pthread/svp_simple_326_001/svp_simple_326_001.c
+********Execute Analysis with NIChecker:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-08-30 07:07:52
+translator_handler.callTranslatorNormal:cmd
+./cseq.py -i /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/pthread/svp_simple_326_001/_mt_svp_simple_326_001.c --rounds 2 --backend cbmc --error-label ERROR --unwind 3 --contexts 0 --cores 4
+--------------------------Run start-------------------------------
+inliner
+slice
+LoopAbstraction
+unroller
+insertLabel
+lazyseq
+feeder  0.247
+[92mSAFE[0m, counterexample: 0, time: 2.078 s, memory: 32.29 MB
+--------------------------Run end---------------------------------
+
+
+[1;35m========== Checking directory: svp_simple_327_001 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/pthread/svp_simple_327_001/svp_simple_327_001.c
+********Execute Analysis with NIChecker:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-08-30 07:07:55
+translator_handler.callTranslatorNormal:cmd
+./cseq.py -i /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/pthread/svp_simple_327_001/_mt_svp_simple_327_001.c --rounds 2 --backend cbmc --error-label ERROR --unwind 3 --contexts 0 --cores 4
+--------------------------Run start-------------------------------
+inliner
+slice
+LoopAbstraction
+unroller
+insertLabel
+lazyseq
+feeder  0.208
+[92mSAFE[0m, counterexample: 0, time: 2.028 s, memory: 30.28 MB
+--------------------------Run end---------------------------------
+
+
+[1;35m========== Checking directory: svp_simple_328_001 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/pthread/svp_simple_328_001/svp_simple_328_001.c
+********Execute Analysis with NIChecker:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-08-30 07:07:57
+translator_handler.callTranslatorNormal:cmd
+./cseq.py -i /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/pthread/svp_simple_328_001/_mt_svp_simple_328_001.c --rounds 2 --backend cbmc --error-label ERROR --unwind 3 --contexts 0 --cores 4
+--------------------------Run start-------------------------------
+inliner
+slice
+LoopAbstraction
+unroller
+insertLabel
+lazyseq
+feeder  0.217
+[92mSAFE[0m, counterexample: 0, time: 2.064 s, memory: 30.59 MB
+--------------------------Run end---------------------------------
+
+
+[1;35m========== Checking directory: svp_simple_329_001 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/pthread/svp_simple_329_001/svp_simple_329_001.c
+********Execute Analysis with NIChecker:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-08-30 07:07:59
+translator_handler.callTranslatorNormal:cmd
+./cseq.py -i /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/pthread/svp_simple_329_001/_mt_svp_simple_329_001.c --rounds 2 --backend cbmc --error-label ERROR --unwind 3 --contexts 0 --cores 4
+--------------------------Run start-------------------------------
+inliner
+slice
+LoopAbstraction
+unroller
+insertLabel
+lazyseq
+feeder  0.207
+[92mSAFE[0m, counterexample: 0, time: 2.171 s, memory: 29.53 MB
+--------------------------Run end---------------------------------
+
+
+[1;35m========== Checking directory: svp_simple_330_001 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/pthread/svp_simple_330_001/svp_simple_330_001.c
+********Execute Analysis with NIChecker:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-08-30 07:08:02
+translator_handler.callTranslatorNormal:cmd
+./cseq.py -i /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/pthread/svp_simple_330_001/_mt_svp_simple_330_001.c --rounds 2 --backend cbmc --error-label ERROR --unwind 3 --contexts 0 --cores 4
+--------------------------Run start-------------------------------
+inliner
+slice
+LoopAbstraction
+unroller
+insertLabel
+lazyseq
+feeder  0.219
+[92mSAFE[0m, counterexample: 0, time: 2.025 s, memory: 30.52 MB
+--------------------------Run end---------------------------------
+
+
+[1;35m========== Checking directory: svp_simple_331_001 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/pthread/svp_simple_331_001/svp_simple_331_001.c
+********Execute Analysis with NIChecker:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-08-30 07:08:04
+translator_handler.callTranslatorNormal:cmd
+./cseq.py -i /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/pthread/svp_simple_331_001/_mt_svp_simple_331_001.c --rounds 2 --backend cbmc --error-label ERROR --unwind 3 --contexts 0 --cores 4
+--------------------------Run start-------------------------------
+inliner
+slice
+LoopAbstraction
+unroller
+insertLabel
+lazyseq
+feeder  0.209
+[92mSAFE[0m, counterexample: 0, time: 2.189 s, memory: 29.68 MB
+--------------------------Run end---------------------------------
+
+
+[1;35m========== Checking directory: svp_simple_332_001 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/pthread/svp_simple_332_001/svp_simple_332_001.c
+********Execute Analysis with NIChecker:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-08-30 07:08:06
+translator_handler.callTranslatorNormal:cmd
+./cseq.py -i /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/svcomp2022/pthread/svp_simple_332_001/_mt_svp_simple_332_001.c --rounds 2 --backend cbmc --error-label ERROR --unwind 3 --contexts 0 --cores 4
+--------------------------Run start-------------------------------
+inliner
+slice
+LoopAbstraction
+unroller
+insertLabel
+lazyseq
+feeder  0.221
+[92mSAFE[0m, counterexample: 0, time: 2.192 s, memory: 30.76 MB
+--------------------------Run end---------------------------------
+
+

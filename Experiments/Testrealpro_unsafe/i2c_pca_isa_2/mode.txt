@@ -1,0 +1,2 @@
+int test_global_var1 rwr
+int irq wwr

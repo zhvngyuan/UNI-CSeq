@@ -1,0 +1,182 @@
+2025年7月6日10:47, ./runRW_safe.sh 3600 cbmc
+========================================
+[1;35m========== Checking directory: logger1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/logger1/main.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/logger1/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/logger1/main.c, [92mTRUE[0m, 0.52
+
+[1;35m========== Checking directory: logger2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/logger2/main.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/logger2/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/logger2/main.c, [92mTRUE[0m, 0.66
+
+[1;35m========== Checking directory: logger3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/logger3/main.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/logger3/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/logger3/main.c, [92mTRUE[0m, 0.73
+
+[1;35m========== Checking directory: blink1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/blink1/main.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/blink1/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/blink1/main.c, [92mTRUE[0m, 0.52
+
+[1;35m========== Checking directory: blink2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/blink2/main.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/blink2/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/blink2/main.c, [92mTRUE[0m, 0.54
+
+[1;35m========== Checking directory: blink3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/blink3/main.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/blink3/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/blink3/main.c, [92mTRUE[0m, 0.55
+
+[1;35m========== Checking directory: brake1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/brake1/main.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/brake1/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/brake1/main.c, [91mFALSE[0m, 1.48
+
+[1;35m========== Checking directory: brake2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/brake2/main.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/brake2/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/brake2/main.c, [92mTRUE[0m, 1.14
+
+[1;35m========== Checking directory: brake3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/brake3/main.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/brake3/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/brake3/main.c, [91mFALSE[0m, 2.12
+
+[1;35m========== Checking directory: i2c_pca_isa_1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/i2c_pca_isa_1/main.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/i2c_pca_isa_1/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/i2c_pca_isa_1/main.c, [92mTRUE[0m, 0.61
+
+[1;35m========== Checking directory: i2c_pca_isa_2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/i2c_pca_isa_2/main.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/i2c_pca_isa_2/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/i2c_pca_isa_2/main.c, [92mTRUE[0m, 0.75
+
+[1;35m========== Checking directory: i2c_pca_isa_3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/i2c_pca_isa_3/main.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/i2c_pca_isa_3/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/i2c_pca_isa_3/main.c, [91mFALSE[0m, 1.55
+
+[1;35m========== Checking directory: i8xx_tco_1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/i8xx_tco_1/main.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/i8xx_tco_1/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/i8xx_tco_1/main.c, [91mFALSE[0m, 6.29
+
+[1;35m========== Checking directory: i8xx_tco_2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/i8xx_tco_2/main.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/i8xx_tco_2/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/i8xx_tco_2/main.c, [92mTRUE[0m, 6.65
+
+[1;35m========== Checking directory: i8xx_tco_3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/i8xx_tco_3/main.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/i8xx_tco_3/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/i8xx_tco_3/main.c, [92mTRUE[0m, 15.91
+
+[1;35m========== Checking directory: wdt_pci_1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/wdt_pci_1/main.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/wdt_pci_1/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/wdt_pci_1/main.c, [92mTRUE[0m, 0.98
+
+[1;35m========== Checking directory: wdt_pci_2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/wdt_pci_2/main.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/wdt_pci_2/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/wdt_pci_2/main.c, [91mFALSE[0m, 1.84
+
+[1;35m========== Checking directory: wdt_pci_3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/wdt_pci_3/main.c
+********Execute Analysis with cbmc:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+cbmc --no-unwinding-assertions --unwind 2  /home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/wdt_pci_3/_cseq_main.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/Testrealpro_safe_cbmc/wdt_pci_3/main.c, [92mTRUE[0m, 1.12
+

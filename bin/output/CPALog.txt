@@ -1,0 +1,76 @@
+2026-08-27 17:54:44:047	INFO	CPAMain.detectFrontendLanguageIfNecessary	Language C detected and set for analysis
+
+2026-08-27 17:54:44:063	INFO	ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 86400s
+
+2026-08-27 17:54:44:110	INFO	CPAchecker.run	CPAchecker 4.0 / default (OpenJDK 64-Bit Server VM 17.0.14) started
+
+2026-08-27 17:54:44:121	INFO	CPAchecker.parse	Parsing CFA from file(s) "/home/dell/zyworkspace/unichecker/Experiments/ComExp_Split_unicseq_CC/goblint-regression/svp_simple_608_001/_cseq_cpachecker_svp_simple_608_001_assert1.c"
+
+2026-08-27 17:54:45:050	INFO	CPAchecker.run	Using default specification, which checks for assertion failures and error labels.
+
+2026-08-27 17:54:45:517	INFO	CoreComponentsFactory.createAlgorithm	Using heuristics to select analysis
+
+2026-08-27 17:54:45:526	WARNING	CPAchecker.printConfigurationWarnings	The following configuration options were specified but are not used:
+ cpa.callstack.unsupportedFunctions 
+
+
+2026-08-27 17:54:45:526	INFO	CPAchecker.runAlgorithm	Starting analysis ...
+
+2026-08-27 17:54:45:529	INFO	SelectionAlgorithm.chooseConfig	Performing heuristic ...
+
+2026-08-27 17:54:45:533	INFO	Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/multipleLoopsConfig.properties:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 86400s
+
+2026-08-27 17:54:45:537	INFO	Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/multipleLoopsConfig.properties:CoreComponentsFactory.createAlgorithm	Using Restarting Algorithm
+
+2026-08-27 17:54:45:549	INFO	Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/multipleLoopsConfig.properties:RestartAlgorithm.run	Loading analysis 1 from file /home/dell/zyworkspace/CPAchecker-4.0/config/components/parallel-multipleLoops.properties ...
+
+2026-08-27 17:54:45:554	INFO	Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/multipleLoopsConfig.properties:Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/parallel-multipleLoops.properties:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 86400s
+
+2026-08-27 17:54:45:570	INFO	Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/multipleLoopsConfig.properties:Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/parallel-multipleLoops.properties:Parallel analysis 1:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 86400s, Thread CPU-time limit of 140s
+
+2026-08-27 17:54:45:808	INFO	Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/multipleLoopsConfig.properties:Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 86400s, Thread CPU-time limit of 60s
+
+2026-08-27 17:54:45:859	INFO	Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/multipleLoopsConfig.properties:Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/parallel-multipleLoops.properties:Parallel analysis 3:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 86400s, Thread CPU-time limit of 200s
+
+2026-08-27 17:54:45:923	INFO	Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/multipleLoopsConfig.properties:Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/parallel-multipleLoops.properties:Parallel analysis 3:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant) and JFactory 1.21.
+
+2026-08-27 17:54:45:977	INFO	Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/multipleLoopsConfig.properties:Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/parallel-multipleLoops.properties:Parallel analysis 3:PredicateCPA:PredicateCPARefiner.<init>	Using refinement for predicate analysis with PredicateAbstractionRefinementStrategy strategy.
+
+2026-08-27 17:54:45:986	INFO	Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/multipleLoopsConfig.properties:Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/parallel-multipleLoops.properties:Parallel analysis 4:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 86400s, Thread CPU-time limit of 60s
+
+2026-08-27 17:54:46:044	INFO	Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/multipleLoopsConfig.properties:Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/parallel-multipleLoops.properties:Parallel analysis 5:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 86400s
+
+2026-08-27 17:54:46:055	INFO	Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/multipleLoopsConfig.properties:Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/parallel-multipleLoops.properties:Parallel analysis 5:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2026-08-27 17:54:46:153	INFO	Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/multipleLoopsConfig.properties:Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/parallel-multipleLoops.properties:Parallel analysis 5:InductionStepCase:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2026-08-27 17:54:46:164	INFO	Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/multipleLoopsConfig.properties:RestartAlgorithm.run	Starting analysis 1 ...
+
+2026-08-27 17:54:46:226	INFO	Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/multipleLoopsConfig.properties:Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/parallel-multipleLoops.properties:Parallel analysis 5:AbstractBMCAlgorithm.run	Creating formula for program
+
+2026-08-27 17:54:46:312	INFO	Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/multipleLoopsConfig.properties:Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/parallel-multipleLoops.properties:Parallel analysis 5:AbstractBMCAlgorithm.boundedModelCheck	Starting satisfiability check...
+
+2026-08-27 17:54:46:314	INFO	Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/multipleLoopsConfig.properties:Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/parallel-multipleLoops.properties:Parallel analysis 5:AbstractBMCAlgorithm.checkBoundingAssertions	Starting assertions check...
+
+2026-08-27 17:54:46:343	INFO	Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/multipleLoopsConfig.properties:Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/parallel-multipleLoops.properties:ParallelAlgorithm.handleFutureResults	/home/dell/zyworkspace/CPAchecker-4.0/config/components/parallel-valueAnalysis-Cegar.properties finished successfully.
+
+2026-08-27 17:54:46:345	INFO	Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/multipleLoopsConfig.properties:Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/parallel-multipleLoops.properties:Parallel analysis 3:ParallelAlgorithm.runParallelAnalysis	Analysis was terminated
+
+2026-08-27 17:54:46:345	INFO	Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/multipleLoopsConfig.properties:Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/parallel-multipleLoops.properties:Parallel analysis 1:ParallelAlgorithm.runParallelAnalysis	Analysis was terminated
+
+2026-08-27 17:54:46:346	INFO	Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/multipleLoopsConfig.properties:Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/parallel-multipleLoops.properties:Parallel analysis 4:ParallelAlgorithm.runParallelAnalysis	Analysis was terminated
+
+2026-08-27 17:54:46:348	WARNING	Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/multipleLoopsConfig.properties:Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/parallel-multipleLoops.properties:Parallel analysis 5:TargetLocationProvider:TargetLocationProviderImpl.tryGetAutomatonTargetLocations	Finding target locations was interrupted. Defaulting to select all locations as potential target locations.
+
+2026-08-27 17:54:46:353	WARNING	Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/multipleLoopsConfig.properties:Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/parallel-multipleLoops.properties:Parallel analysis 5:TargetLocationProvider:TargetLocationProviderImpl.tryGetAutomatonTargetLocations	Finding target locations was interrupted. Defaulting to select all locations as potential target locations.
+
+2026-08-27 17:54:46:355	INFO	Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/multipleLoopsConfig.properties:Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/parallel-multipleLoops.properties:Parallel analysis 5:ParallelAlgorithm.runParallelAnalysis	Analysis was terminated
+
+2026-08-27 17:54:46:356	INFO	Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/multipleLoopsConfig.properties:RestartAlgorithm.skipNextAnalysesIfRequired	Ignoring restart configuration '/home/dell/zyworkspace/CPAchecker-4.0/config/components/recursion.properties' because condition if-recursive did not match.
+
+2026-08-27 17:54:46:357	INFO	Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/multipleLoopsConfig.properties:RestartAlgorithm.skipNextAnalysesIfRequired	Ignoring restart configuration '/home/dell/zyworkspace/CPAchecker-4.0/config/components/concurrency.properties' because condition if-concurrent did not match.
+
+2026-08-27 17:54:46:357	INFO	CPAchecker.runAlgorithm	Stopping analysis ...
+
+2026-08-27 17:54:46:740	WARNING	Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/multipleLoopsConfig.properties:Analysis /home/dell/zyworkspace/CPAchecker-4.0/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ARGCPA:BufferedWriter.ensureOpen	Warning: Could not write refinement graph to file (Stream closed)
+

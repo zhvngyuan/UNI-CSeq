@@ -1,0 +1,54 @@
+IntBool
+
+[main_task::__CPAchecker_TMP_1, isr_1::__CPAchecker_TMP_9, main_task::__CPAchecker_TMP_0, isr_1::__CPAchecker_TMP_6, isr_1::__CPAchecker_TMP_5, __VERIFIER_nondet_int::__retval__, __VERIFIER_nondet_char::__retval__, __VERIFIER_nondet_bool::__retval__, isr_1::__CPAchecker_TMP_4, isr_1::__CPAchecker_TMP_3, isr_1::__CPAchecker_TMP_2, __VERIFIER_nondet_bool::i, isr_1::__CPAchecker_TMP_1, reader2, isr_1::__CPAchecker_TMP_0, isr_1::__CPAchecker_TMP_10, isr_1::__CPAchecker_TMP_11, isr_1::__CPAchecker_TMP_12, isr_2::__CPAchecker_TMP_0, isr_1::__CPAchecker_TMP_13, __cs_init_scalar::*((int *)var), __VERIFIER_nondet_int::i, reader3, __VERIFIER_nondet_char::i]
+
+IntEq
+
+[__cs_disable_isr_0, __cs_disable_isr_1, __cs_disable_isr_2, g_flag, __cs_init_scalar::size, __cs_simulate, reader1, g_var, x, y, z, __cs_pc_3, __cs_pc_2]
+
+IntAdd
+
+[isr_1::t_1, isr_1::__CPAchecker_TMP_8, __VERIFIER_nondet_uint::i, __VERIFIER_nondet_uint::__retval__, __cs_pc_1, __VERIFIER_assume::i]
+
+IntOverflow
+
+[isr_1::loop_1_block_1, isr_1::t_1, isr_1::__CPAchecker_TMP_8, isr_1::__CPAchecker_TMP_7, static__isr_1____cs_l_isr_1_i, isr_1::loop_1_IOVar1]
+
+ALL
+
+[isr_1::__CPAchecker_TMP_9, isr_1::__CPAchecker_TMP_8, isr_1::__CPAchecker_TMP_7, isr_1::__CPAchecker_TMP_6, isr_1::__CPAchecker_TMP_5, __VERIFIER_nondet_bool::__retval__, isr_1::__CPAchecker_TMP_4, isr_1::__CPAchecker_TMP_3, isr_1::__CPAchecker_TMP_2, isr_1::__CPAchecker_TMP_1, __cs_init_scalar::size, isr_1::__CPAchecker_TMP_0, __VERIFIER_nondet_uint::__retval__, isr_1::t_1, __cs_init_scalar::var, isr_1::g_array[static__isr_1____cs_l_isr_1_i], g_var, isr_1::loop_1_IOVar1, __VERIFIER_nondet_bool::i, reader2, __cs_simulate, isr_1::__CPAchecker_TMP_10, reader1, isr_1::__CPAchecker_TMP_11, isr_1::__CPAchecker_TMP_12, isr_2::__CPAchecker_TMP_0, isr_1::__CPAchecker_TMP_13, __VERIFIER_assume::i, __VERIFIER_nondet_int::i, reader3, isr_1::loop_1_block_1, main_task::__CPAchecker_TMP_1, __cs_disable_isr_0, main_task::__CPAchecker_TMP_0, __cs_disable_isr_1, __cs_disable_isr_2, static__isr_1____cs_l_isr_1_i, __VERIFIER_nondet_int::__retval__, g_array, __cs_init_scalar::*((int *)var), __cs_pc_3, __cs_pc_1, __cs_pc_2, __VERIFIER_nondet_char::__retval__, g_flag, __VERIFIER_nondet_uint::i, __cs_init_scalar::ptr, x, y, z, __VERIFIER_nondet_char::i]
+
+DEPENDENCIES
+
+[[__VERIFIER_assume::i, __VERIFIER_nondet_uint::__retval__, __VERIFIER_nondet_uint::i] --> [0],
+[__VERIFIER_nondet_bool::__retval__, __VERIFIER_nondet_bool::i, isr_1::__CPAchecker_TMP_0, isr_1::__CPAchecker_TMP_1, isr_1::__CPAchecker_TMP_10, isr_1::__CPAchecker_TMP_11, isr_1::__CPAchecker_TMP_12, isr_1::__CPAchecker_TMP_13, isr_1::__CPAchecker_TMP_2, isr_1::__CPAchecker_TMP_3, isr_1::__CPAchecker_TMP_4, isr_1::__CPAchecker_TMP_5, isr_1::__CPAchecker_TMP_6, isr_1::__CPAchecker_TMP_9, isr_2::__CPAchecker_TMP_0, main_task::__CPAchecker_TMP_0, main_task::__CPAchecker_TMP_1] --> [0],
+[__VERIFIER_nondet_char::__retval__, __VERIFIER_nondet_char::i] --> [],
+[__VERIFIER_nondet_int::__retval__, __VERIFIER_nondet_int::i, __cs_init_scalar::*((int *)var)] --> [],
+[__cs_init_scalar::size] --> [4],
+[__cs_init_scalar::ptr, __cs_init_scalar::var] --> [],
+[__cs_simulate] --> [0, 1, 2],
+[__cs_pc_1] --> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+[g_flag] --> [0, 1],
+[__cs_disable_isr_2] --> [0, 1],
+[reader1, x] --> [0, 1, 5, 6],
+[isr_1::__CPAchecker_TMP_7, isr_1::loop_1_IOVar1, isr_1::loop_1_block_1, static__isr_1____cs_l_isr_1_i] --> [0, 1, 10],
+[isr_1::__CPAchecker_TMP_8, isr_1::t_1] --> [0, 1, 2],
+[isr_1::g_array[static__isr_1____cs_l_isr_1_i]] --> [1],
+[z] --> [0, 4],
+[g_var] --> [0, 1, 2],
+[__cs_pc_2] --> [0, 4],
+[y] --> [0, 5],
+[__cs_pc_3] --> [0, 1, 2],
+[__cs_disable_isr_0] --> [0, 1],
+[__cs_disable_isr_1] --> [0, 1],
+[g_array] --> [10],
+[reader2] --> [0],
+[reader3] --> [0]]
+
+RELEVANT VARS
+
+[main_task::__CPAchecker_TMP_1, isr_1::loop_1_block_1, isr_1::__CPAchecker_TMP_9, main_task::__CPAchecker_TMP_0, __cs_disable_isr_0, __cs_disable_isr_1, __cs_disable_isr_2, static__isr_1____cs_l_isr_1_i, isr_1::__CPAchecker_TMP_6, isr_1::__CPAchecker_TMP_5, __VERIFIER_nondet_int::__retval__, isr_1::__CPAchecker_TMP_4, __VERIFIER_nondet_bool::__retval__, isr_1::__CPAchecker_TMP_3, isr_1::__CPAchecker_TMP_2, isr_1::__CPAchecker_TMP_1, g_array, isr_1::__CPAchecker_TMP_0, __cs_init_scalar::size, isr_1::t_1, __cs_init_scalar::var, isr_1::loop_1_IOVar1, __cs_pc_3, __cs_pc_1, __cs_pc_2, __VERIFIER_nondet_bool::i, __VERIFIER_nondet_uint::i, __cs_simulate, isr_1::__CPAchecker_TMP_10, isr_1::__CPAchecker_TMP_11, isr_2::__CPAchecker_TMP_0, isr_1::__CPAchecker_TMP_12, isr_1::__CPAchecker_TMP_13, __VERIFIER_assume::i, __VERIFIER_nondet_int::i]
+
+RELEVANT FIELDS
+
+{}

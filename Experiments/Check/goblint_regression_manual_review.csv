@@ -1,0 +1,6 @@
+file,cbmc_result,cbmc_time,cpachecker_result,cpachecker_time,status,candidate_gt,reason
+goblint-regression/svp_simple_508_001/svp_simple_508_001_assert1.c,TRUE,0.35,FALSE,3.61,NEED_MANUAL,,disagree
+goblint-regression/svp_simple_519_001/svp_simple_519_001_assert1.c,TRUE,0.34,FALSE,3.55,NEED_MANUAL,,disagree
+goblint-regression/svp_simple_520_001/svp_simple_520_001_assert1.c,TRUE,0.40,FALSE,4.27,NEED_MANUAL,,disagree
+goblint-regression/svp_simple_643_001/svp_simple_643_001_assert3.c,TRUE,0.46,FALSE,4.04,NEED_MANUAL,,disagree
+goblint-regression/svp_simple_696_001/svp_simple_696_001_assert2.c,FALSE,0.43,UNKNOWN,3.41,NEED_MANUAL,,disagree

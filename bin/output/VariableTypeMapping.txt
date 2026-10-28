@@ -1,0 +1,21 @@
+__cs_disable_isr_0	7
+main_task::__CPAchecker_TMP_0	7
+__cs_disable_isr_1	6
+__VERIFIER_nondet_char::__retval__	7
+__VERIFIER_nondet_int::__retval__	7
+__VERIFIER_nondet_bool::__retval__	7
+glob1	6
+__VERIFIER_nondet_bool::i	7
+__VERIFIER_nondet_uint::i	4
+__cs_init_scalar::ptr	0
+__cs_init_scalar::size	6
+__cs_simulate	6
+svp_simple_608_001_isr_1::__CPAchecker_TMP_0	7
+__VERIFIER_nondet_uint::__retval__	4
+__cs_init_scalar::*((int *)var)	7
+__VERIFIER_assume::i	4
+__VERIFIER_nondet_int::i	7
+__cs_init_scalar::var	0
+__cs_pc_0	6
+__VERIFIER_nondet_char::i	7
+__cs_pc_1	6

@@ -1,0 +1,1904 @@
+2026年9月1日16:46, ./run_scripts/run_ComExp_unicseq.sh 900, tool=unicseq
+========================================
+[1;36m===== Checking Idv-races =====[0m
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/Idv-races/svp_simple_300_001/svp_simple_300_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.38 seconds
+Peak memory usage: 12.83 MB
+WALLTIME 3.689
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/Idv-races/svp_simple_300_001/svp_simple_300_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.75 seconds
+Peak memory usage: 12.92 MB
+WALLTIME 1.055
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/Idv-races/svp_simple_300_001/svp_simple_300_001_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.74 seconds
+Peak memory usage: 12.94 MB
+WALLTIME 1.039
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/Idv-races/svp_simple_300_001/svp_simple_300_001_assert4.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.74 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 1.044
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/Idv-races/svp_simple_301_001/svp_simple_301_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.75 seconds
+Peak memory usage: 12.78 MB
+WALLTIME 1.057
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/Idv-races/svp_simple_301_001/svp_simple_301_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.81 seconds
+Peak memory usage: 12.83 MB
+WALLTIME 1.112
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/Idv-races/svp_simple_301_001/svp_simple_301_001_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.76 seconds
+Peak memory usage: 12.87 MB
+WALLTIME 1.068
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/Idv-races/svp_simple_301_001/svp_simple_301_001_assert4.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.78 seconds
+Peak memory usage: 12.91 MB
+WALLTIME 1.089
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/Idv-races/svp_simple_302_001/svp_simple_302_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.77 seconds
+Peak memory usage: 12.83 MB
+WALLTIME 1.057
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/Idv-races/svp_simple_302_001/svp_simple_302_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.75 seconds
+Peak memory usage: 12.85 MB
+WALLTIME 1.062
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/Idv-races/svp_simple_302_001/svp_simple_302_001_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.75 seconds
+Peak memory usage: 12.90 MB
+WALLTIME 1.047
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/Idv-races/svp_simple_302_001/svp_simple_302_001_assert4.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.78 seconds
+Peak memory usage: 12.91 MB
+WALLTIME 1.073
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/Idv-races/svp_simple_303_001/svp_simple_303_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.73 seconds
+Peak memory usage: 12.94 MB
+WALLTIME 1.016
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/Idv-races/svp_simple_303_001/svp_simple_303_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.78 seconds
+Peak memory usage: 12.83 MB
+WALLTIME 1.067
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/Idv-races/svp_simple_303_001/svp_simple_303_001_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.80 seconds
+Peak memory usage: 12.87 MB
+WALLTIME 1.097
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/Idv-races/svp_simple_303_001/svp_simple_303_001_assert4.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.76 seconds
+Peak memory usage: 12.82 MB
+WALLTIME 1.034
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/Idv-races/svp_simple_304_001/svp_simple_304_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.71 seconds
+Peak memory usage: 12.82 MB
+WALLTIME 0.991
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/Idv-races/svp_simple_304_001/svp_simple_304_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.70 seconds
+Peak memory usage: 12.91 MB
+WALLTIME 1.006
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/Idv-races/svp_simple_304_001/svp_simple_304_001_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.73 seconds
+Peak memory usage: 12.89 MB
+WALLTIME 1.027
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/Idv-races/svp_simple_304_001/svp_simple_304_001_assert4.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.77 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 1.075
+[1;36m===== Checking pthread =====[0m
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/pthread/svp_simple_304_001/svp_simple_304_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.67 seconds
+Peak memory usage: 12.87 MB
+WALLTIME 0.961
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/pthread/svp_simple_324_001/svp_simple_324_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.67 seconds
+Peak memory usage: 12.95 MB
+WALLTIME 0.949
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/pthread/svp_simple_325_001/svp_simple_325_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'FALSE'}
+Total running time: 51.64 seconds
+Peak memory usage: 12.91 MB
+WALLTIME 51.938
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/pthread/svp_simple_326_001/svp_simple_326_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 6.18 seconds
+Peak memory usage: 12.91 MB
+WALLTIME 6.487
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/pthread/svp_simple_327_001/svp_simple_327_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'FALSE'}
+Total running time: 3.61 seconds
+Peak memory usage: 12.89 MB
+WALLTIME 3.913
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/pthread/svp_simple_328_001/svp_simple_328_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 10.05 seconds
+Peak memory usage: 12.89 MB
+WALLTIME 10.355
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/pthread/svp_simple_329_001/svp_simple_329_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.53 seconds
+Peak memory usage: 12.91 MB
+WALLTIME 3.838
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/pthread/svp_simple_330_001/svp_simple_330_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 7.76 seconds
+Peak memory usage: 12.87 MB
+WALLTIME 8.061
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/pthread/svp_simple_331_001/svp_simple_331_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.58 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 3.892
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/pthread/svp_simple_332_001/svp_simple_332_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.49 seconds
+Peak memory usage: 12.91 MB
+WALLTIME 4.796
+[1;36m===== Checking racebench2.1 =====[0m
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_001/svp_simple_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 5.04 seconds
+Peak memory usage: 12.75 MB
+WALLTIME 5.347
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_001/svp_simple_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.96 seconds
+Peak memory usage: 12.98 MB
+WALLTIME 1.264
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_002/svp_simple_002_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: UNKNOWN
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'UNKNOWN'}
+Total running time: 873.38 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 873.691
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_002/svp_simple_002_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 40.12 seconds
+Peak memory usage: 12.88 MB
+WALLTIME 40.428
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_003/svp_simple_003_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.19 seconds
+Peak memory usage: 12.89 MB
+WALLTIME 4.494
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_004/svp_simple_004_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.87 seconds
+Peak memory usage: 12.89 MB
+WALLTIME 1.171
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_004/svp_simple_004_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.65 seconds
+Peak memory usage: 12.83 MB
+WALLTIME 4.953
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_005/svp_simple_005_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.98 seconds
+Peak memory usage: 12.83 MB
+WALLTIME 1.288
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_006/svp_simple_006_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 1.54 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 1.840
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_006/svp_simple_006_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'FALSE'}
+Total running time: 53.47 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 53.775
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_006/svp_simple_006_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 325.77 seconds
+Peak memory usage: 12.91 MB
+WALLTIME 326.072
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_006/svp_simple_006_assert4.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 55.57 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 55.884
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_007/svp_simple_007_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.76 seconds
+Peak memory usage: 12.83 MB
+WALLTIME 1.071
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_008/svp_simple_008_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 13.18 seconds
+Peak memory usage: 12.95 MB
+WALLTIME 13.486
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_009/svp_simple_009_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: UNKNOWN
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'UNKNOWN'}
+Total running time: 6.27 seconds
+Peak memory usage: 12.88 MB
+WALLTIME 6.573
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_009/svp_simple_009_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: UNKNOWN
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'UNKNOWN'}
+Total running time: 6.48 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 6.787
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_010/svp_simple_010_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.71 seconds
+Peak memory usage: 12.92 MB
+WALLTIME 4.023
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_010/svp_simple_010_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.93 seconds
+Peak memory usage: 12.90 MB
+WALLTIME 4.237
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_011/svp_simple_011_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: UNKNOWN
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'UNKNOWN'}
+Total running time: 4.74 seconds
+Peak memory usage: 12.91 MB
+WALLTIME 5.041
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_011/svp_simple_011_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: UNKNOWN
+Backend results: {'cbmc': 'ERROR', 'cpachecker': 'UNKNOWN'}
+Total running time: 4.74 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 5.046
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_012/svp_simple_012_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: UNKNOWN
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'UNKNOWN'}
+Total running time: 4.44 seconds
+Peak memory usage: 12.98 MB
+WALLTIME 4.743
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_013/svp_simple_013_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.87 seconds
+Peak memory usage: 12.79 MB
+WALLTIME 1.172
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_013/svp_simple_013_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.82 seconds
+Peak memory usage: 12.85 MB
+WALLTIME 1.121
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_013/svp_simple_013_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 68.14 seconds
+Peak memory usage: 12.92 MB
+WALLTIME 68.450
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_014/svp_simple_014_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.82 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 1.124
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_014/svp_simple_014_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.81 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 1.115
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_015/svp_simple_015_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.77 seconds
+Peak memory usage: 12.92 MB
+WALLTIME 1.074
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_015/svp_simple_015_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.77 seconds
+Peak memory usage: 12.95 MB
+WALLTIME 1.085
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_016/svp_simple_016_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.71 seconds
+Peak memory usage: 12.88 MB
+WALLTIME 0.980
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_017/svp_simple_017_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 3.71 seconds
+Peak memory usage: 12.91 MB
+WALLTIME 4.016
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_018/svp_simple_018_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.25 seconds
+Peak memory usage: 12.88 MB
+WALLTIME 4.551
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_018/svp_simple_018_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.82 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 1.112
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_019/svp_simple_019_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.92 seconds
+Peak memory usage: 12.92 MB
+WALLTIME 1.223
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_020/svp_simple_020_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'FALSE'}
+Total running time: 7.14 seconds
+Peak memory usage: 12.91 MB
+WALLTIME 7.448
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_020/svp_simple_020_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.78 seconds
+Peak memory usage: 12.94 MB
+WALLTIME 1.081
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_021/svp_simple_021_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 1.10 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 1.407
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_022/svp_simple_022_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'FALSE'}
+Total running time: 15.99 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 16.297
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_023/svp_simple_023_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.71 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 1.006
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_024/svp_simple_024_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'FALSE'}
+Total running time: 12.12 seconds
+Peak memory usage: 12.79 MB
+WALLTIME 12.415
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_025/svp_simple_025_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.67 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 0.974
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_026/svp_simple_026_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.74 seconds
+Peak memory usage: 12.85 MB
+WALLTIME 1.044
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_026/svp_simple_026_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.75 seconds
+Peak memory usage: 12.91 MB
+WALLTIME 1.044
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_027/svp_simple_027_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.73 seconds
+Peak memory usage: 12.93 MB
+WALLTIME 1.022
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_027/svp_simple_027_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.47 seconds
+Peak memory usage: 12.88 MB
+WALLTIME 4.772
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_027/svp_simple_027_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.72 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 1.020
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_028/svp_simple_028_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.65 seconds
+Peak memory usage: 12.92 MB
+WALLTIME 4.956
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_028/svp_simple_028_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.76 seconds
+Peak memory usage: 12.87 MB
+WALLTIME 1.060
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_028/svp_simple_028_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.84 seconds
+Peak memory usage: 12.83 MB
+WALLTIME 1.141
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_029/svp_simple_029_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 68.84 seconds
+Peak memory usage: 12.85 MB
+WALLTIME 69.154
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_030/svp_simple_030_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.80 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 1.105
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_030/svp_simple_030_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.80 seconds
+Peak memory usage: 12.89 MB
+WALLTIME 1.103
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_031/svp_simple_031_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.93 seconds
+Peak memory usage: 12.79 MB
+WALLTIME 1.236
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/racebench2.1/svp_simple_031/svp_simple_031_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.95 seconds
+Peak memory usage: 12.80 MB
+WALLTIME 1.254
+[1;36m===== Checking rw_benchmark =====[0m
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/logger1/main_n_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.54 seconds
+Peak memory usage: 12.92 MB
+WALLTIME 4.843
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/logger2/main_n_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.22 seconds
+Peak memory usage: 12.92 MB
+WALLTIME 4.527
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/logger2/main_n_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.19 seconds
+Peak memory usage: 12.80 MB
+WALLTIME 4.498
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/logger2/main_n_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.43 seconds
+Peak memory usage: 12.94 MB
+WALLTIME 3.742
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/logger3/main_n_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.49 seconds
+Peak memory usage: 12.85 MB
+WALLTIME 3.801
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/logger3/main_n_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.69 seconds
+Peak memory usage: 12.88 MB
+WALLTIME 4.003
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/logger3/main_n_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.77 seconds
+Peak memory usage: 12.88 MB
+WALLTIME 4.076
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/logger3/main_n_assert4.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 13.54 seconds
+Peak memory usage: 12.92 MB
+WALLTIME 13.844
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/blink1/main_n_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.76 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 1.066
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/blink1/main_n_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.83 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 1.141
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/blink1/main_n_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.20 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 4.507
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/blink2/main_n_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.77 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 1.079
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/blink2/main_n_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.80 seconds
+Peak memory usage: 12.95 MB
+WALLTIME 1.102
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/blink2/main_n_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.28 seconds
+Peak memory usage: 12.83 MB
+WALLTIME 4.578
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/blink3/main_n_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'ERROR', 'cpachecker': 'FALSE'}
+Total running time: 3.32 seconds
+Peak memory usage: 12.95 MB
+WALLTIME 3.623
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/blink3/main_n_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.89 seconds
+Peak memory usage: 12.95 MB
+WALLTIME 1.197
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/blink3/main_n_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.85 seconds
+Peak memory usage: 12.88 MB
+WALLTIME 1.156
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/blink3/main_n_assert4.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.26 seconds
+Peak memory usage: 12.89 MB
+WALLTIME 4.558
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/brake1/main_n_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.39 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 4.698
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/brake1/main_n_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.36 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 4.674
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/brake1/main_n_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.00 seconds
+Peak memory usage: 12.89 MB
+WALLTIME 4.307
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/brake1/main_n_assert4.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.91 seconds
+Peak memory usage: 12.91 MB
+WALLTIME 4.218
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/brake1/main_n_assert5.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 1.23 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 1.536
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/brake2/main_n_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 1.46 seconds
+Peak memory usage: 12.80 MB
+WALLTIME 1.767
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/brake2/main_n_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 5.51 seconds
+Peak memory usage: 12.85 MB
+WALLTIME 5.808
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/brake2/main_n_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 1.37 seconds
+Peak memory usage: 12.90 MB
+WALLTIME 1.675
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/brake2/main_n_assert4.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 1.43 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 1.730
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/brake3/main_n_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 1.59 seconds
+Peak memory usage: 12.92 MB
+WALLTIME 1.894
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/brake3/main_n_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 7.46 seconds
+Peak memory usage: 12.90 MB
+WALLTIME 7.766
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/brake3/main_n_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 1.56 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 1.865
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/brake3/main_n_assert4.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 1.63 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 1.913
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/brake3/main_n_assert5.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 1.54 seconds
+Peak memory usage: 12.91 MB
+WALLTIME 1.815
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_1/main_n_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 5.96 seconds
+Peak memory usage: 12.92 MB
+WALLTIME 6.249
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_1/main_n_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 5.28 seconds
+Peak memory usage: 12.91 MB
+WALLTIME 5.586
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_1/main_n_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.21 seconds
+Peak memory usage: 12.88 MB
+WALLTIME 4.508
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_1/main_n_assert4.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.87 seconds
+Peak memory usage: 12.92 MB
+WALLTIME 5.174
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_1/main_n_assert5.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.43 seconds
+Peak memory usage: 12.88 MB
+WALLTIME 4.733
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_1/main_n_assert6.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.94 seconds
+Peak memory usage: 12.89 MB
+WALLTIME 5.247
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_2/main_n_assert10.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.65 seconds
+Peak memory usage: 12.83 MB
+WALLTIME 3.954
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_2/main_n_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.89 seconds
+Peak memory usage: 12.89 MB
+WALLTIME 1.195
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_2/main_n_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.85 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 1.149
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_2/main_n_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.88 seconds
+Peak memory usage: 13.00 MB
+WALLTIME 1.183
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_2/main_n_assert4.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.83 seconds
+Peak memory usage: 12.79 MB
+WALLTIME 1.131
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_2/main_n_assert5.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.82 seconds
+Peak memory usage: 12.92 MB
+WALLTIME 1.124
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_2/main_n_assert6.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.94 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 1.242
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_2/main_n_assert7.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.84 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 1.112
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_2/main_n_assert8.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.82 seconds
+Peak memory usage: 12.78 MB
+WALLTIME 1.134
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_2/main_n_assert9.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 5.74 seconds
+Peak memory usage: 12.82 MB
+WALLTIME 6.029
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_3/main_n_assert10.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.92 seconds
+Peak memory usage: 12.83 MB
+WALLTIME 1.225
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_3/main_n_assert11.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.93 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 1.233
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_3/main_n_assert12.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.90 seconds
+Peak memory usage: 12.82 MB
+WALLTIME 1.211
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_3/main_n_assert13.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 5.84 seconds
+Peak memory usage: 12.87 MB
+WALLTIME 6.124
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_3/main_n_assert14.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.61 seconds
+Peak memory usage: 12.85 MB
+WALLTIME 3.917
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_3/main_n_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.98 seconds
+Peak memory usage: 12.90 MB
+WALLTIME 1.283
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_3/main_n_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 1.01 seconds
+Peak memory usage: 12.83 MB
+WALLTIME 1.310
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_3/main_n_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.97 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 1.268
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_3/main_n_assert4.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.96 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 1.264
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_3/main_n_assert5.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.92 seconds
+Peak memory usage: 12.83 MB
+WALLTIME 1.214
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_3/main_n_assert6.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.93 seconds
+Peak memory usage: 12.91 MB
+WALLTIME 1.233
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_3/main_n_assert7.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.94 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 1.218
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_3/main_n_assert8.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.99 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 1.300
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i2c_pca_isa_3/main_n_assert9.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 1.00 seconds
+Peak memory usage: 12.79 MB
+WALLTIME 1.298
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i8xx_tco_1/main_n_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 5.87 seconds
+Peak memory usage: 12.89 MB
+WALLTIME 6.163
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i8xx_tco_1/main_n_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.36 seconds
+Peak memory usage: 12.83 MB
+WALLTIME 3.669
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i8xx_tco_2/main_n_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 1.21 seconds
+Peak memory usage: 12.85 MB
+WALLTIME 1.513
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i8xx_tco_2/main_n_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 6.19 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 6.503
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i8xx_tco_3/main_n_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 12.63 seconds
+Peak memory usage: 12.83 MB
+WALLTIME 12.955
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i8xx_tco_3/main_n_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 9.55 seconds
+Peak memory usage: 12.85 MB
+WALLTIME 9.855
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/i8xx_tco_3/main_n_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 10.82 seconds
+Peak memory usage: 12.85 MB
+WALLTIME 11.129
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/wdt_pci_1/main_n_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.72 seconds
+Peak memory usage: 12.80 MB
+WALLTIME 4.032
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/wdt_pci_1/main_n_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.77 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 4.081
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/wdt_pci_2/main_n_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.16 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 4.460
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/wdt_pci_2/main_n_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.03 seconds
+Peak memory usage: 12.85 MB
+WALLTIME 4.332
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/wdt_pci_2/main_n_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 1.21 seconds
+Peak memory usage: 12.92 MB
+WALLTIME 1.515
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/wdt_pci_3/main_n_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 5.33 seconds
+Peak memory usage: 12.90 MB
+WALLTIME 5.645
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/wdt_pci_3/main_n_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 1.37 seconds
+Peak memory usage: 12.89 MB
+WALLTIME 1.676
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/wdt_pci_3/main_n_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 1.34 seconds
+Peak memory usage: 12.80 MB
+WALLTIME 1.645
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/rw_benchmark/wdt_pci_3/main_n_assert4.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 1.37 seconds
+Peak memory usage: 12.85 MB
+WALLTIME 1.648
+[1;36m===== Checking goblint-regression =====[0m
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_500_001/svp_simple_500_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.70 seconds
+Peak memory usage: 12.94 MB
+WALLTIME 0.974
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_504_001/svp_simple_504_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.40 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 4.703
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_505_001/svp_simple_505_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.24 seconds
+Peak memory usage: 12.79 MB
+WALLTIME 3.550
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_506_001/svp_simple_506_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.49 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 3.780
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_506_001/svp_simple_506_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.30 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 4.609
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_507_001/svp_simple_507_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.69 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 1.002
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_508_001/svp_simple_508_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'FALSE'}
+Total running time: 3.80 seconds
+Peak memory usage: 12.91 MB
+WALLTIME 4.104
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_509_001/svp_simple_509_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 2.95 seconds
+Peak memory usage: 12.88 MB
+WALLTIME 3.261
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_510_001/svp_simple_510_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.67 seconds
+Peak memory usage: 12.80 MB
+WALLTIME 0.975
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_511_001/svp_simple_511_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.19 seconds
+Peak memory usage: 12.89 MB
+WALLTIME 4.498
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_512_001/svp_simple_512_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 2.91 seconds
+Peak memory usage: 12.90 MB
+WALLTIME 3.209
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_513_001/svp_simple_513_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.72 seconds
+Peak memory usage: 12.85 MB
+WALLTIME 1.027
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_518_001/svp_simple_518_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.66 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 0.968
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_518_001/svp_simple_518_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.67 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 0.970
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_519_001/svp_simple_519_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'FALSE'}
+Total running time: 4.13 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 4.437
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_519_001/svp_simple_519_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.70 seconds
+Peak memory usage: 12.91 MB
+WALLTIME 1.002
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_519_001/svp_simple_519_001_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.66 seconds
+Peak memory usage: 12.87 MB
+WALLTIME 0.963
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_520_001/svp_simple_520_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'FALSE'}
+Total running time: 4.33 seconds
+Peak memory usage: 12.89 MB
+WALLTIME 4.640
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_520_001/svp_simple_520_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.71 seconds
+Peak memory usage: 12.91 MB
+WALLTIME 1.020
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_521_001/svp_simple_521_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.71 seconds
+Peak memory usage: 12.88 MB
+WALLTIME 1.018
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_522_001/svp_simple_522_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.11 seconds
+Peak memory usage: 12.88 MB
+WALLTIME 4.419
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_524_001/svp_simple_524_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.67 seconds
+Peak memory usage: 12.88 MB
+WALLTIME 0.977
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_529_001/svp_simple_529_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.28 seconds
+Peak memory usage: 12.80 MB
+WALLTIME 3.579
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_536_001/svp_simple_536_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.76 seconds
+Peak memory usage: 12.85 MB
+WALLTIME 4.068
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_537_001/svp_simple_537_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.71 seconds
+Peak memory usage: 12.80 MB
+WALLTIME 1.018
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_538_001/svp_simple_538_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.70 seconds
+Peak memory usage: 12.91 MB
+WALLTIME 1.002
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_542_001/svp_simple_542_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.76 seconds
+Peak memory usage: 12.87 MB
+WALLTIME 1.038
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_542_001/svp_simple_542_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.23 seconds
+Peak memory usage: 12.92 MB
+WALLTIME 4.537
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_545_001/svp_simple_545_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.75 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 1.054
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_545_001/svp_simple_545_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.72 seconds
+Peak memory usage: 12.83 MB
+WALLTIME 5.028
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_547_001/svp_simple_547_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.72 seconds
+Peak memory usage: 12.83 MB
+WALLTIME 1.027
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_548_001/svp_simple_548_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.17 seconds
+Peak memory usage: 12.83 MB
+WALLTIME 3.481
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_560_001/svp_simple_560_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.76 seconds
+Peak memory usage: 12.96 MB
+WALLTIME 1.071
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_597_001/svp_simple_597_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.43 seconds
+Peak memory usage: 12.80 MB
+WALLTIME 3.736
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_598_001/svp_simple_598_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.06 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 3.358
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_600_001/svp_simple_600_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.70 seconds
+Peak memory usage: 12.85 MB
+WALLTIME 1.003
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_600_001/svp_simple_600_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.30 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 3.612
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_600_001/svp_simple_600_001_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.21 seconds
+Peak memory usage: 12.94 MB
+WALLTIME 3.518
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_600_001/svp_simple_600_001_assert4.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.53 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 3.833
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_601_001/svp_simple_601_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.13 seconds
+Peak memory usage: 12.83 MB
+WALLTIME 3.437
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_601_001/svp_simple_601_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.71 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 1.016
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_601_001/svp_simple_601_001_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.71 seconds
+Peak memory usage: 12.88 MB
+WALLTIME 1.016
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_602_001/svp_simple_602_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.85 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 1.147
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_602_001/svp_simple_602_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 55.44 seconds
+Peak memory usage: 12.90 MB
+WALLTIME 55.745
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_603_001/svp_simple_603_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.69 seconds
+Peak memory usage: 12.85 MB
+WALLTIME 0.991
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_604_001/svp_simple_604_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.65 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 0.954
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_605_001/svp_simple_605_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.67 seconds
+Peak memory usage: 12.95 MB
+WALLTIME 0.972
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_606_001/svp_simple_606_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.70 seconds
+Peak memory usage: 12.83 MB
+WALLTIME 1.002
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_607_001/svp_simple_607_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.68 seconds
+Peak memory usage: 12.98 MB
+WALLTIME 0.984
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_608_001/svp_simple_608_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.61 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 3.898
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_608_001/svp_simple_608_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 2.97 seconds
+Peak memory usage: 12.88 MB
+WALLTIME 3.282
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_609_001/svp_simple_609_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.64 seconds
+Peak memory usage: 12.92 MB
+WALLTIME 0.946
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_610_001/svp_simple_610_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.27 seconds
+Peak memory usage: 12.85 MB
+WALLTIME 3.575
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_611_001/svp_simple_611_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 2.77 seconds
+Peak memory usage: 12.91 MB
+WALLTIME 3.081
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_612_001/svp_simple_612_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.66 seconds
+Peak memory usage: 12.94 MB
+WALLTIME 0.969
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_613_001/svp_simple_613_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.09 seconds
+Peak memory usage: 12.89 MB
+WALLTIME 3.401
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_613_001/svp_simple_613_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 2.95 seconds
+Peak memory usage: 12.91 MB
+WALLTIME 3.257
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_614_001/svp_simple_614_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 2.97 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 3.276
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_614_001/svp_simple_614_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.16 seconds
+Peak memory usage: 12.92 MB
+WALLTIME 3.471
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_616_001/svp_simple_616_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 4.21 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 4.522
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_616_001/svp_simple_616_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.23 seconds
+Peak memory usage: 12.80 MB
+WALLTIME 3.540
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_617_001/svp_simple_617_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.01 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 3.313
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_617_001/svp_simple_617_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: UNKNOWN
+Backend results: {'cpachecker': 'ERROR', 'cbmc': 'TRUE'}
+Total running time: 0.68 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 0.993
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_617_001/svp_simple_617_001_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.04 seconds
+Peak memory usage: 12.78 MB
+WALLTIME 3.345
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_618_001/svp_simple_618_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.08 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 3.386
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_619_001/svp_simple_619_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.03 seconds
+Peak memory usage: 12.89 MB
+WALLTIME 3.330
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_620_001/svp_simple_620_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 2.91 seconds
+Peak memory usage: 12.92 MB
+WALLTIME 3.213
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_620_001/svp_simple_620_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 2.92 seconds
+Peak memory usage: 12.91 MB
+WALLTIME 3.224
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_621_001/svp_simple_621_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.66 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 0.963
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_622_001/svp_simple_622_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.40 seconds
+Peak memory usage: 12.87 MB
+WALLTIME 3.700
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_623_001/svp_simple_623_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 2.78 seconds
+Peak memory usage: 12.89 MB
+WALLTIME 3.088
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_624_001/svp_simple_624_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.64 seconds
+Peak memory usage: 12.83 MB
+WALLTIME 0.949
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_625_001/svp_simple_625_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.32 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 3.628
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_626_001/svp_simple_626_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 2.86 seconds
+Peak memory usage: 12.83 MB
+WALLTIME 3.165
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_627_001/svp_simple_627_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 2.83 seconds
+Peak memory usage: 12.90 MB
+WALLTIME 3.132
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_628_001/svp_simple_628_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.66 seconds
+Peak memory usage: 12.88 MB
+WALLTIME 0.962
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_631_001/svp_simple_631_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.36 seconds
+Peak memory usage: 12.83 MB
+WALLTIME 3.665
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_632_001/svp_simple_632_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.66 seconds
+Peak memory usage: 12.96 MB
+WALLTIME 0.961
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_633_001/svp_simple_633_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.75 seconds
+Peak memory usage: 12.87 MB
+WALLTIME 4.059
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_634_001/svp_simple_634_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.56 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 3.869
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_634_001/svp_simple_634_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.72 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 1.018
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_635_001/svp_simple_635_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.37 seconds
+Peak memory usage: 12.85 MB
+WALLTIME 3.679
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_636_001/svp_simple_636_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.02 seconds
+Peak memory usage: 12.83 MB
+WALLTIME 3.324
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_637_001/svp_simple_637_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.35 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 3.660
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_639_001/svp_simple_639_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.71 seconds
+Peak memory usage: 12.85 MB
+WALLTIME 1.016
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_640_001/svp_simple_640_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.69 seconds
+Peak memory usage: 12.90 MB
+WALLTIME 0.992
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_641_001/svp_simple_641_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.72 seconds
+Peak memory usage: 12.88 MB
+WALLTIME 1.029
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_643_001/svp_simple_643_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.48 seconds
+Peak memory usage: 12.83 MB
+WALLTIME 3.785
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_643_001/svp_simple_643_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 2.93 seconds
+Peak memory usage: 12.85 MB
+WALLTIME 3.232
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_643_001/svp_simple_643_001_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'FALSE'}
+Total running time: 3.66 seconds
+Peak memory usage: 12.83 MB
+WALLTIME 3.967
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_643_001/svp_simple_643_001_assert4.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.76 seconds
+Peak memory usage: 12.88 MB
+WALLTIME 1.067
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_644_001/svp_simple_644_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.34 seconds
+Peak memory usage: 12.82 MB
+WALLTIME 3.652
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_668_001/svp_simple_668_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 2.99 seconds
+Peak memory usage: 12.90 MB
+WALLTIME 3.299
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_668_001/svp_simple_668_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.14 seconds
+Peak memory usage: 12.93 MB
+WALLTIME 3.439
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_696_001/svp_simple_696_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 3.24 seconds
+Peak memory usage: 12.90 MB
+WALLTIME 3.543
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_696_001/svp_simple_696_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.71 seconds
+Peak memory usage: 12.89 MB
+WALLTIME 1.017
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_697_001/svp_simple_697_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.73 seconds
+Peak memory usage: 12.83 MB
+WALLTIME 1.037
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_698_001/svp_simple_698_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.72 seconds
+Peak memory usage: 12.89 MB
+WALLTIME 1.021
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_699_001/svp_simple_699_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.75 seconds
+Peak memory usage: 12.89 MB
+WALLTIME 1.049
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_700_001/svp_simple_700_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.76 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 1.036
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_700_001/svp_simple_700_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.81 seconds
+Peak memory usage: 12.88 MB
+WALLTIME 1.098
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_700_001/svp_simple_700_001_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.79 seconds
+Peak memory usage: 12.86 MB
+WALLTIME 1.097
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_700_001/svp_simple_700_001_assert4.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.78 seconds
+Peak memory usage: 12.82 MB
+WALLTIME 1.085
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_701_001/svp_simple_701_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.75 seconds
+Peak memory usage: 12.90 MB
+WALLTIME 1.052
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_701_001/svp_simple_701_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.76 seconds
+Peak memory usage: 12.89 MB
+WALLTIME 1.063
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_701_001/svp_simple_701_001_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.70 seconds
+Peak memory usage: 12.85 MB
+WALLTIME 1.011
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_702_001/svp_simple_702_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.84 seconds
+Peak memory usage: 12.89 MB
+WALLTIME 1.134
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_702_001/svp_simple_702_001_assert2.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.86 seconds
+Peak memory usage: 12.84 MB
+WALLTIME 1.139
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_702_001/svp_simple_702_001_assert3.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: TRUE
+Backend results: {'cbmc': 'TRUE', 'cpachecker': 'TRUE'}
+Total running time: 5.35 seconds
+Peak memory usage: 12.90 MB
+WALLTIME 5.659
+[1;35m========== UnicSeq Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split_unicseq/goblint-regression/svp_simple_703_001/svp_simple_703_001_assert1.c ==========[0m
+[UNICSEQ] Start PARALLEL Verification...
+Final verification results: FALSE
+Backend results: {'cbmc': 'FALSE'}
+Total running time: 0.69 seconds
+Peak memory usage: 12.89 MB
+WALLTIME 1.001

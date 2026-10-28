@@ -1,0 +1,43 @@
+IntBool
+
+[__VERIFIER_nondet_int::i, __cs_disable_isr_0, main_task::__CPAchecker_TMP_0, __VERIFIER_nondet_char::__retval__, __VERIFIER_nondet_int::__retval__, __VERIFIER_nondet_bool::__retval__, __VERIFIER_nondet_bool::i, svp_simple_608_001_isr_1::__CPAchecker_TMP_0, __VERIFIER_nondet_char::i, __cs_init_scalar::*((int *)var)]
+
+IntEq
+
+[__cs_disable_isr_1, glob1, __cs_pc_0, __cs_init_scalar::size, __cs_simulate, __cs_pc_1]
+
+IntAdd
+
+[__VERIFIER_nondet_uint::i, __VERIFIER_nondet_uint::__retval__, __VERIFIER_assume::i]
+
+IntOverflow
+
+[]
+
+ALL
+
+[__cs_disable_isr_0, main_task::__CPAchecker_TMP_0, __cs_disable_isr_1, __VERIFIER_nondet_char::__retval__, __VERIFIER_nondet_int::__retval__, __VERIFIER_nondet_bool::__retval__, glob1, __VERIFIER_nondet_bool::i, __VERIFIER_nondet_uint::i, __cs_init_scalar::ptr, __cs_init_scalar::size, __cs_simulate, svp_simple_608_001_isr_1::__CPAchecker_TMP_0, __VERIFIER_nondet_uint::__retval__, __cs_init_scalar::*((int *)var), __VERIFIER_assume::i, __VERIFIER_nondet_int::i, __cs_init_scalar::var, __cs_pc_0, __VERIFIER_nondet_char::i, __cs_pc_1]
+
+DEPENDENCIES
+
+[[__VERIFIER_assume::i, __VERIFIER_nondet_uint::__retval__, __VERIFIER_nondet_uint::i] --> [0],
+[__VERIFIER_nondet_bool::__retval__, __VERIFIER_nondet_bool::i, main_task::__CPAchecker_TMP_0, svp_simple_608_001_isr_1::__CPAchecker_TMP_0] --> [0],
+[__VERIFIER_nondet_char::__retval__, __VERIFIER_nondet_char::i] --> [],
+[__VERIFIER_nondet_int::__retval__, __VERIFIER_nondet_int::i, __cs_init_scalar::*((int *)var)] --> [],
+[__cs_init_scalar::size] --> [4],
+[__cs_init_scalar::ptr, __cs_init_scalar::var] --> [],
+[__cs_simulate] --> [0, 1, 2],
+[__cs_pc_0] --> [0, 1],
+[__cs_pc_1] --> [0, 2, 3],
+[__cs_disable_isr_0] --> [0],
+[__cs_disable_isr_1] --> [0, 1],
+[main_task::__retval__] --> [],
+[glob1] --> [0, 5]]
+
+RELEVANT VARS
+
+[main_task::__CPAchecker_TMP_0, __cs_disable_isr_1, __VERIFIER_nondet_int::__retval__, glob1, __VERIFIER_nondet_bool::__retval__, __VERIFIER_nondet_bool::i, __VERIFIER_nondet_uint::i, __cs_simulate, svp_simple_608_001_isr_1::__CPAchecker_TMP_0, __cs_init_scalar::size, __VERIFIER_assume::i, __VERIFIER_nondet_int::i, __cs_init_scalar::var, __cs_pc_0, __cs_pc_1]
+
+RELEVANT FIELDS
+
+{}

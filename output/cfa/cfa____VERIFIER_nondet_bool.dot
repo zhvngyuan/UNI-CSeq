@@ -1,0 +1,7 @@
+digraph __VERIFIER_nondet_bool {
+13 [shape="circle" label="N13\n3"]
+14 [shape="circle" label="N14\n2"]
+14 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">14</td><td align="left">_Bool i;</td></tr><tr><td align="right">15</td><td align="left">return i;</td></tr></table>>]
+14 -> 12[label=""]
+13 -> 14 [label="Function start dummy edge" fontname="Courier New"]
+}

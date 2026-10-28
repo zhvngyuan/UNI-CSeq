@@ -1,0 +1,6 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun glob1 () (_ BitVec 32))
+
+*:
+(assert (let ((.def_247 (= glob1 (_ bv5 32)))).def_247))
+

@@ -1,0 +1,25 @@
+2025年10月20日09:23, ./runRW_vs_intAbs.sh 10 cpachecker
+========================================
+[1;35m========== Checking directory: logger1 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cpa_false/logger1/main_n.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --timelimit 86400 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cpa_false/logger1/_cseq_cpachecker_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cpa_false/logger1/main_n.c, [92mTRUE[0m, 3.48
+[Resource] Peak memory usage: 12.48 MB
+[1;35m========== Checking directory: logger2 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cpa_false/logger2/main_n.c
+********Execute Analysis with cpachecker:
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --timelimit 86400 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cpa_false/logger2/_cseq_cpachecker_main_n.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cpa_false/logger2/main_n.c, [92mTRUE[0m, 5.90
+[Resource] Peak memory usage: 12.44 MB
+[1;35m========== Checking directory: logger3 ==========[0m
+File path: /home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cpa_false/logger3/main_n.c
+********Execute Analysis with cpachecker:

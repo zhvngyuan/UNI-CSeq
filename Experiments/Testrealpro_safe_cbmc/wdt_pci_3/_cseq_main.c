@@ -1,0 +1,627 @@
+// Main task
+unsigned __CPROVER_bitvector[4] __cs_pc_9;
+// closer1_isr_1
+unsigned __CPROVER_bitvector[4] __cs_pc_1;
+// closer2_isr_2
+unsigned __CPROVER_bitvector[4] __cs_pc_2;
+// closer3_isr_3
+unsigned __CPROVER_bitvector[4] __cs_pc_3;
+// closer4_isr_4
+unsigned __CPROVER_bitvector[4] __cs_pc_4;
+// writer1_isr_5
+unsigned __CPROVER_bitvector[4] __cs_pc_5;
+// writer2_isr_6
+unsigned __CPROVER_bitvector[3] __cs_pc_6;
+// writer3_isr_7
+unsigned __CPROVER_bitvector[3] __cs_pc_7;
+// writer4_isr_8
+unsigned __CPROVER_bitvector[3] __cs_pc_8;
+unsigned __CPROVER_bitvector[2] __cs_simulate;
+/* Predefined functions type 1 */
+#define __VERIFIER_assume(X) __CPROVER_assume(X)
+#define assume(X) __CPROVER_assume(X)
+#define __VERIFIER_nondet_int() nondet_int()
+int nondet_int();
+
+#define __VERIFIER_nondet_uint() nondet_uint()
+unsigned int nondet_uint();
+
+#define __VERIFIER_nondet_bool() nondet_bool()
+_Bool nondet_bool();
+
+char nondet_char();
+unsigned char nondet_uchar();
+
+/* Predefined functions type 2 */
+//void * __cs_safe_malloc(size_t size)
+//{
+//    void * ptr = malloc(size);
+//    __VERIFIER_assume(ptr);
+//    return ptr;
+//}
+
+//void * __cs_unsafe_malloc(size_t size)
+//{
+//    if(__VERIFIER_nondet_bool())
+//        return 0;
+//    return malloc(size);
+//}
+
+void __cs_init_scalar(void *var, unsigned int size)
+{
+    if (size == sizeof(int))
+        *(int *)var = __VERIFIER_nondet_int();
+    else {
+        char * ptr = (char *)var;
+        // size_t j;
+        //for (j=0; j<size; j++)
+        //  ptr[j] = __cs_nondet_char();
+    }
+}
+
+/* ISR Masking variables */
+int __cs_disable_isr_0;
+int __cs_disable_isr_1;
+int __cs_disable_isr_2;
+int __cs_disable_isr_3;
+int __cs_disable_isr_4;
+int __cs_disable_isr_5;
+int __cs_disable_isr_6;
+int __cs_disable_isr_7;
+int __cs_disable_isr_8;
+/* Global variables */
+char wdtpci_write_buf;
+char wdt_dc_port;
+long jiffies;
+void spin_lock(int);
+void spin_unlock(int);
+void outb(int, int);
+void udelay(int);
+void clear_bit(int, int);
+void up(int);
+void wdt_ctr_load(int, int);
+void wdt_ctr_mode(int, int);
+void wdtpci_stop(void);
+void wdtpci_ping(void);
+void wdtpci_write(int);
+void wdtpci_release(void);
+int dev_count;
+unsigned open_sem;
+int wdtpci_lock;
+int expect_close;
+int io;
+int irq;
+int heartbeat = 60;
+int wd_heartbeat;
+int nowayout = 0;
+int count;
+int buf;
+int test_global_array[10000];
+int test_global_var1;
+int test_global_var2;
+int test_global_var3;
+int test_global_condition1;
+int test_global_condition2;
+int test_global_condition3;
+int test_global_condition4;
+int reader1;
+int reader2;
+/* Simulate writer3_isr_7 */
+void writer3_isr_7(void)
+{
+    if (__cs_simulate == 0 && __cs_pc_7 == 0) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_7 = 0; __cs_simulate = 2;} else    {
+            count = 0;
+    }
+    if (__cs_simulate == 0 && __cs_pc_7 == 1) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_7 = 1; __cs_simulate = 2;} else    {
+            expect_close = 0;
+    }
+    if (__cs_simulate == 0 && __cs_pc_7 == 2) __cs_simulate = 1;
+    if (__cs_simulate == 1 && __VERIFIER_nondet_bool()) {__cs_pc_7 = 2; __cs_simulate = 2;}
+    if ((__cs_simulate == 0 && __cs_pc_7 <= 5) || (__cs_simulate == 1 && (count)))
+    {
+                if (__cs_simulate == 0 && __cs_pc_7 == 3) __cs_simulate = 1;
+                if (__cs_simulate == 1 && __VERIFIER_nondet_bool()) {__cs_pc_7 = 3; __cs_simulate = 2;}
+                if ((__cs_simulate == 0 && __cs_pc_7 <= 5) || (__cs_simulate == 1 && (!nowayout)))
+                {
+                            if (__cs_simulate == 0 && __cs_pc_7 == 4) __cs_simulate = 1;
+                            if (__cs_simulate == 1 && __VERIFIER_nondet_bool()) {__cs_pc_7 = 4; __cs_simulate = 2;}
+                            if ((__cs_simulate == 0 && __cs_pc_7 <= 5) || (__cs_simulate == 1 && (wdtpci_write_buf != 'V')))
+                            {
+                                        if (__cs_simulate == 0 && __cs_pc_7 == 5) __cs_simulate = 1;
+                                        if (__cs_simulate == 1)
+                                        if (__VERIFIER_nondet_bool()) {__cs_pc_7 = 5; __cs_simulate = 2;} else                                        {
+                                                expect_close = 0;
+                                        }
+                            }
+                }
+    }
+    if (__cs_simulate == 1 || (__cs_simulate == 0 && __cs_pc_7 == 6))
+    {
+        __cs_pc_7 = 6;
+        __cs_simulate = 2;
+    }
+}
+/* Simulate closer4_isr_4 */
+void closer4_isr_4(void)
+{
+    if (__cs_simulate == 0 && __cs_pc_4 == 0) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_4 = 0; __cs_simulate = 2;} else    {
+            wdtpci_write_buf = 'V';
+    }
+    if (__cs_simulate == 0 && __cs_pc_4 == 1) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_4 = 1; __cs_simulate = 2;} else    {
+            expect_close = 42;
+    }
+    if (__cs_simulate == 0 && __cs_pc_4 == 2) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_4 = 2; __cs_simulate = 2;} else    {
+            count = 1;
+    }
+    if (__cs_simulate == 0 && __cs_pc_4 == 3) __cs_simulate = 1;
+    if (__cs_simulate == 1 && __VERIFIER_nondet_bool()) {__cs_pc_4 = 3; __cs_simulate = 2;}
+    if ((__cs_simulate == 0 && __cs_pc_4 <= 6) || (__cs_simulate == 1 && (count)))
+    {
+                if (__cs_simulate == 0 && __cs_pc_4 == 4) __cs_simulate = 1;
+                if (__cs_simulate == 1 && __VERIFIER_nondet_bool()) {__cs_pc_4 = 4; __cs_simulate = 2;}
+                if ((__cs_simulate == 0 && __cs_pc_4 <= 6) || (__cs_simulate == 1 && (!nowayout)))
+                {
+                            if (__cs_simulate == 0 && __cs_pc_4 == 5) __cs_simulate = 1;
+                            if (__cs_simulate == 1 && __VERIFIER_nondet_bool()) {__cs_pc_4 = 5; __cs_simulate = 2;}
+                            if ((__cs_simulate == 0 && __cs_pc_4 <= 6) || (__cs_simulate == 1 && (wdtpci_write_buf != 'V')))
+                            {
+                                        if (__cs_simulate == 0 && __cs_pc_4 == 6) __cs_simulate = 1;
+                                        if (__cs_simulate == 1)
+                                        if (__VERIFIER_nondet_bool()) {__cs_pc_4 = 6; __cs_simulate = 2;} else                                        {
+                                                expect_close = 0;
+                                        }
+                            }
+                }
+    }
+    if (__cs_simulate == 0 && __cs_pc_4 == 7) __cs_simulate = 1;
+    if (__cs_simulate == 1 && __VERIFIER_nondet_bool()) {__cs_pc_4 = 7; __cs_simulate = 2;}
+    if ((__cs_simulate == 0 && __cs_pc_4 <= 8) || (__cs_simulate == 1 && (test_global_condition3 == 1)))
+    {
+                if (__cs_simulate == 0 && __cs_pc_4 == 8) __cs_simulate = 1;
+                if (__cs_simulate == 1)
+                if (__VERIFIER_nondet_bool()) {__cs_pc_4 = 8; __cs_simulate = 2;} else                {
+                        test_global_var2 = 1;
+                }
+    }
+    if (__cs_simulate == 0 && __cs_pc_4 == 9) __cs_simulate = 1;
+    if (__cs_simulate == 1 && __VERIFIER_nondet_bool()) {__cs_pc_4 = 9; __cs_simulate = 2;}
+    if ((__cs_simulate == 0 && __cs_pc_4 <= 10) || (__cs_simulate == 1 && (test_global_condition4 == 1)))
+    {
+                if (__cs_simulate == 0 && __cs_pc_4 == 10) __cs_simulate = 1;
+                if (__cs_simulate == 1)
+                if (__VERIFIER_nondet_bool()) {__cs_pc_4 = 10; __cs_simulate = 2;} else                {
+                        test_global_var2 = 1;
+                }
+    }
+    if (__cs_simulate == 0 && __cs_pc_4 == 11) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_4 = 11; __cs_simulate = 2;} else    {
+            expect_close = 0;
+    }
+    if (__cs_simulate == 1 || (__cs_simulate == 0 && __cs_pc_4 == 12))
+    {
+        __cs_pc_4 = 12;
+        __cs_simulate = 2;
+    }
+}
+/* Simulate closer3_isr_3 */
+void closer3_isr_3(void)
+{
+    if (__cs_simulate == 0 && __cs_pc_3 == 0) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_3 = 0; __cs_simulate = 2;} else    {
+            wdtpci_write_buf = 'V';
+    }
+    if (__cs_simulate == 0 && __cs_pc_3 == 1) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_3 = 1; __cs_simulate = 2;} else    {
+            expect_close = 42;
+    }
+    if (__cs_simulate == 0 && __cs_pc_3 == 2) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_3 = 2; __cs_simulate = 2;} else    {
+            count = 1;
+    }
+    if (__cs_simulate == 0 && __cs_pc_3 == 3) __cs_simulate = 1;
+    if (__cs_simulate == 1 && __VERIFIER_nondet_bool()) {__cs_pc_3 = 3; __cs_simulate = 2;}
+    if ((__cs_simulate == 0 && __cs_pc_3 <= 6) || (__cs_simulate == 1 && (count)))
+    {
+                if (__cs_simulate == 0 && __cs_pc_3 == 4) __cs_simulate = 1;
+                if (__cs_simulate == 1 && __VERIFIER_nondet_bool()) {__cs_pc_3 = 4; __cs_simulate = 2;}
+                if ((__cs_simulate == 0 && __cs_pc_3 <= 6) || (__cs_simulate == 1 && (!nowayout)))
+                {
+                            if (__cs_simulate == 0 && __cs_pc_3 == 5) __cs_simulate = 1;
+                            if (__cs_simulate == 1 && __VERIFIER_nondet_bool()) {__cs_pc_3 = 5; __cs_simulate = 2;}
+                            if ((__cs_simulate == 0 && __cs_pc_3 <= 6) || (__cs_simulate == 1 && (wdtpci_write_buf != 'V')))
+                            {
+                                        if (__cs_simulate == 0 && __cs_pc_3 == 6) __cs_simulate = 1;
+                                        if (__cs_simulate == 1)
+                                        if (__VERIFIER_nondet_bool()) {__cs_pc_3 = 6; __cs_simulate = 2;} else                                        {
+                                                expect_close = 0;
+                                        }
+                            }
+                }
+    }
+    if (__cs_simulate == 0 && __cs_pc_3 == 7) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_3 = 7; __cs_simulate = 2;} else    {
+            expect_close = 0;
+    }
+    if (__cs_simulate == 1 || (__cs_simulate == 0 && __cs_pc_3 == 8))
+    {
+        __cs_pc_3 = 8;
+        __cs_simulate = 2;
+    }
+}
+/* Simulate writer1_isr_5 */
+void writer1_isr_5(void)
+{
+    if (__cs_simulate == 0 && __cs_pc_5 == 0) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_5 = 0; __cs_simulate = 2;} else    {
+            count = 0;
+    }
+    if (__cs_simulate == 0 && __cs_pc_5 == 1) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_5 = 1; __cs_simulate = 2;} else    {
+            expect_close = 0;
+    }
+    if (__cs_simulate == 0 && __cs_pc_5 == 2) __cs_simulate = 1;
+    if (__cs_simulate == 1 && __VERIFIER_nondet_bool()) {__cs_pc_5 = 2; __cs_simulate = 2;}
+    if ((__cs_simulate == 0 && __cs_pc_5 <= 5) || (__cs_simulate == 1 && (count)))
+    {
+                if (__cs_simulate == 0 && __cs_pc_5 == 3) __cs_simulate = 1;
+                if (__cs_simulate == 1 && __VERIFIER_nondet_bool()) {__cs_pc_5 = 3; __cs_simulate = 2;}
+                if ((__cs_simulate == 0 && __cs_pc_5 <= 5) || (__cs_simulate == 1 && (!nowayout)))
+                {
+                            if (__cs_simulate == 0 && __cs_pc_5 == 4) __cs_simulate = 1;
+                            if (__cs_simulate == 1 && __VERIFIER_nondet_bool()) {__cs_pc_5 = 4; __cs_simulate = 2;}
+                            if ((__cs_simulate == 0 && __cs_pc_5 <= 5) || (__cs_simulate == 1 && (wdtpci_write_buf != 'V')))
+                            {
+                                        if (__cs_simulate == 0 && __cs_pc_5 == 5) __cs_simulate = 1;
+                                        if (__cs_simulate == 1)
+                                        if (__VERIFIER_nondet_bool()) {__cs_pc_5 = 5; __cs_simulate = 2;} else                                        {
+                                                expect_close = 0;
+                                        }
+                            }
+                }
+    }
+    if (__cs_simulate == 0 && __cs_pc_5 == 6) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_5 = 6; __cs_simulate = 2;} else    {
+            /*disable_isr(1);*/
+            __cs_disable_isr_1 = 1;
+    }
+    if (__cs_simulate == 0 && __cs_pc_5 == 7) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_5 = 7; __cs_simulate = 2;} else    {
+            test_global_var1 = 0;
+    }
+    if (__cs_simulate == 0 && __cs_pc_5 == 8) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_5 = 8; __cs_simulate = 2;} else    {
+            reader1 = test_global_var1;
+    }
+    if (__cs_simulate == 0 && __cs_pc_5 == 9) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_5 = 9; __cs_simulate = 2;} else    {
+            reader2 = test_global_var1;
+    }
+    if (__cs_simulate == 0 && __cs_pc_5 == 10) __cs_simulate = 1;
+    if (__cs_simulate == 1 && __VERIFIER_nondet_bool()) {__cs_pc_5 = 10; __cs_simulate = 2;}
+    if ((__cs_simulate == 0 && __cs_pc_5 <= 11) || (__cs_simulate == 1 && (reader1 != reader2)))
+    {
+                if (__cs_simulate == 0 && __cs_pc_5 == 11) __cs_simulate = 1;
+                if (__cs_simulate == 1)
+                if (__VERIFIER_nondet_bool()) {__cs_pc_5 = 11; __cs_simulate = 2;} else                {
+                        assert(0);
+                }
+    }
+    if (__cs_simulate == 0 && __cs_pc_5 == 12) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_5 = 12; __cs_simulate = 2;} else    {
+            /*enable_isr(1);*/
+            __cs_disable_isr_1 = 0;
+    }
+    if (__cs_simulate == 1 || (__cs_simulate == 0 && __cs_pc_5 == 13))
+    {
+        __cs_pc_5 = 13;
+        __cs_simulate = 2;
+    }
+}
+/* Simulate writer2_isr_6 */
+void writer2_isr_6(void)
+{
+    if (__cs_simulate == 0 && __cs_pc_6 == 0) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_6 = 0; __cs_simulate = 2;} else    {
+            count = 0;
+    }
+    if (__cs_simulate == 0 && __cs_pc_6 == 1) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_6 = 1; __cs_simulate = 2;} else    {
+            expect_close = 0;
+    }
+    if (__cs_simulate == 0 && __cs_pc_6 == 2) __cs_simulate = 1;
+    if (__cs_simulate == 1 && __VERIFIER_nondet_bool()) {__cs_pc_6 = 2; __cs_simulate = 2;}
+    if ((__cs_simulate == 0 && __cs_pc_6 <= 5) || (__cs_simulate == 1 && (count)))
+    {
+                if (__cs_simulate == 0 && __cs_pc_6 == 3) __cs_simulate = 1;
+                if (__cs_simulate == 1 && __VERIFIER_nondet_bool()) {__cs_pc_6 = 3; __cs_simulate = 2;}
+                if ((__cs_simulate == 0 && __cs_pc_6 <= 5) || (__cs_simulate == 1 && (!nowayout)))
+                {
+                            if (__cs_simulate == 0 && __cs_pc_6 == 4) __cs_simulate = 1;
+                            if (__cs_simulate == 1 && __VERIFIER_nondet_bool()) {__cs_pc_6 = 4; __cs_simulate = 2;}
+                            if ((__cs_simulate == 0 && __cs_pc_6 <= 5) || (__cs_simulate == 1 && (wdtpci_write_buf != 'V')))
+                            {
+                                        if (__cs_simulate == 0 && __cs_pc_6 == 5) __cs_simulate = 1;
+                                        if (__cs_simulate == 1)
+                                        if (__VERIFIER_nondet_bool()) {__cs_pc_6 = 5; __cs_simulate = 2;} else                                        {
+                                                expect_close = 0;
+                                        }
+                            }
+                }
+    }
+    if (__cs_simulate == 0 && __cs_pc_6 == 6) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_6 = 6; __cs_simulate = 2;} else    {
+            test_global_var3++;
+    }
+    if (__cs_simulate == 1 || (__cs_simulate == 0 && __cs_pc_6 == 7))
+    {
+        __cs_pc_6 = 7;
+        __cs_simulate = 2;
+    }
+}
+/* Simulate closer2_isr_2 */
+void closer2_isr_2(void)
+{
+    if (__cs_simulate == 0 && __cs_pc_2 == 0) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_2 = 0; __cs_simulate = 2;} else    {
+            wdtpci_write_buf = 'V';
+    }
+    if (__cs_simulate == 0 && __cs_pc_2 == 1) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_2 = 1; __cs_simulate = 2;} else    {
+            expect_close = 42;
+    }
+    if (__cs_simulate == 0 && __cs_pc_2 == 2) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_2 = 2; __cs_simulate = 2;} else    {
+            count = 1;
+    }
+    if (__cs_simulate == 0 && __cs_pc_2 == 3) __cs_simulate = 1;
+    if (__cs_simulate == 1 && __VERIFIER_nondet_bool()) {__cs_pc_2 = 3; __cs_simulate = 2;}
+    if ((__cs_simulate == 0 && __cs_pc_2 <= 6) || (__cs_simulate == 1 && (count)))
+    {
+                if (__cs_simulate == 0 && __cs_pc_2 == 4) __cs_simulate = 1;
+                if (__cs_simulate == 1 && __VERIFIER_nondet_bool()) {__cs_pc_2 = 4; __cs_simulate = 2;}
+                if ((__cs_simulate == 0 && __cs_pc_2 <= 6) || (__cs_simulate == 1 && (!nowayout)))
+                {
+                            if (__cs_simulate == 0 && __cs_pc_2 == 5) __cs_simulate = 1;
+                            if (__cs_simulate == 1 && __VERIFIER_nondet_bool()) {__cs_pc_2 = 5; __cs_simulate = 2;}
+                            if ((__cs_simulate == 0 && __cs_pc_2 <= 6) || (__cs_simulate == 1 && (wdtpci_write_buf != 'V')))
+                            {
+                                        if (__cs_simulate == 0 && __cs_pc_2 == 6) __cs_simulate = 1;
+                                        if (__cs_simulate == 1)
+                                        if (__VERIFIER_nondet_bool()) {__cs_pc_2 = 6; __cs_simulate = 2;} else                                        {
+                                                expect_close = 0;
+                                        }
+                            }
+                }
+    }
+    if (__cs_simulate == 0 && __cs_pc_2 == 7) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_2 = 7; __cs_simulate = 2;} else    {
+            expect_close = 0;
+    }
+    static int __cs_l_closer2_isr_2_reader;
+    if (__cs_simulate == 0 && __cs_pc_2 == 8) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_2 = 8; __cs_simulate = 2;} else    {
+            __cs_init_scalar(&__cs_l_closer2_isr_2_reader, sizeof(int));
+    }
+    if (__cs_simulate == 0 && __cs_pc_2 == 9) __cs_simulate = 1;
+    if (__cs_simulate == 1 && __VERIFIER_nondet_bool()) {__cs_pc_2 = 9; __cs_simulate = 2;}
+    if ((__cs_simulate == 0 && __cs_pc_2 <= 10) || (__cs_simulate == 1 && (test_global_condition1 == 1)))
+    {
+                if (__cs_simulate == 0 && __cs_pc_2 == 10) __cs_simulate = 1;
+                if (__cs_simulate == 1)
+                if (__VERIFIER_nondet_bool()) {__cs_pc_2 = 10; __cs_simulate = 2;} else                {
+                        __cs_l_closer2_isr_2_reader = test_global_var2;
+                }
+    }
+    if (__cs_simulate == 1 || (__cs_simulate == 0 && __cs_pc_2 == 11))
+    {
+        __cs_pc_2 = 11;
+        __cs_simulate = 2;
+    }
+}
+/* Simulate original main */
+int main_task()
+{
+    if (__cs_simulate == 0 && __cs_pc_9 == 0) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_9 = 0; __cs_simulate = 2;} else    {
+            /*disable_isr(-1);*/
+            __cs_disable_isr_7 = 1;
+            __cs_disable_isr_0 = 1;
+            __cs_disable_isr_4 = 1;
+            __cs_disable_isr_3 = 1;
+            __cs_disable_isr_5 = 1;
+            __cs_disable_isr_6 = 1;
+            __cs_disable_isr_2 = 1;
+            __cs_disable_isr_8 = 1;
+            __cs_disable_isr_1 = 1;
+    }
+    if (__cs_simulate == 0 && __cs_pc_9 == 1) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_9 = 1; __cs_simulate = 2;} else    {
+            count = 0;
+    }
+    if (__cs_simulate == 0 && __cs_pc_9 == 2) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_9 = 2; __cs_simulate = 2;} else    {
+            expect_close = 0;
+    }
+    if (__cs_simulate == 0 && __cs_pc_9 == 3) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_9 = 3; __cs_simulate = 2;} else    {
+            test_global_condition1 = 1;
+    }
+    if (__cs_simulate == 0 && __cs_pc_9 == 4) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_9 = 4; __cs_simulate = 2;} else    {
+            test_global_condition2 = 1;
+    }
+    if (__cs_simulate == 0 && __cs_pc_9 == 5) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_9 = 5; __cs_simulate = 2;} else    {
+            test_global_condition3 = 1;
+    }
+    if (__cs_simulate == 0 && __cs_pc_9 == 6) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_9 = 6; __cs_simulate = 2;} else    {
+            test_global_condition4 = 1;
+    }
+    if (__cs_simulate == 0 && __cs_pc_9 == 7) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_9 = 7; __cs_simulate = 2;} else    {
+            /*enable_isr(-1);*/
+            __cs_disable_isr_7 = 0;
+            __cs_disable_isr_0 = 0;
+            __cs_disable_isr_4 = 0;
+            __cs_disable_isr_3 = 0;
+            __cs_disable_isr_5 = 0;
+            __cs_disable_isr_6 = 0;
+            __cs_disable_isr_2 = 0;
+            __cs_disable_isr_8 = 0;
+            __cs_disable_isr_1 = 0;
+    }
+    if (__cs_simulate == 1 || (__cs_simulate == 0 && __cs_pc_9 == 8))
+    {
+        __cs_pc_9 = 8;
+        __cs_simulate = 2;
+    }
+}
+/* Simulate writer4_isr_8 */
+void writer4_isr_8(void)
+{
+    if (__cs_simulate == 0 && __cs_pc_8 == 0) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_8 = 0; __cs_simulate = 2;} else    {
+            test_global_var3 = 10;
+    }
+    if (__cs_simulate == 0 && __cs_pc_8 == 1) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_8 = 1; __cs_simulate = 2;} else    {
+            count = 0;
+    }
+    if (__cs_simulate == 0 && __cs_pc_8 == 2) __cs_simulate = 1;
+    if (__cs_simulate == 1)
+    if (__VERIFIER_nondet_bool()) {__cs_pc_8 = 2; __cs_simulate = 2;} else    {
+            expect_close = 0;
+    }
+    if (__cs_simulate == 0 && __cs_pc_8 == 3) __cs_simulate = 1;
+    if (__cs_simulate == 1 && __VERIFIER_nondet_bool()) {__cs_pc_8 = 3; __cs_simulate = 2;}
+    if ((__cs_simulate == 0 && __cs_pc_8 <= 6) || (__cs_simulate == 1 && (count)))
+    {
+                if (__cs_simulate == 0 && __cs_pc_8 == 4) __cs_simulate = 1;
+                if (__cs_simulate == 1 && __VERIFIER_nondet_bool()) {__cs_pc_8 = 4; __cs_simulate = 2;}
+                if ((__cs_simulate == 0 && __cs_pc_8 <= 6) || (__cs_simulate == 1 && (!nowayout)))
+                {
+                            if (__cs_simulate == 0 && __cs_pc_8 == 5) __cs_simulate = 1;
+                            if (__cs_simulate == 1 && __VERIFIER_nondet_bool()) {__cs_pc_8 = 5; __cs_simulate = 2;}
+                            if ((__cs_simulate == 0 && __cs_pc_8 <= 6) || (__cs_simulate == 1 && (wdtpci_write_buf != 'V')))
+                            {
+                                        if (__cs_simulate == 0 && __cs_pc_8 == 6) __cs_simulate = 1;
+                                        if (__cs_simulate == 1)
+                                        if (__VERIFIER_nondet_bool()) {__cs_pc_8 = 6; __cs_simulate = 2;} else                                        {
+                                                expect_close = 0;
+                                        }
+                            }
+                }
+    }
+    if (__cs_simulate == 1 || (__cs_simulate == 0 && __cs_pc_8 == 7))
+    {
+        __cs_pc_8 = 7;
+        __cs_simulate = 2;
+    }
+}
+/* Simulate closer1_isr_1 */
+void closer1_isr_1(void)
+{
+        if (__cs_simulate == 0 && __cs_pc_1 == 0) __cs_simulate = 1;
+        if (__cs_simulate == 1)
+        if (__VERIFIER_nondet_bool()) {__cs_pc_1 = 0; __cs_simulate = 2;} else {
+                    test_global_var1 = 1;
+                    wdtpci_write_buf = 'V';
+                    expect_close = 42;
+                    count = 1;
+                    if (count)
+                                                if (!nowayout)
+                                                                            if (wdtpci_write_buf != 'V')
+                                expect_close = 0;
+                    expect_close = 0;
+        }
+                            if (__cs_simulate == 1 || (__cs_simulate == 0 && __cs_pc_1 == 9))
+                            {
+                                __cs_pc_1 = 9;
+                                __cs_simulate = 2;
+                            }
+}
+/* main function (scheduler) */
+int main()
+{
+  __cs_simulate = 0;
+  __cs_pc_9 = 0;
+  __cs_pc_1 = 0;
+  __cs_pc_2 = 0;
+  __cs_pc_3 = 0;
+  __cs_pc_4 = 0;
+  __cs_pc_5 = 0;
+  __cs_pc_6 = 0;
+  __cs_pc_7 = 0;
+  __cs_pc_8 = 0;
+  __cs_disable_isr_0 = 0;
+  __cs_disable_isr_1 = 0;
+  __cs_disable_isr_2 = 0;
+  __cs_disable_isr_3 = 0;
+  __cs_disable_isr_4 = 0;
+  __cs_disable_isr_5 = 0;
+  __cs_disable_isr_6 = 0;
+  __cs_disable_isr_7 = 0;
+  __cs_disable_isr_8 = 0;
+  while (1)
+  {
+    __cs_simulate = 0;
+    if ((__cs_pc_7 == 0 || __cs_pc_7 == 6)&&(__cs_pc_4 == 0 || __cs_pc_4 == 12)&&(__cs_pc_3 == 0 || __cs_pc_3 == 8)&&(__cs_pc_5 == 0 || __cs_pc_5 == 13)&&(__cs_pc_6 == 0 || __cs_pc_6 == 7)&&(__cs_pc_2 == 0 || __cs_pc_2 == 11)&&(__cs_pc_8 == 0 || __cs_pc_8 == 7)&&__cs_disable_isr_0 != 1) main_task();
+    __cs_simulate = 0;
+    if (__cs_disable_isr_1 != 1) closer1_isr_1();
+    __cs_simulate = 0;
+    if ((__cs_pc_7 == 0 || __cs_pc_7 == 6)&&(__cs_pc_8 == 0 || __cs_pc_8 == 7)&&__cs_disable_isr_2 != 1) closer2_isr_2();
+    __cs_simulate = 0;
+    if ((__cs_pc_7 == 0 || __cs_pc_7 == 6)&&(__cs_pc_5 == 0 || __cs_pc_5 == 13)&&(__cs_pc_6 == 0 || __cs_pc_6 == 7)&&(__cs_pc_2 == 0 || __cs_pc_2 == 11)&&(__cs_pc_8 == 0 || __cs_pc_8 == 7)&&__cs_disable_isr_3 != 1) closer3_isr_3();
+    __cs_simulate = 0;
+    if ((__cs_pc_7 == 0 || __cs_pc_7 == 6)&&(__cs_pc_3 == 0 || __cs_pc_3 == 8)&&(__cs_pc_5 == 0 || __cs_pc_5 == 13)&&(__cs_pc_6 == 0 || __cs_pc_6 == 7)&&(__cs_pc_2 == 0 || __cs_pc_2 == 11)&&(__cs_pc_8 == 0 || __cs_pc_8 == 7)&&__cs_disable_isr_4 != 1) closer4_isr_4();
+    __cs_simulate = 0;
+    if ((__cs_pc_7 == 0 || __cs_pc_7 == 6)&&(__cs_pc_3 == 0 || __cs_pc_3 == 8)&&(__cs_pc_6 == 0 || __cs_pc_6 == 7)&&(__cs_pc_2 == 0 || __cs_pc_2 == 11)&&(__cs_pc_8 == 0 || __cs_pc_8 == 7)&&__cs_disable_isr_5 != 1) writer1_isr_5();
+    __cs_simulate = 0;
+    if ((__cs_pc_7 == 0 || __cs_pc_7 == 6)&&(__cs_pc_3 == 0 || __cs_pc_3 == 8)&&(__cs_pc_5 == 0 || __cs_pc_5 == 13)&&(__cs_pc_2 == 0 || __cs_pc_2 == 11)&&(__cs_pc_8 == 0 || __cs_pc_8 == 7)&&__cs_disable_isr_6 != 1) writer2_isr_6();
+    __cs_simulate = 0;
+    if ((__cs_pc_2 == 0 || __cs_pc_2 == 11)&&(__cs_pc_8 == 0 || __cs_pc_8 == 7)&&__cs_disable_isr_7 != 1) writer3_isr_7();
+    __cs_simulate = 0;
+    if (__cs_disable_isr_8 != 1) writer4_isr_8();
+  }
+}

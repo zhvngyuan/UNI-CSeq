@@ -1,0 +1,30 @@
+!SESSION 2025-10-29 16:49:52.855 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.23
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -ultimatedata /home/dell/zyworkspace/unichecker/backends/UAutomizer_linux/data -tc /home/dell/zyworkspace/unichecker/backends/UAutomizer_linux/config/AutomizerReach.xml -i /home/dell/zyworkspace/unichecker/Experiments_tests/ComExp_Split/racebench2.1/svp_simple_027/_cseq_uautomizer_svp_simple_027_assert2.c -s /home/dell/zyworkspace/unichecker/backends/UAutomizer_linux/config/svcomp-Reach-64bit-Automizer_Default.epf --cacsl2boogietranslator.entry.function None --witnessprinter.witness.directory /home/dell/zyworkspace/unichecker/backends/UAutomizer_linux --witnessprinter.witness.filename witness --witnessprinter.write.witness.besides.input.file false --witnessprinter.graph.data.specification <rundefinition>
+<name>Automizer for C (with Inlining and Witnessprinting)</name>
+<toolchain>
+	<plugin id="de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator"/>
+	<plugin id="de.uni_freiburg.informatik.ultimate.boogie.procedureinliner"/>
+	<plugin id="de.uni_freiburg.informatik.ultimate.boogie.preprocessor"/>
+	<plugin id="de.uni_freiburg.informatik.ultimate.plugins.generator.rcfgbuilder"/>
+	<plugin id="de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction"/>
+	<plugin id="de.uni_freiburg.informatik.ultimate.witnessprinter"/>
+</toolchain></rundefinition>
+ --witnessprinter.graph.data.producer Automizer --witnessprinter.graph.data.architecture 64bit --witnessprinter.graph.data.programhash 88efbb03cc226cc3d90d25b31e89a098ce30c6688df8fc00621c0fcb01f5f9e7
+Command-line arguments:  -data @noDefault -ultimatedata /home/dell/zyworkspace/unichecker/backends/UAutomizer_linux/data -tc /home/dell/zyworkspace/unichecker/backends/UAutomizer_linux/config/AutomizerReach.xml -i /home/dell/zyworkspace/unichecker/Experiments_tests/ComExp_Split/racebench2.1/svp_simple_027/_cseq_uautomizer_svp_simple_027_assert2.c -s /home/dell/zyworkspace/unichecker/backends/UAutomizer_linux/config/svcomp-Reach-64bit-Automizer_Default.epf --cacsl2boogietranslator.entry.function None --witnessprinter.witness.directory /home/dell/zyworkspace/unichecker/backends/UAutomizer_linux --witnessprinter.witness.filename witness --witnessprinter.write.witness.besides.input.file false --witnessprinter.graph.data.specification <rundefinition>
+<name>Automizer for C (with Inlining and Witnessprinting)</name>
+<toolchain>
+	<plugin id="de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator"/>
+	<plugin id="de.uni_freiburg.informatik.ultimate.boogie.procedureinliner"/>
+	<plugin id="de.uni_freiburg.informatik.ultimate.boogie.preprocessor"/>
+	<plugin id="de.uni_freiburg.informatik.ultimate.plugins.generator.rcfgbuilder"/>
+	<plugin id="de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction"/>
+	<plugin id="de.uni_freiburg.informatik.ultimate.witnessprinter"/>
+</toolchain></rundefinition>
+ --witnessprinter.graph.data.producer Automizer --witnessprinter.graph.data.architecture 64bit --witnessprinter.graph.data.programhash 88efbb03cc226cc3d90d25b31e89a098ce30c6688df8fc00621c0fcb01f5f9e7
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-29 16:49:55.011
+!MESSAGE Indexed 'FLAG4102806ca' (0 sources, 0 headers) in 0.002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

@@ -1,0 +1,5 @@
+TEST_DIRS="svp_simple_300_001
+svp_simple_301_001
+svp_simple_302_001
+svp_simple_303_001
+svp_simple_304_001"

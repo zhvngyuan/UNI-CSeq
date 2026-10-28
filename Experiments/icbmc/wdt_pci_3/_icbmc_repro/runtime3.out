@@ -1,0 +1,515 @@
+CBMC version 4.9 64-bit linux
+Parsing _icbmc_repro/main.c
+<command-line>: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking main
+Generating GOTO Program
+Adding CPROVER library
+<command-line>: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Adding interrupt constraints
+size of program expression: 147503 steps
+no slicing due to threads
+Generated 7 VCC(s), 7 remaining after simplification
+Passing problem to propositional reduction
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+320140 variables, 1612393 clauses
+SAT checker: negated claim is SATISFIABLE, i.e., does not hold
+Runtime decision procedure: 40.133s
+Building error trace
+
+Counterexample:
+
+State 3 file <built-in-additions> line 78 thread 0
+----------------------------------------------------
+  __CPROVER_pipe_count=0 (00000000000000000000000000000000)
+
+State 4 file _icbmc_repro/main.c line 117 thread 0
+----------------------------------------------------
+  wdtpci_write_buf=0 (00000000)
+
+State 5 file _icbmc_repro/main.c line 120 thread 0
+----------------------------------------------------
+  wdt_dc_port=0 (00000000)
+
+State 6 file <built-in-additions> line 21 thread 0
+----------------------------------------------------
+  __CPROVER_thread_id=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 7 file _icbmc_repro/main.c line 123 thread 0
+----------------------------------------------------
+  jiffies=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 8 file <built-in-additions> line 22 thread 0
+----------------------------------------------------
+  __CPROVER_threads_exited={ [0]=FALSE } (?)
+
+State 9 file _icbmc_repro/main.c line 185 thread 0
+----------------------------------------------------
+  dev_count=0 (00000000000000000000000000000000)
+
+State 10 file <built-in-additions> line 23 thread 0
+----------------------------------------------------
+  __CPROVER_next_thread_id=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 11 file _icbmc_repro/main.c line 188 thread 0
+----------------------------------------------------
+  open_sem=0 (00000000000000000000000000000000)
+
+State 12 file _icbmc_repro/main.c line 190 thread 0
+----------------------------------------------------
+  wdtpci_lock=0 (00000000)
+
+State 13 file _icbmc_repro/main.c line 191 thread 0
+----------------------------------------------------
+  expect_close=0 (00000000000000000000000000000000)
+
+State 14 file _icbmc_repro/main.c line 193 thread 0
+----------------------------------------------------
+  io=0 (00000000000000000000000000000000)
+
+State 15 file _icbmc_repro/main.c line 194 thread 0
+----------------------------------------------------
+  irq=0 (00000000000000000000000000000000)
+
+State 16 file _icbmc_repro/main.c line 199 thread 0
+----------------------------------------------------
+  heartbeat=60 (00000000000000000000000000111100)
+
+State 17 file _icbmc_repro/main.c line 200 thread 0
+----------------------------------------------------
+  wd_heartbeat=0 (00000000000000000000000000000000)
+
+State 18 file _icbmc_repro/main.c line 205 thread 0
+----------------------------------------------------
+  nowayout=0 (00000000000000000000000000000000)
+
+State 19 file _icbmc_repro/main.c line 943 thread 0
+----------------------------------------------------
+  __CPROVER_thread_priorities={ 5, 3, 2, 1, 2, 2, 3, 4 } ({ 00000000000000000000000000000101, 00000000000000000000000000000011, 00000000000000000000000000000010, 00000000000000000000000000000001, 00000000000000000000000000000010, 00000000000000000000000000000010, 00000000000000000000000000000011, 00000000000000000000000000000100 })
+
+State 20 file _icbmc_repro/main.c line 944 thread 0
+----------------------------------------------------
+  __CPROVER_threads={ "c::closer1", "c::closer2", "c::closer3", "c::closer4", "c::writer1", "c::writer2", "c::writer3", "c::writer4" } ({ 0000001000000000000000000000000000000000000000000000000000000000, 0000001100000000000000000000000000000000000000000000000000000000, 0000010000000000000000000000000000000000000000000000000000000000, 0000010100000000000000000000000000000000000000000000000000000000, 0000011000000000000000000000000000000000000000000000000000000000, 0000011100000000000000000000000000000000000000000000000000000000, 0000100000000000000000000000000000000000000000000000000000000000, 0000100100000000000000000000000000000000000000000000000000000000 })
+
+State 21 file <built-in-additions> line 30 thread 0
+----------------------------------------------------
+  __CPROVER_deallocated=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 22 file <built-in-additions> line 31 thread 0
+----------------------------------------------------
+  __CPROVER_dead_object=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 23 file <built-in-additions> line 32 thread 0
+----------------------------------------------------
+  __CPROVER_malloc_object=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 24 file _icbmc_repro/main.c line 947 thread 0
+----------------------------------------------------
+  cnt1=0 (00000000000000000000000000000000)
+
+State 25 file <built-in-additions> line 33 thread 0
+----------------------------------------------------
+  __CPROVER_malloc_size=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 26 file _icbmc_repro/main.c line 947 thread 0
+----------------------------------------------------
+  cnt2=0 (00000000000000000000000000000000)
+
+State 27 file <built-in-additions> line 34 thread 0
+----------------------------------------------------
+  __CPROVER_malloc_is_new_array=FALSE (0)
+
+State 28 file _icbmc_repro/main.c line 947 thread 0
+----------------------------------------------------
+  cnt3=0 (00000000000000000000000000000000)
+
+State 29 file <built-in-additions> line 35 thread 0
+----------------------------------------------------
+  __CPROVER_memory_leak=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 30 file _icbmc_repro/main.c line 947 thread 0
+----------------------------------------------------
+  cnt4=0 (00000000000000000000000000000000)
+
+State 31 file _icbmc_repro/main.c line 947 thread 0
+----------------------------------------------------
+  cnt5=0 (00000000000000000000000000000000)
+
+State 32 file _icbmc_repro/main.c line 947 thread 0
+----------------------------------------------------
+  cnt6=0 (00000000000000000000000000000000)
+
+State 33 file _icbmc_repro/main.c line 947 thread 0
+----------------------------------------------------
+  cnt7=0 (00000000000000000000000000000000)
+
+State 34 file _icbmc_repro/main.c line 947 thread 0
+----------------------------------------------------
+  cnt8=0 (00000000000000000000000000000000)
+
+State 35 file _icbmc_repro/main.c line 948 thread 0
+----------------------------------------------------
+  count=0 (00000000000000000000000000000000)
+
+State 36 file _icbmc_repro/main.c line 949 thread 0
+----------------------------------------------------
+  buf=0 (00000000000000000000000000000000)
+
+State 37 file <built-in-additions> line 57 thread 0
+----------------------------------------------------
+  __CPROVER_rounding_mode=0 (00000000000000000000000000000000)
+
+State 41  thread 0
+----------------------------------------------------
+  argv'[16384]=irep("(\"nil\")")[16384] (?)
+
+State 44 file _icbmc_repro/main.c line 1330 thread 0
+----------------------------------------------------
+  argc=16384 (00000000000000000100000000000000)
+
+State 45 file _icbmc_repro/main.c line 1330 thread 0
+----------------------------------------------------
+  argv=argv' (0000101000000000000000000000000000000000000000000000000000000000)
+
+State 46 file _icbmc_repro/main.c line 1332 function main thread 0
+----------------------------------------------------
+  t1=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 47 file _icbmc_repro/main.c line 1333 function main thread 0
+----------------------------------------------------
+  t2=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 50 file _icbmc_repro/main.c line 1380 function main thread 0
+----------------------------------------------------
+  value_ptr=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 51 file _icbmc_repro/main.c line 1380 function main thread 0
+----------------------------------------------------
+  value_ptr=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 53 file _icbmc_repro/main.c line 1076 function closer4 thread 1
+----------------------------------------------------
+  wdtpci_write_buf=86 (01010110)
+
+State 54 file _icbmc_repro/main.c line 1077 function closer4 thread 1
+----------------------------------------------------
+  expect_close=42 (00000000000000000000000000101010)
+
+State 55 file _icbmc_repro/main.c line 1036 function closer3 thread 2
+----------------------------------------------------
+  wdtpci_write_buf=86 (01010110)
+
+State 56 file _icbmc_repro/main.c line 1037 function closer3 thread 2
+----------------------------------------------------
+  expect_close=42 (00000000000000000000000000101010)
+
+State 57 file _icbmc_repro/main.c line 1038 function closer3 thread 2
+----------------------------------------------------
+  count=1 (00000000000000000000000000000001)
+
+State 60 file _icbmc_repro/main.c line 1183 function writer4 thread 13
+----------------------------------------------------
+  count=0 (00000000000000000000000000000000)
+
+State 63 file _icbmc_repro/main.c line 1059 function closer3 thread 2
+----------------------------------------------------
+  expect_close=0 (00000000000000000000000000000000)
+
+State 64 file _icbmc_repro/main.c line 997 function closer2 thread 5
+----------------------------------------------------
+  wdtpci_write_buf=86 (01010110)
+
+State 65 file _icbmc_repro/main.c line 998 function closer2 thread 5
+----------------------------------------------------
+  expect_close=42 (00000000000000000000000000101010)
+
+State 66 file _icbmc_repro/main.c line 1184 function writer4 thread 13
+----------------------------------------------------
+  expect_close=0 (00000000000000000000000000000000)
+
+State 68 file _icbmc_repro/main.c line 1061 function closer3 thread 2
+----------------------------------------------------
+  cnt5=1 (00000000000000000000000000000001)
+
+State 75 file _icbmc_repro/main.c line 962 function closer1 thread 22
+----------------------------------------------------
+  wdtpci_write_buf=86 (01010110)
+
+State 76 file _icbmc_repro/main.c line 963 function closer1 thread 22
+----------------------------------------------------
+  expect_close=42 (00000000000000000000000000101010)
+
+State 77 file _icbmc_repro/main.c line 964 function closer1 thread 22
+----------------------------------------------------
+  count=1 (00000000000000000000000000000001)
+
+State 82 file _icbmc_repro/main.c line 985 function closer1 thread 22
+----------------------------------------------------
+  expect_close=0 (00000000000000000000000000000000)
+
+State 83 file _icbmc_repro/main.c line 1197 function writer4 thread 13
+----------------------------------------------------
+  cnt7=1 (00000000000000000000000000000001)
+
+State 89 file _icbmc_repro/main.c line 987 function closer1 thread 22
+----------------------------------------------------
+  cnt1=1 (00000000000000000000000000000001)
+
+State 92 file _icbmc_repro/main.c line 999 function closer2 thread 5
+----------------------------------------------------
+  count=1 (00000000000000000000000000000001)
+
+State 97 file _icbmc_repro/main.c line 1020 function closer2 thread 5
+----------------------------------------------------
+  expect_close=0 (00000000000000000000000000000000)
+
+State 98 file _icbmc_repro/main.c line 962 function closer1 thread 20
+----------------------------------------------------
+  wdtpci_write_buf=86 (01010110)
+
+State 99 file _icbmc_repro/main.c line 963 function closer1 thread 20
+----------------------------------------------------
+  expect_close=42 (00000000000000000000000000101010)
+
+State 100 file _icbmc_repro/main.c line 1022 function closer2 thread 5
+----------------------------------------------------
+  cnt2=1 (00000000000000000000000000000001)
+
+State 106 file _icbmc_repro/main.c line 964 function closer1 thread 20
+----------------------------------------------------
+  count=1 (00000000000000000000000000000001)
+
+State 111 file _icbmc_repro/main.c line 985 function closer1 thread 20
+----------------------------------------------------
+  expect_close=0 (00000000000000000000000000000000)
+
+State 112 file _icbmc_repro/main.c line 987 function closer1 thread 20
+----------------------------------------------------
+  cnt1=2 (00000000000000000000000000000010)
+
+State 117 file _icbmc_repro/main.c line 997 function closer2 thread 7
+----------------------------------------------------
+  wdtpci_write_buf=86 (01010110)
+
+State 118 file _icbmc_repro/main.c line 998 function closer2 thread 7
+----------------------------------------------------
+  expect_close=42 (00000000000000000000000000101010)
+
+State 119 file _icbmc_repro/main.c line 1183 function writer4 thread 12
+----------------------------------------------------
+  count=0 (00000000000000000000000000000000)
+
+State 120 file _icbmc_repro/main.c line 1184 function writer4 thread 12
+----------------------------------------------------
+  expect_close=0 (00000000000000000000000000000000)
+
+State 122 file _icbmc_repro/main.c line 1197 function writer4 thread 12
+----------------------------------------------------
+  cnt7=2 (00000000000000000000000000000010)
+
+State 128 file _icbmc_repro/main.c line 962 function closer1 thread 18
+----------------------------------------------------
+  wdtpci_write_buf=86 (01010110)
+
+State 129 file _icbmc_repro/main.c line 963 function closer1 thread 18
+----------------------------------------------------
+  expect_close=42 (00000000000000000000000000101010)
+
+State 130 file _icbmc_repro/main.c line 964 function closer1 thread 18
+----------------------------------------------------
+  count=1 (00000000000000000000000000000001)
+
+State 135 file _icbmc_repro/main.c line 985 function closer1 thread 18
+----------------------------------------------------
+  expect_close=0 (00000000000000000000000000000000)
+
+State 136 file _icbmc_repro/main.c line 987 function closer1 thread 18
+----------------------------------------------------
+  cnt1=3 (00000000000000000000000000000011)
+
+State 141 file _icbmc_repro/main.c line 962 function closer1 thread 17
+----------------------------------------------------
+  wdtpci_write_buf=86 (01010110)
+
+State 142 file _icbmc_repro/main.c line 963 function closer1 thread 17
+----------------------------------------------------
+  expect_close=42 (00000000000000000000000000101010)
+
+State 143 file _icbmc_repro/main.c line 964 function closer1 thread 17
+----------------------------------------------------
+  count=1 (00000000000000000000000000000001)
+
+State 148 file _icbmc_repro/main.c line 985 function closer1 thread 17
+----------------------------------------------------
+  expect_close=0 (00000000000000000000000000000000)
+
+State 149 file _icbmc_repro/main.c line 987 function closer1 thread 17
+----------------------------------------------------
+  cnt1=4 (00000000000000000000000000000100)
+
+State 154 file _icbmc_repro/main.c line 999 function closer2 thread 7
+----------------------------------------------------
+  count=1 (00000000000000000000000000000001)
+
+State 159 file _icbmc_repro/main.c line 1020 function closer2 thread 7
+----------------------------------------------------
+  expect_close=0 (00000000000000000000000000000000)
+
+State 160 file _icbmc_repro/main.c line 1022 function closer2 thread 7
+----------------------------------------------------
+  cnt2=2 (00000000000000000000000000000010)
+
+State 166 file _icbmc_repro/main.c line 997 function closer2 thread 9
+----------------------------------------------------
+  wdtpci_write_buf=86 (01010110)
+
+State 167 file _icbmc_repro/main.c line 998 function closer2 thread 9
+----------------------------------------------------
+  expect_close=42 (00000000000000000000000000101010)
+
+State 168 file _icbmc_repro/main.c line 999 function closer2 thread 9
+----------------------------------------------------
+  count=1 (00000000000000000000000000000001)
+
+State 173 file _icbmc_repro/main.c line 1020 function closer2 thread 9
+----------------------------------------------------
+  expect_close=0 (00000000000000000000000000000000)
+
+State 174 file _icbmc_repro/main.c line 1022 function closer2 thread 9
+----------------------------------------------------
+  cnt2=3 (00000000000000000000000000000011)
+
+State 180 file _icbmc_repro/main.c line 1078 function closer4 thread 1
+----------------------------------------------------
+  count=1 (00000000000000000000000000000001)
+
+State 181 file _icbmc_repro/main.c line 1137 function writer2 thread 4
+----------------------------------------------------
+  count=0 (00000000000000000000000000000000)
+
+State 182 file _icbmc_repro/main.c line 1138 function writer2 thread 4
+----------------------------------------------------
+  expect_close=0 (00000000000000000000000000000000)
+
+State 183 file _icbmc_repro/main.c line 1160 function writer3 thread 8
+----------------------------------------------------
+  count=0 (00000000000000000000000000000000)
+
+State 184 file _icbmc_repro/main.c line 1183 function writer4 thread 16
+----------------------------------------------------
+  count=0 (00000000000000000000000000000000)
+
+State 185 file _icbmc_repro/main.c line 1184 function writer4 thread 16
+----------------------------------------------------
+  expect_close=0 (00000000000000000000000000000000)
+
+State 187 file _icbmc_repro/main.c line 1197 function writer4 thread 16
+----------------------------------------------------
+  cnt7=3 (00000000000000000000000000000011)
+
+State 193 file _icbmc_repro/main.c line 1183 function writer4 thread 14
+----------------------------------------------------
+  count=0 (00000000000000000000000000000000)
+
+State 194 file _icbmc_repro/main.c line 1184 function writer4 thread 14
+----------------------------------------------------
+  expect_close=0 (00000000000000000000000000000000)
+
+State 195 file _icbmc_repro/main.c line 962 function closer1 thread 21
+----------------------------------------------------
+  wdtpci_write_buf=86 (01010110)
+
+State 197 file _icbmc_repro/main.c line 963 function closer1 thread 21
+----------------------------------------------------
+  expect_close=42 (00000000000000000000000000101010)
+
+State 198 file _icbmc_repro/main.c line 964 function closer1 thread 21
+----------------------------------------------------
+  count=1 (00000000000000000000000000000001)
+
+State 203 file _icbmc_repro/main.c line 1197 function writer4 thread 14
+----------------------------------------------------
+  cnt7=4 (00000000000000000000000000000100)
+
+State 209 file _icbmc_repro/main.c line 985 function closer1 thread 21
+----------------------------------------------------
+  expect_close=0 (00000000000000000000000000000000)
+
+State 210 file _icbmc_repro/main.c line 987 function closer1 thread 21
+----------------------------------------------------
+  cnt1=5 (00000000000000000000000000000101)
+
+State 215 file _icbmc_repro/main.c line 1151 function writer2 thread 4
+----------------------------------------------------
+  cnt4=1 (00000000000000000000000000000001)
+
+State 221 file _icbmc_repro/main.c line 1183 function writer4 thread 11
+----------------------------------------------------
+  count=0 (00000000000000000000000000000000)
+
+State 222 file _icbmc_repro/main.c line 1184 function writer4 thread 11
+----------------------------------------------------
+  expect_close=0 (00000000000000000000000000000000)
+
+State 224 file _icbmc_repro/main.c line 1197 function writer4 thread 11
+----------------------------------------------------
+  cnt7=5 (00000000000000000000000000000101)
+
+State 230 file _icbmc_repro/main.c line 1183 function writer4 thread 15
+----------------------------------------------------
+  count=0 (00000000000000000000000000000000)
+
+State 231 file _icbmc_repro/main.c line 1184 function writer4 thread 15
+----------------------------------------------------
+  expect_close=0 (00000000000000000000000000000000)
+
+State 233 file _icbmc_repro/main.c line 1197 function writer4 thread 15
+----------------------------------------------------
+  cnt7=6 (00000000000000000000000000000110)
+
+State 239 file _icbmc_repro/main.c line 962 function closer1 thread 19
+----------------------------------------------------
+  wdtpci_write_buf=86 (01010110)
+
+State 240 file _icbmc_repro/main.c line 963 function closer1 thread 19
+----------------------------------------------------
+  expect_close=42 (00000000000000000000000000101010)
+
+State 241 file _icbmc_repro/main.c line 964 function closer1 thread 19
+----------------------------------------------------
+  count=1 (00000000000000000000000000000001)
+
+State 246 file _icbmc_repro/main.c line 985 function closer1 thread 19
+----------------------------------------------------
+  expect_close=0 (00000000000000000000000000000000)
+
+State 247 file _icbmc_repro/main.c line 987 function closer1 thread 19
+----------------------------------------------------
+  cnt1=6 (00000000000000000000000000000110)
+
+State 252 file _icbmc_repro/main.c line 1161 function writer3 thread 8
+----------------------------------------------------
+  expect_close=0 (00000000000000000000000000000000)
+
+State 256 file _icbmc_repro/main.c line 1174 function writer3 thread 8
+----------------------------------------------------
+  cnt6=1 (00000000000000000000000000000001)
+
+Violated property:
+  file _icbmc_repro/main.c line 1094 function closer4
+  assertion 0
+  FALSE
+
+VERIFICATION FAILED
+
+real	0m42.850s
+user	0m42.598s
+sys	0m0.247s

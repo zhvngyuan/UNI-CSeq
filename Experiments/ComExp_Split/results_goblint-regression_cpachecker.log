@@ -1,0 +1,883 @@
+2026年8月28日16:55, ./run_scripts/run_third_Experiment.sh , backend=cpachecker
+========================================
+[1;36m===== Checking goblint-regression =====[0m
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_500_001/svp_simple_500_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_500_001/_cseq_cpachecker_svp_simple_500_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_500_001/svp_simple_500_001_assert1.c, [91mFALSE[0m, 2.74
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_504_001/svp_simple_504_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_504_001/_cseq_cpachecker_svp_simple_504_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_504_001/svp_simple_504_001_assert1.c, [92mTRUE[0m, 2.72
+[Resource] Peak memory usage: 12.37 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_505_001/svp_simple_505_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_505_001/_cseq_cpachecker_svp_simple_505_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_505_001/svp_simple_505_001_assert1.c, [92mTRUE[0m, 2.88
+[Resource] Peak memory usage: 12.40 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_506_001/svp_simple_506_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_506_001/_cseq_cpachecker_svp_simple_506_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_506_001/svp_simple_506_001_assert1.c, [92mTRUE[0m, 3.24
+[Resource] Peak memory usage: 12.38 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_506_001/svp_simple_506_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_506_001/_cseq_cpachecker_svp_simple_506_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_506_001/svp_simple_506_001_assert2.c, [92mTRUE[0m, 3.83
+[Resource] Peak memory usage: 12.38 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_507_001/svp_simple_507_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_507_001/_cseq_cpachecker_svp_simple_507_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_507_001/svp_simple_507_001_assert1.c, [91mFALSE[0m, 3.02
+[Resource] Peak memory usage: 12.43 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_508_001/svp_simple_508_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_508_001/_cseq_cpachecker_svp_simple_508_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_508_001/svp_simple_508_001_assert1.c, [91mFALSE[0m, 3.20
+[Resource] Peak memory usage: 12.49 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_509_001/svp_simple_509_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_509_001/_cseq_cpachecker_svp_simple_509_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_509_001/svp_simple_509_001_assert1.c, [92mTRUE[0m, 2.87
+[Resource] Peak memory usage: 12.40 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_510_001/svp_simple_510_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_510_001/_cseq_cpachecker_svp_simple_510_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_510_001/svp_simple_510_001_assert1.c, [91mFALSE[0m, 2.97
+[Resource] Peak memory usage: 12.51 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_511_001/svp_simple_511_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_511_001/_cseq_cpachecker_svp_simple_511_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_511_001/svp_simple_511_001_assert1.c, [92mTRUE[0m, 3.67
+[Resource] Peak memory usage: 12.31 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_512_001/svp_simple_512_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_512_001/_cseq_cpachecker_svp_simple_512_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_512_001/svp_simple_512_001_assert1.c, [92mTRUE[0m, 2.95
+[Resource] Peak memory usage: 12.27 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_513_001/svp_simple_513_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_513_001/_cseq_cpachecker_svp_simple_513_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_513_001/svp_simple_513_001_assert1.c, [91mFALSE[0m, 2.87
+[Resource] Peak memory usage: 12.31 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_518_001/svp_simple_518_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_518_001/_cseq_cpachecker_svp_simple_518_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_518_001/svp_simple_518_001_assert1.c, [91mFALSE[0m, 2.67
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_518_001/svp_simple_518_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_518_001/_cseq_cpachecker_svp_simple_518_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_518_001/svp_simple_518_001_assert2.c, [91mFALSE[0m, 2.72
+[Resource] Peak memory usage: 12.42 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_519_001/svp_simple_519_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_519_001/_cseq_cpachecker_svp_simple_519_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_519_001/svp_simple_519_001_assert1.c, [91mFALSE[0m, 3.26
+[Resource] Peak memory usage: 12.51 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_519_001/svp_simple_519_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_519_001/_cseq_cpachecker_svp_simple_519_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_519_001/svp_simple_519_001_assert2.c, [91mFALSE[0m, 2.97
+[Resource] Peak memory usage: 12.32 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_519_001/svp_simple_519_001_assert3.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_519_001/_cseq_cpachecker_svp_simple_519_001_assert3.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_519_001/svp_simple_519_001_assert3.c, [91mFALSE[0m, 2.76
+[Resource] Peak memory usage: 12.43 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_520_001/svp_simple_520_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_520_001/_cseq_cpachecker_svp_simple_520_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_520_001/svp_simple_520_001_assert1.c, [91mFALSE[0m, 3.86
+[Resource] Peak memory usage: 12.32 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_520_001/svp_simple_520_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_520_001/_cseq_cpachecker_svp_simple_520_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_520_001/svp_simple_520_001_assert2.c, [91mFALSE[0m, 3.01
+[Resource] Peak memory usage: 12.40 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_521_001/svp_simple_521_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_521_001/_cseq_cpachecker_svp_simple_521_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_521_001/svp_simple_521_001_assert1.c, [91mFALSE[0m, 3.29
+[Resource] Peak memory usage: 12.43 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_522_001/svp_simple_522_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_522_001/_cseq_cpachecker_svp_simple_522_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_522_001/svp_simple_522_001_assert1.c, [92mTRUE[0m, 2.88
+[Resource] Peak memory usage: 12.43 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_524_001/svp_simple_524_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_524_001/_cseq_cpachecker_svp_simple_524_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_524_001/svp_simple_524_001_assert1.c, [91mFALSE[0m, 2.99
+[Resource] Peak memory usage: 12.43 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_529_001/svp_simple_529_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_529_001/_cseq_cpachecker_svp_simple_529_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_529_001/svp_simple_529_001_assert1.c, [92mTRUE[0m, 2.66
+[Resource] Peak memory usage: 12.39 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_536_001/svp_simple_536_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_536_001/_cseq_cpachecker_svp_simple_536_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_536_001/svp_simple_536_001_assert1.c, [92mTRUE[0m, 3.08
+[Resource] Peak memory usage: 12.46 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_537_001/svp_simple_537_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_537_001/_cseq_cpachecker_svp_simple_537_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_537_001/svp_simple_537_001_assert1.c, [91mFALSE[0m, 2.78
+[Resource] Peak memory usage: 12.30 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_538_001/svp_simple_538_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_538_001/_cseq_cpachecker_svp_simple_538_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_538_001/svp_simple_538_001_assert1.c, [91mFALSE[0m, 3.59
+[Resource] Peak memory usage: 12.31 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_542_001/svp_simple_542_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_542_001/_cseq_cpachecker_svp_simple_542_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_542_001/svp_simple_542_001_assert1.c, [91mFALSE[0m, 3.08
+[Resource] Peak memory usage: 12.27 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_542_001/svp_simple_542_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_542_001/_cseq_cpachecker_svp_simple_542_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_542_001/svp_simple_542_001_assert2.c, [92mTRUE[0m, 3.32
+[Resource] Peak memory usage: 12.46 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_545_001/svp_simple_545_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_545_001/_cseq_cpachecker_svp_simple_545_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_545_001/svp_simple_545_001_assert1.c, [91mFALSE[0m, 3.23
+[Resource] Peak memory usage: 12.40 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_545_001/svp_simple_545_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_545_001/_cseq_cpachecker_svp_simple_545_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_545_001/svp_simple_545_001_assert2.c, [92mTRUE[0m, 4.43
+[Resource] Peak memory usage: 12.49 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_547_001/svp_simple_547_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_547_001/_cseq_cpachecker_svp_simple_547_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_547_001/svp_simple_547_001_assert1.c, [91mFALSE[0m, 3.00
+[Resource] Peak memory usage: 12.32 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_548_001/svp_simple_548_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_548_001/_cseq_cpachecker_svp_simple_548_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_548_001/svp_simple_548_001_assert1.c, [92mTRUE[0m, 2.94
+[Resource] Peak memory usage: 12.38 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_560_001/svp_simple_560_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_560_001/_cseq_cpachecker_svp_simple_560_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_560_001/svp_simple_560_001_assert1.c, [91mFALSE[0m, 2.61
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_597_001/svp_simple_597_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_597_001/_cseq_cpachecker_svp_simple_597_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_597_001/svp_simple_597_001_assert1.c, [92mTRUE[0m, 2.57
+[Resource] Peak memory usage: 12.31 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_598_001/svp_simple_598_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_598_001/_cseq_cpachecker_svp_simple_598_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_598_001/svp_simple_598_001_assert1.c, [92mTRUE[0m, 2.85
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_600_001/svp_simple_600_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_600_001/_cseq_cpachecker_svp_simple_600_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_600_001/svp_simple_600_001_assert1.c, [91mFALSE[0m, 2.62
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_600_001/svp_simple_600_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_600_001/_cseq_cpachecker_svp_simple_600_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_600_001/svp_simple_600_001_assert2.c, [92mTRUE[0m, 2.92
+[Resource] Peak memory usage: 12.35 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_600_001/svp_simple_600_001_assert3.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_600_001/_cseq_cpachecker_svp_simple_600_001_assert3.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_600_001/svp_simple_600_001_assert3.c, [92mTRUE[0m, 3.02
+[Resource] Peak memory usage: 12.43 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_600_001/svp_simple_600_001_assert4.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_600_001/_cseq_cpachecker_svp_simple_600_001_assert4.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_600_001/svp_simple_600_001_assert4.c, [92mTRUE[0m, 3.28
+[Resource] Peak memory usage: 12.44 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_601_001/svp_simple_601_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_601_001/_cseq_cpachecker_svp_simple_601_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_601_001/svp_simple_601_001_assert1.c, [92mTRUE[0m, 2.61
+[Resource] Peak memory usage: 12.40 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_601_001/svp_simple_601_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_601_001/_cseq_cpachecker_svp_simple_601_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_601_001/svp_simple_601_001_assert2.c, [91mFALSE[0m, 3.01
+[Resource] Peak memory usage: 12.43 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_601_001/svp_simple_601_001_assert3.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_601_001/_cseq_cpachecker_svp_simple_601_001_assert3.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_601_001/svp_simple_601_001_assert3.c, [91mFALSE[0m, 3.06
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_602_001/svp_simple_602_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_602_001/_cseq_cpachecker_svp_simple_602_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_602_001/svp_simple_602_001_assert1.c, [91mFALSE[0m, 5.39
+[Resource] Peak memory usage: 12.40 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_602_001/svp_simple_602_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_602_001/_cseq_cpachecker_svp_simple_602_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_602_001/svp_simple_602_001_assert2.c, [92mTRUE[0m, 53.27
+[Resource] Peak memory usage: 12.48 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_603_001/svp_simple_603_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_603_001/_cseq_cpachecker_svp_simple_603_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_603_001/svp_simple_603_001_assert1.c, [91mFALSE[0m, 3.00
+[Resource] Peak memory usage: 12.31 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_604_001/svp_simple_604_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_604_001/_cseq_cpachecker_svp_simple_604_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_604_001/svp_simple_604_001_assert1.c, [91mFALSE[0m, 2.92
+[Resource] Peak memory usage: 12.39 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_605_001/svp_simple_605_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_605_001/_cseq_cpachecker_svp_simple_605_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_605_001/svp_simple_605_001_assert1.c, [91mFALSE[0m, 2.67
+[Resource] Peak memory usage: 12.26 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_606_001/svp_simple_606_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_606_001/_cseq_cpachecker_svp_simple_606_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_606_001/svp_simple_606_001_assert1.c, [91mFALSE[0m, 2.71
+[Resource] Peak memory usage: 12.42 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_607_001/svp_simple_607_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_607_001/_cseq_cpachecker_svp_simple_607_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_607_001/svp_simple_607_001_assert1.c, [91mFALSE[0m, 2.75
+[Resource] Peak memory usage: 12.27 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_608_001/svp_simple_608_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_608_001/_cseq_cpachecker_svp_simple_608_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_608_001/svp_simple_608_001_assert1.c, [92mTRUE[0m, 2.71
+[Resource] Peak memory usage: 12.39 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_608_001/svp_simple_608_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_608_001/_cseq_cpachecker_svp_simple_608_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_608_001/svp_simple_608_001_assert2.c, [92mTRUE[0m, 2.56
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_609_001/svp_simple_609_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_609_001/_cseq_cpachecker_svp_simple_609_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_609_001/svp_simple_609_001_assert1.c, [91mFALSE[0m, 2.71
+[Resource] Peak memory usage: 12.42 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_610_001/svp_simple_610_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_610_001/_cseq_cpachecker_svp_simple_610_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_610_001/svp_simple_610_001_assert1.c, [92mTRUE[0m, 2.81
+[Resource] Peak memory usage: 12.33 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_611_001/svp_simple_611_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_611_001/_cseq_cpachecker_svp_simple_611_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_611_001/svp_simple_611_001_assert1.c, [92mTRUE[0m, 2.86
+[Resource] Peak memory usage: 12.29 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_612_001/svp_simple_612_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_612_001/_cseq_cpachecker_svp_simple_612_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_612_001/svp_simple_612_001_assert1.c, [91mFALSE[0m, 2.71
+[Resource] Peak memory usage: 12.48 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_613_001/svp_simple_613_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_613_001/_cseq_cpachecker_svp_simple_613_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_613_001/svp_simple_613_001_assert1.c, [92mTRUE[0m, 2.86
+[Resource] Peak memory usage: 12.39 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_613_001/svp_simple_613_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_613_001/_cseq_cpachecker_svp_simple_613_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_613_001/svp_simple_613_001_assert2.c, [92mTRUE[0m, 2.82
+[Resource] Peak memory usage: 12.30 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_614_001/svp_simple_614_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_614_001/_cseq_cpachecker_svp_simple_614_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_614_001/svp_simple_614_001_assert1.c, [92mTRUE[0m, 2.73
+[Resource] Peak memory usage: 12.34 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_614_001/svp_simple_614_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_614_001/_cseq_cpachecker_svp_simple_614_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_614_001/svp_simple_614_001_assert2.c, [92mTRUE[0m, 2.83
+[Resource] Peak memory usage: 12.37 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_616_001/svp_simple_616_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_616_001/_cseq_cpachecker_svp_simple_616_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_616_001/svp_simple_616_001_assert1.c, [92mTRUE[0m, 3.72
+[Resource] Peak memory usage: 12.33 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_616_001/svp_simple_616_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_616_001/_cseq_cpachecker_svp_simple_616_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_616_001/svp_simple_616_001_assert2.c, [92mTRUE[0m, 3.11
+[Resource] Peak memory usage: 12.44 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_617_001/svp_simple_617_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_617_001/_cseq_cpachecker_svp_simple_617_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_617_001/svp_simple_617_001_assert1.c, [92mTRUE[0m, 2.82
+[Resource] Peak memory usage: 12.37 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_617_001/svp_simple_617_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_617_001/_cseq_cpachecker_svp_simple_617_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_617_001/svp_simple_617_001_assert2.c, [92mTRUE[0m, 2.65
+[Resource] Peak memory usage: 12.39 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_617_001/svp_simple_617_001_assert3.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_617_001/_cseq_cpachecker_svp_simple_617_001_assert3.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_617_001/svp_simple_617_001_assert3.c, [92mTRUE[0m, 2.67
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_618_001/svp_simple_618_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_618_001/_cseq_cpachecker_svp_simple_618_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_618_001/svp_simple_618_001_assert1.c, [92mTRUE[0m, 2.81
+[Resource] Peak memory usage: 12.38 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_619_001/svp_simple_619_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_619_001/_cseq_cpachecker_svp_simple_619_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_619_001/svp_simple_619_001_assert1.c, [92mTRUE[0m, 2.91
+[Resource] Peak memory usage: 12.49 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_620_001/svp_simple_620_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_620_001/_cseq_cpachecker_svp_simple_620_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_620_001/svp_simple_620_001_assert1.c, [92mTRUE[0m, 2.73
+[Resource] Peak memory usage: 12.28 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_620_001/svp_simple_620_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_620_001/_cseq_cpachecker_svp_simple_620_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_620_001/svp_simple_620_001_assert2.c, [92mTRUE[0m, 2.61
+[Resource] Peak memory usage: 12.34 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_621_001/svp_simple_621_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_621_001/_cseq_cpachecker_svp_simple_621_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_621_001/svp_simple_621_001_assert1.c, [91mFALSE[0m, 2.64
+[Resource] Peak memory usage: 12.44 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_622_001/svp_simple_622_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_622_001/_cseq_cpachecker_svp_simple_622_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_622_001/svp_simple_622_001_assert1.c, [92mTRUE[0m, 2.81
+[Resource] Peak memory usage: 12.44 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_623_001/svp_simple_623_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_623_001/_cseq_cpachecker_svp_simple_623_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_623_001/svp_simple_623_001_assert1.c, [92mTRUE[0m, 2.51
+[Resource] Peak memory usage: 12.37 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_624_001/svp_simple_624_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_624_001/_cseq_cpachecker_svp_simple_624_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_624_001/svp_simple_624_001_assert1.c, [91mFALSE[0m, 2.80
+[Resource] Peak memory usage: 12.51 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_625_001/svp_simple_625_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_625_001/_cseq_cpachecker_svp_simple_625_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_625_001/svp_simple_625_001_assert1.c, [92mTRUE[0m, 2.86
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_626_001/svp_simple_626_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_626_001/_cseq_cpachecker_svp_simple_626_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_626_001/svp_simple_626_001_assert1.c, [92mTRUE[0m, 2.81
+[Resource] Peak memory usage: 12.46 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_627_001/svp_simple_627_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_627_001/_cseq_cpachecker_svp_simple_627_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_627_001/svp_simple_627_001_assert1.c, [92mTRUE[0m, 2.89
+[Resource] Peak memory usage: 12.49 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_628_001/svp_simple_628_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_628_001/_cseq_cpachecker_svp_simple_628_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_628_001/svp_simple_628_001_assert1.c, [91mFALSE[0m, 2.50
+[Resource] Peak memory usage: 12.27 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_631_001/svp_simple_631_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_631_001/_cseq_cpachecker_svp_simple_631_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_631_001/svp_simple_631_001_assert1.c, [92mTRUE[0m, 2.71
+[Resource] Peak memory usage: 12.25 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_632_001/svp_simple_632_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_632_001/_cseq_cpachecker_svp_simple_632_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_632_001/svp_simple_632_001_assert1.c, [91mFALSE[0m, 2.96
+[Resource] Peak memory usage: 12.30 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_633_001/svp_simple_633_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_633_001/_cseq_cpachecker_svp_simple_633_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_633_001/svp_simple_633_001_assert1.c, [92mTRUE[0m, 3.27
+[Resource] Peak memory usage: 12.42 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_634_001/svp_simple_634_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_634_001/_cseq_cpachecker_svp_simple_634_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_634_001/svp_simple_634_001_assert1.c, [92mTRUE[0m, 3.11
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_634_001/svp_simple_634_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_634_001/_cseq_cpachecker_svp_simple_634_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_634_001/svp_simple_634_001_assert2.c, [91mFALSE[0m, 3.01
+[Resource] Peak memory usage: 12.42 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_635_001/svp_simple_635_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_635_001/_cseq_cpachecker_svp_simple_635_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_635_001/svp_simple_635_001_assert1.c, [92mTRUE[0m, 2.76
+[Resource] Peak memory usage: 12.43 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_636_001/svp_simple_636_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_636_001/_cseq_cpachecker_svp_simple_636_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_636_001/svp_simple_636_001_assert1.c, [92mTRUE[0m, 3.08
+[Resource] Peak memory usage: 12.49 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_637_001/svp_simple_637_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_637_001/_cseq_cpachecker_svp_simple_637_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_637_001/svp_simple_637_001_assert1.c, [92mTRUE[0m, 3.26
+[Resource] Peak memory usage: 12.51 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_639_001/svp_simple_639_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_639_001/_cseq_cpachecker_svp_simple_639_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_639_001/svp_simple_639_001_assert1.c, [91mFALSE[0m, 3.07
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_640_001/svp_simple_640_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_640_001/_cseq_cpachecker_svp_simple_640_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_640_001/svp_simple_640_001_assert1.c, [91mFALSE[0m, 2.74
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_641_001/svp_simple_641_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_641_001/_cseq_cpachecker_svp_simple_641_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_641_001/svp_simple_641_001_assert1.c, [91mFALSE[0m, 2.87
+[Resource] Peak memory usage: 12.42 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_643_001/svp_simple_643_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_643_001/_cseq_cpachecker_svp_simple_643_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_643_001/svp_simple_643_001_assert1.c, [92mTRUE[0m, 2.92
+[Resource] Peak memory usage: 12.26 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_643_001/svp_simple_643_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_643_001/_cseq_cpachecker_svp_simple_643_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_643_001/svp_simple_643_001_assert2.c, [92mTRUE[0m, 2.61
+[Resource] Peak memory usage: 12.24 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_643_001/svp_simple_643_001_assert3.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_643_001/_cseq_cpachecker_svp_simple_643_001_assert3.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_643_001/svp_simple_643_001_assert3.c, [91mFALSE[0m, 3.32
+[Resource] Peak memory usage: 12.38 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_643_001/svp_simple_643_001_assert4.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_643_001/_cseq_cpachecker_svp_simple_643_001_assert4.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_643_001/svp_simple_643_001_assert4.c, [91mFALSE[0m, 2.98
+[Resource] Peak memory usage: 12.29 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_644_001/svp_simple_644_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_644_001/_cseq_cpachecker_svp_simple_644_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_644_001/svp_simple_644_001_assert1.c, [92mTRUE[0m, 2.86
+[Resource] Peak memory usage: 12.39 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_668_001/svp_simple_668_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_668_001/_cseq_cpachecker_svp_simple_668_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_668_001/svp_simple_668_001_assert1.c, [92mTRUE[0m, 2.82
+[Resource] Peak memory usage: 12.51 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_668_001/svp_simple_668_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_668_001/_cseq_cpachecker_svp_simple_668_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_668_001/svp_simple_668_001_assert2.c, [92mTRUE[0m, 2.92
+[Resource] Peak memory usage: 12.43 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_696_001/svp_simple_696_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_696_001/_cseq_cpachecker_svp_simple_696_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_696_001/svp_simple_696_001_assert1.c, [92mTRUE[0m, 3.13
+[Resource] Peak memory usage: 12.27 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_696_001/svp_simple_696_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_696_001/_cseq_cpachecker_svp_simple_696_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_696_001/svp_simple_696_001_assert2.c, [91mFALSE[0m, 3.53
+[Resource] Peak memory usage: 12.50 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_697_001/svp_simple_697_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_697_001/_cseq_cpachecker_svp_simple_697_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_697_001/svp_simple_697_001_assert1.c, [91mFALSE[0m, 2.84
+[Resource] Peak memory usage: 12.38 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_698_001/svp_simple_698_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_698_001/_cseq_cpachecker_svp_simple_698_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_698_001/svp_simple_698_001_assert1.c, [91mFALSE[0m, 2.62
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_699_001/svp_simple_699_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_699_001/_cseq_cpachecker_svp_simple_699_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_699_001/svp_simple_699_001_assert1.c, [91mFALSE[0m, 2.87
+[Resource] Peak memory usage: 12.34 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_700_001/svp_simple_700_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_700_001/_cseq_cpachecker_svp_simple_700_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_700_001/svp_simple_700_001_assert1.c, [91mFALSE[0m, 3.12
+[Resource] Peak memory usage: 12.30 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_700_001/svp_simple_700_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_700_001/_cseq_cpachecker_svp_simple_700_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_700_001/svp_simple_700_001_assert2.c, [91mFALSE[0m, 3.06
+[Resource] Peak memory usage: 12.37 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_700_001/svp_simple_700_001_assert3.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_700_001/_cseq_cpachecker_svp_simple_700_001_assert3.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_700_001/svp_simple_700_001_assert3.c, [91mFALSE[0m, 3.47
+[Resource] Peak memory usage: 12.25 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_700_001/svp_simple_700_001_assert4.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_700_001/_cseq_cpachecker_svp_simple_700_001_assert4.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_700_001/svp_simple_700_001_assert4.c, [91mFALSE[0m, 3.52
+[Resource] Peak memory usage: 12.51 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_701_001/svp_simple_701_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_701_001/_cseq_cpachecker_svp_simple_701_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_701_001/svp_simple_701_001_assert1.c, [91mFALSE[0m, 3.05
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_701_001/svp_simple_701_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_701_001/_cseq_cpachecker_svp_simple_701_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_701_001/svp_simple_701_001_assert2.c, [91mFALSE[0m, 2.96
+[Resource] Peak memory usage: 12.39 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_701_001/svp_simple_701_001_assert3.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_701_001/_cseq_cpachecker_svp_simple_701_001_assert3.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_701_001/svp_simple_701_001_assert3.c, [91mFALSE[0m, 2.95
+[Resource] Peak memory usage: 12.42 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_702_001/svp_simple_702_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_702_001/_cseq_cpachecker_svp_simple_702_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_702_001/svp_simple_702_001_assert1.c, [91mFALSE[0m, 3.20
+[Resource] Peak memory usage: 12.36 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_702_001/svp_simple_702_001_assert2.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_702_001/_cseq_cpachecker_svp_simple_702_001_assert2.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_702_001/svp_simple_702_001_assert2.c, [91mFALSE[0m, 2.97
+[Resource] Peak memory usage: 12.28 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_702_001/svp_simple_702_001_assert3.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_702_001/_cseq_cpachecker_svp_simple_702_001_assert3.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_702_001/svp_simple_702_001_assert3.c, [92mTRUE[0m, 3.44
+[Resource] Peak memory usage: 12.41 MB
+[1;35m========== Checking: /home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_703_001/svp_simple_703_001_assert1.c ==========[0m
+abs_invoker.py: The sequential file was successfully generated
+
+Run the backend to perform the analysis:
+/home/dell/zyworkspace/CPAchecker-4.0/bin/cpachecker --64 --heap 15000M --stats --preprocess --predicateAnalysis --no-output-files --timelimit 900  /home/dell/zyworkspace/unichecker/Experiments/ComExp_Split/goblint-regression/svp_simple_703_001/_cseq_cpachecker_svp_simple_703_001_assert1.c
+Analysis result:
+/home/dell/zyworkspace/unichecker/run_scripts/../Experiments/ComExp_Split/goblint-regression/svp_simple_703_001/svp_simple_703_001_assert1.c, [91mFALSE[0m, 3.07
+[Resource] Peak memory usage: 12.48 MB

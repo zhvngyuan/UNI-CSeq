@@ -1,0 +1,49 @@
+Running CPAchecker with Java heap of size 15000M.
+Running CPAchecker with default stack size (1024k). Specify a larger value with --stack if needed.
+
+CPAchecker general statistics
+-----------------------------
+
+Time for analysis setup:          0.480s
+  Time for loading CPAs:          0.000s
+  Time for loading parser:        0.164s
+  Time for CFA construction:      0.304s
+    Time for parsing file(s):     0.221s
+    Time for AST to CFA:          0.025s
+    Time for CFA sanity check:    0.000s
+    Time for post-processing:     0.000s
+    Time for loop structure:      0.000s
+    Time for AST structure:       0.000s
+Time for Analysis:                0.000s
+CPU time for analysis:            0.000s
+Total time for CPAchecker:        0.480s
+Total CPU time for CPAchecker:    1.660s
+Time for statistics:              0.004s
+
+Time for Garbage Collector:       0.000s (in 0 runs)
+Garbage Collector(s) used:    PS MarkSweep, PS Scavenge
+Used heap memory:                179MB (   171 MiB) max;    143MB (   136 MiB) avg;    179MB (   171 MiB) peak
+Used non-heap memory:             21MB (    20 MiB) max;     17MB (    16 MiB) avg;     23MB (    22 MiB) peak
+Used in PS Old Gen pool:           0MB (     0 MiB) max;      0MB (     0 MiB) avg;      0MB (     0 MiB) peak
+Allocated heap memory:          2020MB (  1926 MiB) max;   2020MB (  1926 MiB) avg
+Allocated non-heap memory:        23MB (    22 MiB) max;     19MB (    18 MiB) avg
+Total process virtual memory:  19761MB ( 18846 MiB) max;  19598MB ( 18690 MiB) avg
+
+More details about the verification run can be found in the directory "./output".
+Language C detected and set for analysis (CPAMain.detectFrontendLanguageIfNecessary, INFO)
+
+Using the following resource limits: CPU-time limit of 86400s (ResourceLimitChecker.fromConfiguration, INFO)
+
+CPAchecker 4.0 / predicateAnalysis (OpenJDK 64-Bit Server VM 17.0.14) started (CPAchecker.run, INFO)
+
+Parsing CFA from file(s) "/home/dell/zyworkspace/unichecker/Experiments/compare_with_intAbs_cbmc_para/blink1/_cseq_cpachecker_main_n.c" (CPAchecker.parse, INFO)
+
+Error: Parsing failed (line 2: Syntax error: unsigned __CPROVER_bitvector[3] __cs_pc_4;) (EclipseCParser.buildCFA, SEVERE)
+
+Please make sure that the code can be compiled by a compiler.
+If the code was not preprocessed, please use a C preprocessor
+or specify the --preprocess command-line argument.
+If the error still occurs, please send this error message
+together with the input file to cpachecker-users@googlegroups.com.
+ (CPAchecker.run, INFO)
+

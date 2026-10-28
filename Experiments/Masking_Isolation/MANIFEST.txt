@@ -1,0 +1,205 @@
+Masking_Isolation dataset
+=========================
+Purpose: isolate interrupt-masking modeling. One uncommented user assert per program.
+Ablation (this experiment): goblint 4 + racebench 4 only, listed in testdirs.sh.
+  Run with run_scripts/run_masking_ablation.sh (UNI-CSeq vs --ignore-masking).
+C_rw_masked/ is kept on disk but is not in testdirs.sh and is not run.
+
+Inclusion criteria (all four required)
+--------------------------------------
+1. Critical-section masking: disable_isr(n)/enable_isr(n) or n=-1 wraps the protected
+   accesses. Not merely init() enable_isr(-1). Not main start disable/enable-all with
+   no assert in between (blink3_main is the exception: the assert sits between them).
+2. Assertion outcome depends on that masking: expected SAFE with masking modeled,
+   UNSAFE if disable_isr/enable_isr are no-ops.
+3. No independent real bug on that assertion (unmasked ISR still breaks it,
+   uninitialized havoc, dead-branch unassigned locals, same-value writes, etc.).
+4. Single-assert file: every other assert is commented out.
+
+Expected verdicts
+-----------------
+mask   = UNI-CSeq as-is (disable_isr encoded); testdirs A+B only
+nomask = unichecker.py --ignore-masking
+Ground truth for A+B is SAFE, so a FALSE under nomask is counted as FP.
+
+id                              group  mask    nomask
+svp_simple_511_001              A      SAFE    UNSAFE
+svp_simple_644_001              A      SAFE    UNSAFE
+svp_simple_668_001_assert1      A      SAFE    UNSAFE
+svp_simple_668_001_assert2      A      SAFE    UNSAFE
+svp_simple_003_assert1          B      SAFE    UNSAFE
+svp_simple_013_assert1          B      SAFE    UNSAFE
+svp_simple_013_assert3          B      SAFE    UNSAFE
+svp_simple_014_assert2          B      SAFE    UNSAFE
+blink1                          C      SAFE    UNSAFE
+blink2                          C      SAFE    UNSAFE
+blink3_TimerB                   C      SAFE    UNSAFE
+blink3_main                     C      SAFE    UNSAFE
+logger2                         C      SAFE    UNSAFE
+logger3_measure2                C      SAFE    UNSAFE
+logger3_communicate             C      SAFE    UNSAFE
+wdt_pci_1                       C      SAFE    UNSAFE
+wdt_pci_3                       C      SAFE    UNSAFE
+i2c_pca_isa_2                   C      SAFE    UNSAFE
+i8xx_tco_1                      C      SAFE    UNSAFE
+
+A goblint (4)
+-------------
+id                              source
+svp_simple_511_001              Experiments/svcomp2022/goblint-regression/svp_simple_511_001/svp_simple_511_001.c
+svp_simple_644_001              Experiments/svcomp2022/goblint-regression/svp_simple_644_001/svp_simple_644_001.c
+svp_simple_668_001_assert1      Experiments/ComExp_Split/goblint-regression/svp_simple_668_001/svp_simple_668_001_assert1.c
+svp_simple_668_001_assert2      Experiments/ComExp_Split/goblint-regression/svp_simple_668_001/svp_simple_668_001_assert2.c
+
+svp_simple_511_001
+  kept assert: disable_isr(1) then myglobal=0; myglobal++; assert(myglobal==1); enable_isr(1)
+  why: ISR increments myglobal; without mask the assert can fail; with mask it holds.
+  hygiene: none. Existing CBMC log on the original file is TRUE.
+
+svp_simple_644_001
+  kept assert: disable_isr(1) then global=0; assert(global==0); enable_isr(1)
+  why: ISR does global++/-- ; without mask the assert can fail.
+
+svp_simple_668_001_assert1
+  kept assert: disable_isr(1) then assert(g1==0); (g2 assert commented)
+  why: ISR mutates g1; without mask the assert can fail.
+
+svp_simple_668_001_assert2
+  kept assert: disable_isr(1) then assert(g2==0); (g1 assert commented)
+  why: ISR mutates g2; without mask the assert can fail.
+
+B racebench assertion-level (4)
+-------------------------------
+id                              source (ComExp_Split, MAX_LENGTH already reduced)
+svp_simple_003_assert1          Experiments/ComExp_Split/racebench2.1/svp_simple_003/svp_simple_003_assert1.c
+svp_simple_013_assert1          Experiments/ComExp_Split/racebench2.1/svp_simple_013/svp_simple_013_assert1.c
+svp_simple_013_assert3          Experiments/ComExp_Split/racebench2.1/svp_simple_013/svp_simple_013_assert3.c
+svp_simple_014_assert2          Experiments/ComExp_Split/racebench2.1/svp_simple_014/svp_simple_014_assert2.c
+
+svp_simple_003_assert1
+  kept assert: after disable_isr(1) and disable_isr(2), before enable_isr(1):
+               assert(global_var2 == 0)   [racebench false-alarm site on var2]
+  why: isr_1 writes var2=999 only after enable_isr(1). Without mask that write
+       can fire during the assert.
+  hygiene: global_var1/var2 initialized to 0 so CBMC havoc on uninitialized
+           volatile cannot fail the assert independently of masking.
+
+svp_simple_013_assert1
+  kept assert: in isr_3, after if (flag1==1) var1=0x01: assert(var1==0x01)
+  why: main starts with disable_isr(2/3). isr_3 cannot run until isr_2 sets
+       flag1=1 and enable_isr(3). Without mask, isr_3 can run with flag1==0
+       and the assert fails.
+  hygiene: var1/var2 initialized to 0.
+
+svp_simple_013_assert3
+  kept assert: in main, assert(reader3 == reader4) on var2
+               [racebench false-alarm site on var2]
+  why: isr_3 writes var2 only if flag2==1; isr_2 clears flag2 before
+       enable_isr(3). Without mask, isr_3 can write var2 between the two reads.
+  hygiene: var1/var2 initialized to 0.
+
+svp_simple_014_assert2
+  kept assert: in isr_1 after disable_isr(3), two reads of var2 then
+               assert(reader3 == reader4)
+  why: isr_3 writes var2 only if flag2==1; isr_2 clears flag2 then enable_isr(3).
+       With mask, isr_3 cannot run during the two reads until that enable.
+       Without mask, isr_3 can write 0x09 between the reads.
+  hygiene: original second assert was a copy-paste assert(reader1==reader2)
+           after reading var2 into reader3/reader4. Changed that one
+           expression to assert(reader3==reader4) to match the documented
+           var2 false-alarm site. Without this fix the case would be excluded.
+
+C Testrealpro (masking restored; 11) — unused for this ablation
+--------------------------------------------------------------
+Kept on disk under C_rw_masked/; not listed in testdirs.sh.
+Source tree: Experiments/Testrealpro_safe_cbmc/  (NOT rw_benchmark / compare_with_intAbs_cbmc).
+Each directory has main.c + priority.info. Unused asserts commented with "// dropped".
+intAbs is not re-run. These are the same 18 real programs as experiment 1 after
+restoring disable_isr around the protected assertions.
+
+id                      source file                         kept assert
+blink1                  Testrealpro_safe_cbmc/blink1        Timer_B: disable_isr(3); timerCount=1; assert(timerCount==1)
+blink2                  Testrealpro_safe_cbmc/blink2        Timer_Force: disable_isr(3); timerCount=1; assert(timerCount==1)
+blink3_TimerB           Testrealpro_safe_cbmc/blink3        Timer_B: disable_isr(-1); timerCount=1; assert(timerCount==1)
+blink3_main             Testrealpro_safe_cbmc/blink3        main: disable_isr(-1); timerCount=0; assert(timerCount==0); enable_isr(-1)
+logger2                 Testrealpro_safe_cbmc/logger2       measure2: disable_isr(1/3); tickCounter=0; assert(tickCounter==0)
+logger3_measure2        Testrealpro_safe_cbmc/logger3       measure2: disable_isr(3/4); tickCounter=0; assert(tickCounter==0)
+logger3_communicate     Testrealpro_safe_cbmc/logger3       communicate: disable_isr(3/1); numberOfRecords=0; assert(numberOfRecords==0)
+wdt_pci_1               Testrealpro_safe_cbmc/wdt_pci_1     JudgeCondi: disable_isr(3); two reads of var1; assert equal
+wdt_pci_3               Testrealpro_safe_cbmc/wdt_pci_3     writer1: disable_isr(1); var1=0; two reads; assert equal
+i2c_pca_isa_2           Testrealpro_safe_cbmc/i2c_pca_isa_2 req6: disable_isr(5); JudgeCondi two reads of var1; assert equal
+i8xx_tco_1              Testrealpro_safe_cbmc/i8xx_tco_1    closer2: disable_isr(2); JudgeCondi two reads of var1; assert equal
+
+blink1
+  interfering ISR: Timer_Force_isr_3 (pri 3) can set timerCount to 0/1 during Timer_B
+  dropped: Timer_Force assert (highest among remaining; not masking-protected)
+
+blink2
+  interfering ISR: Timer_C_isr_3 (pri 4) can set timerCount=0 during Timer_Force
+  dropped: Timer_C assert (highest priority; not masking-dependent)
+
+blink3_TimerB
+  interfering ISRs: any ISR (disable_isr(-1) in Timer_B)
+  dropped: Timer_Reset (pri 5, highest) and main init assert (kept in blink3_main)
+
+blink3_main
+  interfering ISRs: any ISR between timerCount=0 and the assert in main
+  dropped: Timer_B assert (kept in blink3_TimerB) and Timer_Reset
+
+logger2
+  interfering ISR: measure1_isr_1 (higher pri) can change tickCounter during measure2
+  dropped: measure1 assert (source comment: does not fail in both cases; priority not mask)
+
+logger3_measure2
+  interfering ISR: measure3_isr_3 (pri 6) can increment tickCounter
+  dropped: communicate assert (kept in logger3_communicate)
+
+logger3_communicate
+  interfering ISR: measure1/measure3 can change numberOfRecords
+  dropped: measure2 assert (kept in logger3_measure2)
+
+wdt_pci_1
+  interfering ISR: writer1_isr_3 writes var1=0x99
+  dropped: closer2 reader5/reader6 assert (not inside disable_isr)
+
+wdt_pci_3
+  interfering ISR: closer1_isr_1 writes var1=1
+  dropped: none (already a single uncommented assert)
+
+i2c_pca_isa_2
+  interfering ISR: req5_isr_5 writes var1=0x11
+  dropped: req4 var2 assert (not inside disable_isr)
+
+i8xx_tco_1
+  interfering ISR: closer1_isr_2 writes var1
+  dropped: closer1 array[9000] assert (not inside disable_isr; original file-level FALSE)
+
+Excluded (failed a criterion)
+-----------------------------
+racebench 001: flag assert independent of mask; array assert is a documented real bug.
+racebench 004: var1 is a real bug; var2 ISR writes the same value 0x22, so the
+               assertion does not flip with/without masking.
+racebench 013_assert2: var1 double-read is a documented real bug (isr_1 not masked).
+racebench 014_assert1: var1 double-read is a real bug (isr_2 can still enable_isr(3)).
+racebench 019: reader5 assigned only if condition3==0, which is initially 1;
+               uninitialized reader5 can fail the assert without masking mattering.
+racebench 020: main assert mixes a real bug / uninitialized reader; isr_1 assert
+               is before flag=1 so isr_2 cannot yet write even without masking.
+racebench 026 / 028 / 030: only some ISRs masked, or check-then-act still allows
+               isr_1 to interfere (documented real bugs).
+logger1, brake2, i2c_pca_isa_1/3, wdt_pci_2, i8xx_tco_3: no critical-section
+               masking around an assertion.
+brake1 / brake3: disable_isr(1) present but original file-level FALSE; cannot
+               confirm the remaining assert has no independent failure
+               (large loops / TRIGGER / other ISRs).
+i8xx_tco_2: masked assert requires condition3==0 already; not "mask implies SAFE";
+            original result TIMEOUT.
+rw_benchmark / compare_with_intAbs_cbmc: masking stripped; experiment 1 already
+               captioned "without interrupt masking". Not used here.
+
+Layout
+------
+A_goblint/<id>/<id>.c
+B_racebench/<id>/<id>.c
+C_rw_masked/<id>/main.c + priority.info   (unused; not in testdirs.sh)
+testdirs.sh lists the 8 A+B relative paths used by run_masking_ablation.sh.
