@@ -46,6 +46,9 @@ Bibtex
   volume={257},
   pages={103583},
   year={2027},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  issn = {0167-6423},
+  doi = {https://doi.org/10.1016/j.scico.2026.103583},
+  url = {https://www.sciencedirect.com/science/article/pii/S0167642326001498}
 }
 ```
