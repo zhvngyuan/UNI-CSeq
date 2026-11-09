@@ -36,3 +36,16 @@ To install UNI-CSeq, please follow the steps below:
 ```
 For more details, please launch the tool with the  `--help` option.
 
+## Cite ##
+Bibtex 
+```
+@article{zhang2027unicseq,
+  title={UNI-CSeq: A tool for interrupt-driven program verification and falsification},
+  author={Zhang, Yuan and Xu, Ying and Watanabe, Masahiko and Kong, Weiqiang},
+  journal={Science of Computer Programming},
+  volume={257},
+  pages={103583},
+  year={2027},
+  publisher={Elsevier}
+}
+```
