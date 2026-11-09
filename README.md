@@ -36,7 +36,7 @@ To install UNI-CSeq, please follow the steps below:
 ```
 For more details, please launch the tool with the  `--help` option.
 
-## Cite ##
+## Cite this paper ##
 Bibtex 
 ```
 @article{zhang2027unicseq,
